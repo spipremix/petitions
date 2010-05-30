@@ -1,0 +1,60 @@
+#SET{self,#SELF|parametre_url{id_article|debut_id_signature,''}}
+
+[<h1><:resultats_recherche:> &#171;&nbsp;(#ENV{recherche})&nbsp;&#187;</h1>]
+#FORMULAIRE_RECHERCHE_ECRIRE{#GET{self}}
+
+#SET{self,#SELF|parametre_url{ad_email|url_site|debut_id_signature|statut,''}}
+
+[(#SET{statut,[(#ENV{statut})]%})]
+
+[(#ENV{statut}|=={prop}|oui)
+	#SET{prop,#ARRAY{0,publie,1,poubelle}}
+	#SET{statut,'%'}
+]
+
+<BOUCLE_repart(ARTICLES){id_article}>
+<div class='source'>
+<a class='annule_filtre' href='[(#GET{self}|parametre_url{id_article,''})]' title="<:petition:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petition:tout_voir:>})]</a>
+<:petition:signatures_article:> <a href='[(#URL_ARTICLE|ancre_url{signatures})]'>#TITRE</a>
+</div>
+</BOUCLE_repart>
+
+<B_signatures>
+[<div class='source'>
+[(#ENV{ad_email}|ou{#ENV{url_site}}|ou{#ENV{id_signature}})
+<a class='annule_filtre ajax' href='#GET{self}' title="<:petition:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petition:tout_voir:>})]</a>]
+<div class='par'><:petition:filtre:> (#ENV{ad_email}|sinon{#ENV{url_site}})</div>
+</div>]
+
+[(#INCLURE{fond=prive/listes/inc-boutons-filtres-statut-signature}{env})]
+
+[(#VAL{signatures}|bouton_spip_rss{#ARRAY{id_article,#ID_ARTICLE}})]
+
+<h2>[(#GRAND_TOTAL|singulier_ou_pluriel{petition:une_signature,petition:nombre_signatures}|sinon{<:petition:aucune_signature:>})]</h2>
+
+[<p class='pagination'>(#PAGINATION)</p>]
+<ul class='liste_items signatures'>
+<BOUCLE_signatures(SIGNATURES)
+	{id_signature?}
+	{id_article ?}
+	{!par id_signature}
+	{pagination 10}
+	{statut LIKE #GET{statut}}
+	{statut ?!IN #GET{prop}}
+	{nom_email?}
+	{ad_email?}
+	{url_site?}
+	{recherche?}>
+
+<li class="item signature statut_[(#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop})][ (#COMPTEUR_BOUCLE|alterner{'','odd'})]" id='signature#ID_SIGNATURE'>
+[(#INCLURE{fond=prive/modeles/signature,id_signature,self})]
+</li>
+</BOUCLE_signatures>
+</ul>
+[<p class='pagination'>(#PAGINATION)</p>]
+</B_signatures>
+
+[(#INCLURE{fond=prive/listes/inc-boutons-filtres-statut-signature}{env})]
+<h2><:petition:aucune_signature:></h2>
+
+<//B_signatures>

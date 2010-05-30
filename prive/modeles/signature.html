@@ -1,0 +1,36 @@
+<BOUCLE_signature(SIGNATURES){id_signature}{tout}>
+#SET{self,#SELF|parametre_url{debut_signature|ad_email,''}}
+[(#REM) Le cartouche ---------------------------------------------------------]
+<div class='cartouche'>
+	<h3 class='titre'>
+		<span class='info_statut'>
+		[(#CHEMIN{#VAL{images/signature-statut-}
+			|concat{#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop},-24.png}}
+			|balise_img
+			|inserer_attribut{alt,#VAL{petition:statut_}
+			|concat{#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop}}|_T})]
+		</span>
+		[<a href='#URL_SITE'>(#NOM_SITE|sinon{#URL_SITE}|lignes_longues)</a> / ]
+		[(#NOM_EMAIL|sinon{<:petition:sans_nom:>})]
+	</h3>
+
+	<div class='date'>[(#DATE|date_interface)]</div>
+	[<div class='site'><:info_site_web:> <a class='ajax' href='[(#GET{self}|parametre_url{url_site,#URL_SITE})]' title='<:syndic:articles_meme_auteur|attribut_html:>' >(#NOM_SITE|sinon{#URL_SITE}|lignes_longues)</a></div>]
+	[<div class='ad_email'><:info_adresse_email:> <a class='ajax' href='[(#GET{self}|parametre_url{ad_email,#AD_EMAIL})]' title='<:syndic:articles_meme_auteur|attribut_html:>' >(#AD_EMAIL)</a></div>]
+</div>
+
+[(#REM) Le corps ---------------------------------------------------------]
+[<div class='texte'>(#MESSAGE|lignes_longues)</div>]
+
+<BOUCLE_art(ARTICLES){id_article}>
+<div class='cartouche'>
+	<div class='reponse_a'><:lien_reponse_article:> : <a href='[(#URL_ECRIRE{articles,id_article=#ID_ARTICLE})]'>#TITRE</a></div>
+	<BOUCLE_rub(RUBRIQUES){id_rubrique}>
+	<div class='reponse_a'><:info_dans_rubrique:> <a href='[(#URL_ECRIRE{naviguer,id_rubrique=#ID_RUBRIQUE})]'>#TITRE</a></div>
+	</BOUCLE_rub>
+</div>
+</BOUCLE_art>
+
+[(#REM) Les boutons ---------------------------------------------------------]
+[(#INCLURE{fond=prive/modeles/signature-actions-#ENV{boutons,moderer}}{id_signature}{id_article}{statut}{self})]
+</BOUCLE_signature>
