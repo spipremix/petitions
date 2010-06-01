@@ -6,6 +6,21 @@
 	<etat>test</etat>
 	<description>P&eacute;titions dans SPIP</description>
 	<prefix>petition</prefix>
+	<install>base/petition_upgrade.php</install>
+	
+	<pipeline>
+		<nom>declarer_tables_auxiliaires</nom>
+		<inclure>base/petition.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>declarer_tables_principales</nom>
+		<inclure>base/petition.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>declarer_tables_interfaces</nom>
+		<inclure>base/petition.php</inclure>
+	</pipeline>
+	
 	<pipeline>
 		<nom>autoriser</nom>
 		<inclure>petition_autoriser.php</inclure>
