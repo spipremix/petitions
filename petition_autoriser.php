@@ -10,22 +10,29 @@
  *  Pour plus de details voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
-/*
-// fonction pour le pipeline
-function syndic_autoriser() {}
 
-// Moderer le forum ?
-// = modifier l'objet correspondant (si forum attache a un objet)
-// = droits par defaut sinon (admin complet pour moderation complete)
-// http://doc.spip.org/@autoriser_modererforum_dist
-function autoriser_moderersyndic_dist($faire, $type, $id, $qui, $opt) {
+// fonction pour le pipeline
+function petition_autoriser() {}
+
+// Moderer la petition ?
+// = modifier l'article correspondant
+// = droits par defaut sinon (admin complet pour moderation de tout)
+// http://doc.spip.org/@autoriser_modererpetition_dist
+function autoriser_modererpetition_dist($faire, $type, $id, $qui, $opt) {
 	return
 		autoriser('modifier', $type, $id, $qui, $opt);
 }
 
-
-function autoriser_bouton_controle_syndic_dist($faire, $type, $id, $qui, $opt){
-	return 	(sql_countsel('spip_syndic_articles'));
+// Modifier une signature ?
+// = jamais !
+// http://doc.spip.org/@autoriser_signature_modifier_dist
+function autoriser_signature_modifier_dist($faire, $type, $id, $qui, $opt) {
+	return
+		false;
 }
-*/
+
+function autoriser_petitions_reactions_bouton_dist($faire, $type='', $id=0, $qui = NULL, $opt = NULL){
+	return sql_countsel('spip_signatures')>0;
+}
+
 ?>

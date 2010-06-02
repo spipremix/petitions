@@ -5,6 +5,7 @@
 	<version_base>1.0</version_base>
 	<etat>test</etat>
 	<description>P&eacute;titions dans SPIP</description>
+	<icon>images/petition-24.png</icon>
 	<prefix>petition</prefix>
 	<install>base/petition_upgrade.php</install>
 	
@@ -33,4 +34,5 @@
 		<icone>images/petition-16.png</icone>
 		<titre>petition:icone_suivi_petitions</titre>
 	</bouton>
+	<necessite id="SPIP" version="[2.2.0 dev;)" />
 </plugin>
