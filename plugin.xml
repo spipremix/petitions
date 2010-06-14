@@ -8,6 +8,7 @@
 	<icon>images/petition-24.png</icon>
 	<prefix>petition</prefix>
 	<install>base/petition_upgrade.php</install>
+	<fonctions>public/petition.php</fonctions>
 	
 	<pipeline>
 		<nom>declarer_tables_auxiliaires</nom>
@@ -30,6 +31,7 @@
 		<nom>afficher_config_objet</nom>
 		<inclure>petition_pipelines.php</inclure>
 	</pipeline>
+	
 	<bouton id='controle_petition' parent='bando_activite' position="-1">
 		<icone>images/petition-16.png</icone>
 		<titre>petition:icone_suivi_petitions</titre>
