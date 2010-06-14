@@ -11,21 +11,7 @@
 \***************************************************************************/
 
 if (!defined("_ECRIRE_INC_VERSION")) return;
-/*
-// Recuperer le reglage des forums publics de l'article x
-// http://doc.spip.org/@get_forums_publics
-function get_forums_publics($id_article=0) {
 
-	if ($id_article) {
-		$obj = sql_fetsel("accepter_forum", "spip_articles", "id_article=$id_article");
-
-		if ($obj) return $obj['accepter_forum'];
-	} else { // dans ce contexte, inutile
-		return substr($GLOBALS['meta']["forums_publics"],0,3);
-	}
-	return $GLOBALS['meta']["forums_publics"];
-}
-*/
 /**
  * Charger
  *
