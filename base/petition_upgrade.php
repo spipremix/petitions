@@ -30,6 +30,13 @@ function petition_upgrade($nom_meta_base_version,$version_cible){
 			$config();
 			ecrire_meta($nom_meta_base_version,$current_version=$version_cible);
 		}
+		/*
+		# ajout du champ statut aux petitions
+		if (version_compare($current_version, '1.1','<')) {
+			sql_alter("TABLE `spip_petitions` ADD `statut` VARCHAR (25) DEFAULT 'publie' NOT NULL AFTER `texte`");
+			ecrire_meta($nom_meta_base_version,$current_version = $version_cible);
+		}
+		*/
 	}
 }
 
