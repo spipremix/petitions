@@ -1,6 +1,6 @@
 <div class='formulaire_spip formulaire_configurer formulaire_configurer_petition_article' id='formulaire_configurer_petition_article'>
 [(#ENV{_controle_petition}|oui)
-[(#ENV{_controle_petition}|icone_horizontale{#URL_ECRIRE{controle_petition,id_article=#ID_ARTICLE},petition-24.png,'',''})]
+[(#URL_ECRIRE{controle_petition,id_article=#ID_ARTICLE}|icone_horizontale{#ENV{_controle_petition},petition})]
 ]
 
 [<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
