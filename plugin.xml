@@ -9,6 +9,7 @@
 	<prefix>petitions</prefix>
 	<install>base/petitions_upgrade.php</install>
 	<fonctions>public/petitions.php</fonctions>
+	<options>petitions_options.php</options>
 	
 	<pipeline>
 		<nom>declarer_tables_auxiliaires</nom>
