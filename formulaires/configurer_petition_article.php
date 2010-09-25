@@ -81,4 +81,13 @@ function formulaires_configurer_petition_article_traiter_dist($id_article){
 	
 }
 
+
+// http://doc.spip.org/@revision_petition
+function revision_petition($id_article, $c=false) {
+
+	modifier_contenu('petition', $id_article,
+		array(),
+		$c);
+}
+
 ?>
