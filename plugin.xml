@@ -26,6 +26,10 @@
 		<nom>declarer_tables_objets_surnoms</nom>
 		<inclure>base/petitions.php</inclure>
 	</pipeline>
+	<pipeline>
+		<nom>declarer_type_surnoms</nom>
+		<inclure>base/petitions.php</inclure>
+	</pipeline>
 		
 	<pipeline>
 		<nom>autoriser</nom>
