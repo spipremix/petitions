@@ -12,7 +12,7 @@
 
 
 // fonction pour le pipeline
-function petition_autoriser() {}
+function petitions_autoriser() {}
 
 // Moderer la petition ?
 // = modifier l'article correspondant

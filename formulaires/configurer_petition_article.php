@@ -34,7 +34,7 @@ function formulaires_configurer_petition_article_charger_dist($id_article){
 	
 	$valeurs['id_article'] = $id_article;
 	$valeurs['petition'] = $petition;
-	$valeurs['_controle_petition'] = $nb_signatures?singulier_ou_pluriel($nb_signatures,'petition:une_signature','petition:nombre_signatures'):"";
+	$valeurs['_controle_petition'] = $nb_signatures?singulier_ou_pluriel($nb_signatures,'petitions:une_signature','petitions:nombre_signatures'):"";
 	
 	return $valeurs;
 	

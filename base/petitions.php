@@ -16,7 +16,7 @@
  * @param array $interfaces
  * @return array
  */
-function petition_declarer_tables_interfaces($interfaces){
+function petitions_declarer_tables_interfaces($interfaces){
 
 	$interfaces['table_des_tables']['petitions']='petitions';
 	$interfaces['table_des_tables']['signatures']='signatures';
@@ -42,7 +42,7 @@ function petition_declarer_tables_interfaces($interfaces){
  * @param array $tables_principales
  * @return array
  */
-function petition_declarer_tables_principales($tables_principales){
+function petitions_declarer_tables_principales($tables_principales){
 
 	$spip_signatures = array(
 			"id_signature"	=> "bigint(21) NOT NULL",
@@ -76,7 +76,7 @@ function petition_declarer_tables_principales($tables_principales){
  * @param array $tables_principales
  * @return array
  */
-function petition_declarer_tables_auxiliaires($tables_auxiliaires){
+function petitions_declarer_tables_auxiliaires($tables_auxiliaires){
 
 	$spip_petitions = array(
 			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
@@ -98,4 +98,17 @@ function petition_declarer_tables_auxiliaires($tables_auxiliaires){
 	return $tables_auxiliaires;
 }
 
+
+
+/**
+ * Declarer le surnom des petitions
+ *
+ * @param array $table
+ * @return array
+ */
+function petitions_declarer_tables_objets_surnoms($table){
+	$table['petition'] = 'petitions';
+	$table['signature'] = 'signatures';
+	return $table;
+}
 ?>

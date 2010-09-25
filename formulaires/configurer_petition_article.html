@@ -10,7 +10,7 @@
 		[(#ACTION_FORMULAIRE{#ENV{action}})]
 		<ul>
 			<li class='configurer_change_petition[ (#ENV**{erreurs}|table_valeur{change_petition}|oui)erreur]'>
-				<label for='change_petition'><:petition:info_fonctionnement_petition:></label>[
+				<label for='change_petition'><:petitions:info_fonctionnement_petition:></label>[
 				<span class='erreur_message'>(#ENV**{erreurs}|table_valeur{change_petition})</span>
 				]<select name='change_petition' id='change_petition'>
 					<option value='off'[ (#ENV{petition}|oui)selected='selected']>
@@ -33,29 +33,29 @@
 			<li class="configurer_email_unique[ (#ENV**{erreurs}|table_valeur{email_unique}|oui)erreur]">
 				<div class='choix'>
 					<input type="checkbox" name="email_unique" id="email_unique"[ (#ENV{petition}|table_valeur{email_unique}|=={oui}|oui) checked="checked"]/>
-					<label for="email_unique"><:petition:bouton_checkbox_signature_unique_email:></label>
+					<label for="email_unique"><:petitions:bouton_checkbox_signature_unique_email:></label>
 				</div>
 			</li>
 			<li class="configurer_site_obli[ (#ENV**{erreurs}|table_valeur{site_obli}|oui)erreur]">
 				<div class='choix'>
 					<input type="checkbox" name="site_obli" id="site_obli"[ (#ENV{petition}|table_valeur{site_obli}|=={oui}|oui) checked="checked"]/>
-					<label for="site_obli"><:petition:bouton_checkbox_indiquer_site:></label>
+					<label for="site_obli"><:petitions:bouton_checkbox_indiquer_site:></label>
 				</div>
 			</li>
 			<li class="configurer_siteunique[ (#ENV**{erreurs}|table_valeur{siteunique}|oui)erreur]">
 				<div class='choix'>
 					<input type="checkbox" name="siteunique" id="siteunique"[ (#ENV{petition}|table_valeur{siteunique}|=={oui}|oui) checked="checked"]/>
-					<label for="siteunique"><:petition:bouton_checkbox_signature_unique_site:></label>
+					<label for="siteunique"><:petitions:bouton_checkbox_signature_unique_site:></label>
 				</div>
 			</li>
 			<li class="configurer_message[ (#ENV**{erreurs}|table_valeur{message}|oui)erreur]">
 				<div class='choix'>
 					<input type="checkbox" name="message" id="message"[ (#ENV{petition}|table_valeur{message}|=={oui}|oui) checked="checked"]/>
-					<label for="message"><:petition:bouton_checkbox_envoi_message:></label>
+					<label for="message"><:petitions:bouton_checkbox_envoi_message:></label>
 				</div>
 			</li>
 			<li class="configurer_texte_petition[ (#ENV**{erreurs}|table_valeur{texte_petition}|oui)erreur]">
-					<label for="texte_petition"><:petition:texte_descriptif_petition:></label>[
+					<label for="texte_petition"><:petitions:texte_descriptif_petition:></label>[
 					<span class='erreur_message'>(#ENV**{erreurs}|table_valeur{texte_petition})</span>
 					]<textarea name='texte_petition' id='texte_petition' rows='4' cols='10'>[(#ENV{petition}|table_valeur{texte})]</textarea>
 			</li>]

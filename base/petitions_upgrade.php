@@ -16,7 +16,7 @@
  * @param string $nom_meta_base_version
  * @param string $version_cible
  */
-function petition_upgrade($nom_meta_base_version,$version_cible){
+function petitions_upgrade($nom_meta_base_version,$version_cible){
 	$current_version = 0.0;
 	if (   (!isset($GLOBALS['meta'][$nom_meta_base_version]) )
 			|| (($current_version = $GLOBALS['meta'][$nom_meta_base_version])!=$version_cible)){
@@ -45,7 +45,7 @@ function petition_upgrade($nom_meta_base_version,$version_cible){
  *
  * @param string $nom_meta_base_version
  */
-function petition_vider_tables($nom_meta_base_version) {
+function petitions_vider_tables($nom_meta_base_version) {
 	sql_drop_table("spip_petitions");
 	sql_drop_table("spip_signatures");
 

@@ -7,11 +7,11 @@
 		[(#CHEMIN{#VAL{images/signature-statut-}
 			|concat{#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop},-24.png}}
 			|balise_img
-			|inserer_attribut{alt,#VAL{petition:statut_}
+			|inserer_attribut{alt,#VAL{petitions:statut_}
 			|concat{#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop}}|_T})]
 		</span>
 		[<a href='#URL_SITE'>(#NOM_SITE|sinon{#URL_SITE}|lignes_longues)</a> / ]
-		[(#NOM_EMAIL|sinon{<:petition:sans_nom:>})]
+		[(#NOM_EMAIL|sinon{<:petitions:sans_nom:>})]
 	</h3>
 
 	<div class='date'>[(#DATE|date_interface)]</div>

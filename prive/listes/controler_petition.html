@@ -14,23 +14,23 @@
 
 <BOUCLE_repart(ARTICLES){id_article}>
 <div class='source'>
-<a class='annule_filtre' href='[(#GET{self}|parametre_url{id_article,''})]' title="<:petition:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petition:tout_voir:>})]</a>
-<:petition:signatures_article:> <a href='[(#URL_ARTICLE|ancre_url{signatures})]'>#TITRE</a>
+<a class='annule_filtre' href='[(#GET{self}|parametre_url{id_article,''})]' title="<:petitions:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petitions:tout_voir:>})]</a>
+<:petitions:signatures_article:> <a href='[(#URL_ARTICLE|ancre_url{signatures})]'>#TITRE</a>
 </div>
 </BOUCLE_repart>
 
 <B_signatures>
 [<div class='source'>
 [(#ENV{ad_email}|ou{#ENV{url_site}}|ou{#ENV{id_signature}})
-<a class='annule_filtre ajax' href='#GET{self}' title="<:petition:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petition:tout_voir:>})]</a>]
-<div class='par'><:petition:filtre:> (#ENV{ad_email}|sinon{#ENV{url_site}})</div>
+<a class='annule_filtre ajax' href='#GET{self}' title="<:petitions:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petitions:tout_voir:>})]</a>]
+<div class='par'><:petitions:filtre:> (#ENV{ad_email}|sinon{#ENV{url_site}})</div>
 </div>]
 
 [(#INCLURE{fond=prive/listes/inc-boutons-filtres-statut-signature}{env})]
 
 [(#VAL{signatures}|bouton_spip_rss{#ARRAY{id_article,#ID_ARTICLE}})]
 
-<h2>[(#GRAND_TOTAL|singulier_ou_pluriel{petition:une_signature,petition:nombre_signatures}|sinon{<:petition:aucune_signature:>})]</h2>
+<h2>[(#GRAND_TOTAL|singulier_ou_pluriel{petitions:une_signature,petitions:nombre_signatures}|sinon{<:petitions:aucune_signature:>})]</h2>
 
 [<p class='pagination'>(#PAGINATION)</p>]
 <ul class='liste_items signatures'>
@@ -55,6 +55,6 @@
 </B_signatures>
 
 [(#INCLURE{fond=prive/listes/inc-boutons-filtres-statut-signature}{env})]
-<h2><:petition:aucune_signature:></h2>
+<h2><:petitions:aucune_signature:></h2>
 
 <//B_signatures>

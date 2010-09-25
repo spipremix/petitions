@@ -17,7 +17,7 @@
  * @param array $flux
  * @return array
  */
-function petition_afficher_config_objet($flux){
+function petitions_afficher_config_objet($flux){
 	if (($type = $flux['args']['type'])=='article'){
 		$id = $flux['args']['id'];
 		$table = table_objet($type);
@@ -26,5 +26,6 @@ function petition_afficher_config_objet($flux){
 	}
 	return $flux;
 }
+
 
 ?>

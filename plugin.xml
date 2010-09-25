@@ -6,35 +6,39 @@
 	<etat>test</etat>
 	<description>P&eacute;titions dans SPIP</description>
 	<icon>images/petition-24.png</icon>
-	<prefix>petition</prefix>
-	<install>base/petition_upgrade.php</install>
-	<fonctions>public/petition.php</fonctions>
+	<prefix>petitions</prefix>
+	<install>base/petitions_upgrade.php</install>
+	<fonctions>public/petitions.php</fonctions>
 	
 	<pipeline>
 		<nom>declarer_tables_auxiliaires</nom>
-		<inclure>base/petition.php</inclure>
+		<inclure>base/petitions.php</inclure>
 	</pipeline>
 	<pipeline>
 		<nom>declarer_tables_principales</nom>
-		<inclure>base/petition.php</inclure>
+		<inclure>base/petitions.php</inclure>
 	</pipeline>
 	<pipeline>
 		<nom>declarer_tables_interfaces</nom>
-		<inclure>base/petition.php</inclure>
+		<inclure>base/petitions.php</inclure>
 	</pipeline>
-	
+	<pipeline>
+		<nom>declarer_tables_objets_surnoms</nom>
+		<inclure>base/petitions.php</inclure>
+	</pipeline>
+		
 	<pipeline>
 		<nom>autoriser</nom>
-		<inclure>petition_autoriser.php</inclure>
+		<inclure>petitions_autoriser.php</inclure>
 	</pipeline>
 	<pipeline>
 		<nom>afficher_config_objet</nom>
-		<inclure>petition_pipelines.php</inclure>
+		<inclure>petitions_pipelines.php</inclure>
 	</pipeline>
 	
 	<bouton id='controle_petition' parent='bando_activite' position="-1">
 		<icone>images/petition-16.png</icone>
-		<titre>petition:icone_suivi_petitions</titre>
+		<titre>petitions:icone_suivi_petitions</titre>
 	</bouton>
 	<necessite id="SPIP" version="[2.2.0 dev;)" />
 </plugin>
