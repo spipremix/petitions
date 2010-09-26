@@ -12,12 +12,17 @@
 
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
-// si signature de petition, l'enregistrer avant d'afficher la page
-// afin que celle-ci contienne la signature
-if (isset($_GET['var_confirm'])) {
-	$confirmer_signature = charger_fonction('confirmer_signature','action');
-	$confirmer_signature($_GET['var_confirm']);
-}
+function action_supprimer_signature_dist($id_signature=null){
+	if (!$id_signature){
+		$securiser_action = charger_fonction('securiser_action','inc');
+		$id_signature = $securiser_action();
+	}
 
+	$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id_signature));
+	if ($id_article AND autoriser('mordererpetition','article',$id_article)) {
+		include_spip('action/editer_signature');
+		signature_set($id_signature, array('statut'=>'poubelle'));
+	}
+}
 
 ?>

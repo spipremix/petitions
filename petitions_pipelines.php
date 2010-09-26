@@ -42,4 +42,8 @@ function petitions_rechercher_liste_des_champs($tables){
 	
 	return $tables;
 }
+
+# cette requete devrait figurer dans l'optimisation
+#sql_delete("spip_signatures", "NOT (statut='publie' OR statut='poubelle') AND NOT(" . sql_date_proche('date_time', -10, ' DAY') . ')');
+
 ?>
