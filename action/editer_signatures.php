@@ -57,8 +57,10 @@ function action_editer_signatures_post($r)
 	// Invalider les pages ayant trait aux petitions
 	if ($id) {
 		include_spip('inc/invalideur');
+		suivre_invalideur("id='signature/$id'");
+		// est-ce a nous de le faire, ou aux invalideurs de le gerer ?
 		$id_article = sql_getfetsel("id_article", "spip_signatures", "id_signature=$id");
-		suivre_invalideur("id='varia/pet$id_article'");
+		suivre_invalideur("id='article/$id_article'");
 	}
 
 	# cette requete devrait figurer dans l'optimisation
