@@ -40,6 +40,11 @@
 		<nom>afficher_config_objet</nom>
 		<inclure>petitions_pipelines.php</inclure>
 	</pipeline>
+
+	<pipeline>
+		<nom>rechercher_liste_des_champs</nom>
+		<inclure>petitions_pipelines.php</inclure>
+	</pipeline>
 	
 	<bouton id='controle_petition' parent='bando_activite' position="-1">
 		<icone>images/petition-16.png</icone>
