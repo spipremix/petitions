@@ -18,7 +18,7 @@ if (!defined("_ECRIRE_INC_VERSION")) return;
  * @param int $id_article
  * @return array
  */
-function formulaires_configurer_petition_article_charger_dist($id_article){
+function formulaires_activer_petition_article_charger_dist($id_article){
 	
 	$valeurs = array();
 	
@@ -46,7 +46,7 @@ function formulaires_configurer_petition_article_charger_dist($id_article){
  * @param int $id_article
  * @return array
  */
-function formulaires_configurer_petition_article_traiter_dist($id_article){
+function formulaires_activer_petition_article_traiter_dist($id_article){
 	
 	include_spip('inc/autoriser');
 	
