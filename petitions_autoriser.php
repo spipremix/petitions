@@ -35,4 +35,11 @@ function autoriser_petitions_reactions_bouton_dist($faire, $type='', $id=0, $qui
 	return sql_countsel('spip_signatures')>0;
 }
 
+/**
+ * Auto-association de documents sur des signatures : niet
+ */
+function autoriser_signature_autoassocierdocument_dist($faire, $type, $id, $qui, $opts) {
+	return false;
+}
+
 ?>
