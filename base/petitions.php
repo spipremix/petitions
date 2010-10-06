@@ -128,7 +128,7 @@ function petitions_declarer_tables_objets_surnoms($table){
  * @param array $table
  * @return string
  */
-function petition_declarer_type_surnoms($table) {
+function petitions_declarer_type_surnoms($table) {
 	$table['petition'] = 'petition'; // n'a pas de cle primaire valable pour s'y retrouver
 	return $table;
 }
