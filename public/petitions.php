@@ -11,25 +11,6 @@
 \***************************************************************************/
 
 
-//
-// <BOUCLE(SIGNATURES)>
-//
-// http://doc.spip.org/@boucle_SIGNATURES_dist
-function boucle_SIGNATURES_dist($id_boucle, &$boucles) {
-	$boucle = &$boucles[$id_boucle];
-	$id_table = $boucle->id_table;
-	$mstatut = $id_table .'.statut';
-
-	// Restreindre aux elements publies
-	if (!isset($boucle->modificateur['criteres']['statut'])
-	AND !isset($boucle->modificateur['tout'])) {
-
-		array_unshift($boucle->where,array("'='", "'$mstatut'", "'\\'publie\\''"));
-	}
-	return calculer_boucle($id_boucle, $boucles); 
-}
-
-
 // #PETITION
 // retourne '' si l'article courant n'a pas de petition
 // le texte de celle-ci sinon (et ' ' si il est vide)

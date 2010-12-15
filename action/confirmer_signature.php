@@ -37,7 +37,7 @@ function action_confirmer_signature_dist($var_confirm=null) {
 	if (isset($confirm))
 		return $confirm;
 
-	if (!$var_confirm) {
+	if (is_null($var_confirm)) {
 		$securiser_action = charger_fonction('securiser_action','inc');
 		$var_confirm = $securiser_action();
 	}

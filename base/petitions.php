@@ -26,7 +26,9 @@ function petitions_declarer_tables_interfaces($interfaces){
 	$interfaces['exceptions_des_tables']['signatures']['email']='ad_email';
 	
 	$interfaces['table_date']['signatures']='date_time';
-	
+
+	$interfaces['table_statut']['spip_signatures'][] = array('champ'=>'statut','publie'=>'publie','previsu'=>'publie','exception'=>array('statut','tout'));
+
 	$interfaces['tables_jointures']['spip_articles'][]= 'petitions';
 	$interfaces['tables_jointures']['spip_articles'][]= 'signatures';
 

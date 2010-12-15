@@ -35,6 +35,7 @@ function formulaires_signature_charger_dist($id_article, $petition, $texte, $sit
 	return $valeurs;
 }
 function affiche_reponse_confirmation($confirm) {
+	if (!$confirm) return '';
 	$confirmer_signature = charger_fonction('confirmer_signature','action');
 	return $confirmer_signature($confirm);  # calculee plus tot: cf petitions_options
 }
