@@ -35,6 +35,8 @@ function petitions_declarer_tables_interfaces($interfaces){
 	$interfaces['exceptions_des_jointures']['petition'] = array('spip_petitions', 'texte');
 	$interfaces['exceptions_des_jointures']['id_signature']= array('spip_signatures', 'id_signature');
 
+	$interfaces['table_des_traitements']['MESSAGE'][]= _TRAITEMENT_RACCOURCIS;
+
 	// Signatures : passage des donnees telles quelles, sans traitement typo
 	// la securite et conformite XHTML de ces champs est assuree par safehtml()
 	foreach(array('NOM_EMAIL','AD_EMAIL','NOM_SITE','URL_SITE','MESSAGE') as $balise)
