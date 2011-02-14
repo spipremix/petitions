@@ -26,7 +26,7 @@
 <div class='par'><:petitions:filtre:> (#ENV{ad_email}|sinon{#ENV{url_site}})</div>
 </div>]
 
-[(#INCLURE{fond=prive/listes/inc-boutons-filtres-statut-signature}{env})]
+[(#INCLURE{fond=prive/objets/liste/inc-boutons-filtres-statut-signature}{env})]
 
 [(#VAL{signatures}|bouton_spip_rss{#ARRAY{id_article,#ID_ARTICLE}})]
 
@@ -54,7 +54,7 @@
 [<p class='pagination'>(#PAGINATION)</p>]
 </B_signatures>
 
-[(#INCLURE{fond=prive/listes/inc-boutons-filtres-statut-signature}{env})]
+[(#INCLURE{fond=prive/objets/liste/inc-boutons-filtres-statut-signature}{env})]
 <h2><:petitions:aucune_signature:></h2>
 
 <//B_signatures>
