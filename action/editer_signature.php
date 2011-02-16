@@ -135,13 +135,13 @@ function instituer_signature($id_signature, $c, $calcul_rub=true) {
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
 
-	$row = sql_fetsel("statut, date, id_article", "spip_signatures", "id_signature=".intval($id_signature));
+	$row = sql_fetsel("statut, date_time, id_article", "spip_signatures", "id_signature=".intval($id_signature));
 	$id_article= $row['id_article'];
 	$statut_ancien = $statut = $row['statut'];
-	$date_ancienne = $date = $row['date'];
+	$date_ancienne = $date = $row['date_time'];
 	$champs = array();
 
-	$d = isset($c['date'])?$c['date']:null;
+	$d = isset($c['date_time'])?$c['date_time']:null;
 	$s = isset($c['statut'])?$c['statut']:$statut;
 
 	// cf autorisations dans inc/instituer_signature
@@ -154,9 +154,9 @@ function instituer_signature($id_signature, $c, $calcul_rub=true) {
 		// En cas de proposition d'un signature (mais pas depublication), idem
 		if ($champs['statut'] == 'publie') {
 			if ($d)
-				$champs['date'] = $date = $d;
+				$champs['date_time'] = $date = $d;
 			else
-				$champs['date'] = $date = date('Y-m-d H:i:s');
+				$champs['date_time'] = $date = date('Y-m-d H:i:s');
 		}
 	}
 
