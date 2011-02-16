@@ -23,6 +23,35 @@ function autoriser_modererpetition_dist($faire, $type, $id, $qui, $opt) {
 		autoriser('modifier', $type, $id, $qui, $opt);
 }
 
+/**
+ * Pour publier une signature il faut avoir le droit de moderer la petition de l'article en question
+ * @return bool
+ */
+function autoriser_signature_publier($faire, $type, $id, $qui, $opt) {
+	$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id));
+	return
+		autoriser('modererpetition', 'article', $id_article, $qui, $opt);
+}
+
+/**
+ * Pour supprimer une signature il faut avoir le droit de moderer la petition de l'article en question
+ * @return bool
+ */
+function autoriser_signature_supprimer($faire, $type, $id, $qui, $opt) {
+	$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id));
+	return
+		autoriser('modererpetition', 'article', $id_article, $qui, $opt);
+}
+
+/**
+ * Toute personne idenfiee peut relancer une signature non publiee
+ * @return bool
+ */
+function autoriser_signature_relancer($faire, $type, $id, $qui, $opt) {
+	$statut = sql_getfetsel('statut','spip_signatures','id_signature='.intval($id));
+	return ($qui['id_auteur'] && !in_array($statut,array('poubelle','publie')));
+}
+
 // Modifier une signature ?
 // = jamais !
 // http://doc.spip.org/@autoriser_signature_modifier_dist
