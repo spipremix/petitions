@@ -18,10 +18,12 @@ function action_supprimer_signature_dist($id_signature=null){
 		$id_signature = $securiser_action();
 	}
 
-	$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id_signature));
-	if ($id_article AND autoriser('mordererpetition','article',$id_article)) {
-		include_spip('action/editer_signature');
-		signature_set($id_signature, array('statut'=>'poubelle'));
+	if (autoriser('supprimer','signature',$id_signature)){
+		$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id_signature));
+		if ($id_article AND autoriser('mordererpetition','article',$id_article)) {
+			include_spip('action/editer_signature');
+			signature_set($id_signature, array('statut'=>'poubelle'));
+		}
 	}
 }
 

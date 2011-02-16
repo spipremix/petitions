@@ -18,14 +18,16 @@ function action_relancer_signature_dist($id_signature=null){
 		$id_signature = $securiser_action();
 	}
 
-	$row = sql_fetsel('*', 'spip_signatures', 'id_signature='.intval($id_signature));
-	$id_article = $row['id_article'];
-	if ($id_article AND autoriser('mordererpetition','article',$id_article)) {
-		include_spip('action/editer_signature');
-		include_spip('formulaires/signature');
-		$url = generer_url_entite_absolue($id_article, 'article','','',true);
-		if (signature_a_confirmer($id_article, $url, $row['nom_email'], $row['ad_email'], $row['nom_site'], $row['url_site'], $row['message'], $row['lang'], $row['statut']))
-			signature_set($id_signature, array("date_time" => date('Y-m-d H:i:s')));
+	if (autoriser('relancer','signature',$id_signature)){
+		$row = sql_fetsel('*', 'spip_signatures', 'id_signature='.intval($id_signature));
+		$id_article = $row['id_article'];
+		if ($id_article AND autoriser('mordererpetition','article',$id_article)) {
+			include_spip('action/editer_signature');
+			include_spip('formulaires/signature');
+			$url = generer_url_entite_absolue($id_article, 'article','','',true);
+			if (signature_a_confirmer($id_article, $url, $row['nom_email'], $row['ad_email'], $row['nom_site'], $row['url_site'], $row['message'], $row['lang'], $row['statut']))
+				signature_set($id_signature, array("date_time" => date('Y-m-d H:i:s')));
+		}
 	}
 }
 
