@@ -1,7 +1,5 @@
+<h1><:petitions:titre_page_controle_petition:></h1>
 #SET{self,#SELF|parametre_url{id_article|debut_id_signature,''}}
-
-[<h1><:resultats_recherche:> &#171;&nbsp;(#ENV{recherche})&nbsp;&#187;</h1>]
-#FORMULAIRE_RECHERCHE_ECRIRE{#GET{self}}
 
 #SET{self,#SELF|parametre_url{ad_email|url_site|debut_id_signature|statut,''}}
 
@@ -13,27 +11,28 @@
 ]
 
 <BOUCLE_repart(ARTICLES){id_article}>
-<div class='source'>
-<a class='annule_filtre' href='[(#GET{self}|parametre_url{id_article,''})]' title="<:petitions:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petitions:tout_voir:>})]</a>
+#BOITE_OUVRIR{'','note'}
+<a class='annule_filtre' href='[(#GET{self}|parametre_url{id_article,''})]' title="<:petitions:tout_voir|attribut_html:>">[(#CHEMIN_IMAGE{fermer-16.png}|balise_img|inserer_attribut{alt,<:petitions:tout_voir:>})]</a>
 <:petitions:signatures_article:> <a href='[(#URL_ARTICLE|ancre_url{signatures})]'>#TITRE</a>
-</div>
+#BOITE_FERMER
 </BOUCLE_repart>
 
-<B_signatures>
 [<div class='source'>
 [(#ENV{ad_email}|ou{#ENV{url_site}}|ou{#ENV{id_signature}})
 <a class='annule_filtre ajax' href='#GET{self}' title="<:petitions:tout_voir|attribut_html:>">[(#CHEMIN{images/annuler-recherche.png}|balise_img|inserer_attribut{alt,<:petitions:tout_voir:>})]</a>]
 <div class='par'><:petitions:filtre:> (#ENV{ad_email}|sinon{#ENV{url_site}})</div>
 </div>]
 
-[(#INCLURE{fond=prive/objets/liste/inc-boutons-filtres-statut-signature}{env})]
+[(#INCLURE{fond=prive/squelettes/inclure/boutons-filtres-statut-signature}{env})]
+[<h2><:resultats_recherche:> &#171;&nbsp;(#ENV{recherche})&nbsp;&#187;</h2>]
+#FORMULAIRE_RECHERCHE_ECRIRE{#GET{self},ajax}
 
-[(#VAL{signatures}|bouton_spip_rss{#ARRAY{id_article,#ID_ARTICLE}})]
 
-<h2>[(#GRAND_TOTAL|singulier_ou_pluriel{petitions:une_signature,petitions:nombre_signatures}|sinon{<:petitions:aucune_signature:>})]</h2>
+<B_signatures>
+<h3>[(#GRAND_TOTAL|singulier_ou_pluriel{petitions:une_signature,petitions:nombre_signatures}|sinon{<:petitions:aucune_signature:>})]</h3>
 
-[<p class='pagination'>(#PAGINATION)</p>]
-<ul class='liste_items signatures'>
+[<p class='pagination'>(#PAGINATION{prive})</p>]
+<ul class='liste-items signatures'>
 <BOUCLE_signatures(SIGNATURES)
 	{id_signature?}
 	{id_article ?}
@@ -46,15 +45,14 @@
 	{url_site?}
 	{recherche?}>
 
-<li class="item signature statut_[(#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop})][ (#COMPTEUR_BOUCLE|alterner{'','odd'})]" id='signature#ID_SIGNATURE'>
+<li class="item signature statut_[(#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop})][ (#COMPTEUR_BOUCLE|alterner{'','odd'})]" id='signature#ID_SIGNATURE' data-id="#ID_SIGNATURE">
 [(#INCLURE{fond=prive/modeles/signature,id_signature,self})]
 </li>
 </BOUCLE_signatures>
 </ul>
-[<p class='pagination'>(#PAGINATION)</p>]
+[<p class='pagination'>(#PAGINATION{prive})</p>]
 </B_signatures>
 
-[(#INCLURE{fond=prive/objets/liste/inc-boutons-filtres-statut-signature}{env})]
-<h2><:petitions:aucune_signature:></h2>
+<h3><:petitions:aucune_signature:></h3>
 
 <//B_signatures>

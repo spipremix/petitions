@@ -46,7 +46,7 @@
 		<inclure>petitions_pipelines.php</inclure>
 	</pipeline>
 	
-	<bouton id='controle_petition' parent='bando_activite' position="-1">
+	<bouton id='controler_petition' parent='bando_activite' position="-1">
 		<icone>images/petition-16.png</icone>
 		<titre>petitions:icone_suivi_petitions</titre>
 	</bouton>

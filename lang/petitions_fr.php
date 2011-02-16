@@ -14,9 +14,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web',
 'filtre' => 'Filtre :',
 'icone_relancer_signataire' => 'Relancer le signataire',
+'icone_relancer_signataires' => 'Relancer les signataires',
 'icone_suivi_petitions' => 'Suivre/g&eacute;rer les p&eacute;titions',
 'icone_supprimer_signature' => 'Supprimer cette signature',
+'icone_supprimer_signatures' => 'Supprimer les signatures',
 'icone_valider_signature' => 'Valider cette signature',
+'icone_valider_signatures' => 'Valider les signatures',
 'info_fonctionnement_petition' => 'Fonctionnement de la p&eacute;tition :',
 'sans_nom' => 'Anonyme',
 'signatures_article' => 'Signatures de l\'article :',
@@ -30,16 +33,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 'titre_signatures_publie' => 'Signatures confirm&eacute;es',
 //
 
-
 // statuts
 'signatures_toutes' => 'Toutes',
-'signatures_poubelle' => 'Signatures supprim&eacute;s',
-'signatures_prop' => 'Signatures en attente de validation',
-'signatures_publie' => 'Signatures confirm&eacute;es',
+'signatures_aucune' => 'Aucune',
+'signatures_poubelle' => 'Supprim&eacute;es',
+'signatures_prop' => 'En attente',
+'signatures_publie' => 'Confirm&eacute;es',
 
-'statut_poubelle' => 'Supprim&eacute;',
+'statut_poubelle' => 'Supprim&eacute;e',
 'statut_prop' => 'En attente de validation',
-'statut_publie' => 'Publi&eacute;',
+'statut_publie' => 'Confirm&eacute;e',
+'voir_signatures_objet' => 'Voir les signatures'
 
 );
 
