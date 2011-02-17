@@ -25,7 +25,7 @@ function petitions_declarer_tables_interfaces($interfaces){
 	$interfaces['exceptions_des_tables']['signatures']['nom']='nom_email';
 	$interfaces['exceptions_des_tables']['signatures']['email']='ad_email';
 	
-	$interfaces['table_date']['signatures']='date_time';
+	#$interfaces['table_date']['signatures']='date_time';
 
 	$interfaces['table_statut']['spip_signatures'][] = array('champ'=>'statut','publie'=>'publie','previsu'=>'publie','exception'=>array('statut','tout'));
 
@@ -49,15 +49,47 @@ function petitions_declarer_tables_interfaces($interfaces){
 	return $interfaces;
 }
 
-/**
- * Table principale spip_signatures
- *
- * @param array $tables_principales
- * @return array
- */
-function petitions_declarer_tables_principales($tables_principales){
+function petitions_declarer_tables_objets_sql($tables){
+	$tables['spip_petitions'] = array(
+	  'url_voir'=>'controler_petition',
+	  'url_edit'=>'controler_petition',
+	  'editable'=>'non',
+	  'principale' => 'oui',
+		'page'=>'', // pas de page editoriale pour une petition
 
-	$spip_signatures = array(
+		'texte_retour' => 'icone_retour',
+		'titre' => "texte as titre, '' AS lang",
+
+		'field'=> array(
+			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
+			"email_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"site_obli"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"site_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"message"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"texte"	=> "LONGTEXT DEFAULT '' NOT NULL",
+			"maj"	=> "TIMESTAMP"
+		),
+		'key' => array(
+			"PRIMARY KEY"	=> "id_article"
+		),
+	);
+
+	$tables['spip_signatures'] = array(
+	  'url_voir'=>'controler_petition',
+	  'url_edit'=>'controler_petition',
+	  'editable'=>'non',
+	  'principale' => 'oui',
+		'page'=>'', // pas de page editoriale pour une signature
+
+		'texte_retour' => 'icone_retour',
+		'texte_objets' => 'signatures_petition',
+		'info_aucun_objet'=> 'petitions:aucune_signature',
+		'info_1_objet' => 'petitions:une_signature',
+		'info_nb_objets' => 'petitions:nombre_signatures',
+		'titre' => "nom_email as titre, '' AS lang",
+		'date' => 'date_time',
+
+		'field'=> array(
 			"id_signature"	=> "bigint(21) NOT NULL",
 			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
 			"date_time"	=> "datetime DEFAULT '0000-00-00 00:00:00' NOT NULL",
@@ -67,74 +99,19 @@ function petitions_declarer_tables_principales($tables_principales){
 			"url_site"	=> "text DEFAULT '' NOT NULL",
 			"message"	=> "mediumtext DEFAULT '' NOT NULL",
 			"statut"	=> "varchar(10) DEFAULT '0' NOT NULL",
-			"maj"	=> "TIMESTAMP");
-
-	$spip_signatures_key = array(
+			"maj"	=> "TIMESTAMP"
+		),
+		'key' => array(
 			"PRIMARY KEY"	=> "id_signature",
 			"KEY id_article"	=> "id_article",
-			"KEY statut" => "statut");
-	$spip_signatures_join = array(
+			"KEY statut" => "statut"
+		),
+		'join' => array(
 			"id_signature"=>"id_signature",
-			"id_article"=>"id_article");
+			"id_article"=>"id_article"
+		),
+	);
 
-	$tables_principales['spip_signatures'] =
-		array('field' => &$spip_signatures,	'key' => &$spip_signatures_key, 'join' => &$spip_signatures_join);
-
-	return $tables_principales;
+	return $tables;
 }
-
-/**
- * Table auxilaire spip_petitions
- *
- * @param array $tables_principales
- * @return array
- */
-function petitions_declarer_tables_auxiliaires($tables_auxiliaires){
-
-	$spip_petitions = array(
-			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
-			"email_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"site_obli"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"site_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"message"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"texte"	=> "LONGTEXT DEFAULT '' NOT NULL",
-			"maj"	=> "TIMESTAMP");
-
-	$spip_petitions_key = array(
-			"PRIMARY KEY"	=> "id_article");
-
-
-	$tables_auxiliaires['spip_petitions'] = array(
-		'field' => &$spip_petitions,
-		'key' => &$spip_petitions_key);
-
-	return $tables_auxiliaires;
-}
-
-
-
-/**
- * Declarer le surnom des petitions
- *
- * @param array $table
- * @return array
- */
-function petitions_declarer_tables_objets_surnoms($table){
-	$table['petition'] = 'petitions';
-	$table['signature'] = 'signatures';
-	return $table;
-}
-
-
-
-/**
- * Alias de type pour les groupes de mot
- * @param array $table
- * @return string
- */
-function petitions_declarer_type_surnoms($table) {
-	$table['petition'] = 'petition'; // n'a pas de cle primaire valable pour s'y retrouver
-	return $table;
-}
-
 ?>

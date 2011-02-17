@@ -12,26 +12,14 @@
 	<options>petitions_options.php</options>
 	
 	<pipeline>
-		<nom>declarer_tables_auxiliaires</nom>
-		<inclure>base/petitions.php</inclure>
-	</pipeline>
-	<pipeline>
-		<nom>declarer_tables_principales</nom>
+		<nom>declarer_tables_objets_sql</nom>
 		<inclure>base/petitions.php</inclure>
 	</pipeline>
 	<pipeline>
 		<nom>declarer_tables_interfaces</nom>
 		<inclure>base/petitions.php</inclure>
 	</pipeline>
-	<pipeline>
-		<nom>declarer_tables_objets_surnoms</nom>
-		<inclure>base/petitions.php</inclure>
-	</pipeline>
-	<pipeline>
-		<nom>declarer_type_surnoms</nom>
-		<inclure>base/petitions.php</inclure>
-	</pipeline>
-		
+
 	<pipeline>
 		<nom>autoriser</nom>
 		<inclure>petitions_autoriser.php</inclure>
