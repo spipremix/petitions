@@ -83,6 +83,7 @@ function petitions_declarer_tables_objets_sql($tables){
 
 		'texte_retour' => 'icone_retour',
 		'texte_objets' => 'signatures_petition',
+		'texte_objet' => 'entree_signature',
 		'info_aucun_objet'=> 'petitions:aucune_signature',
 		'info_1_objet' => 'petitions:une_signature',
 		'info_nb_objets' => 'petitions:nombre_signatures',
