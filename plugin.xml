@@ -15,6 +15,12 @@
 		<nom>declarer_tables_objets_sql</nom>
 		<inclure>base/petitions.php</inclure>
 	</pipeline>
+
+	<pipeline>
+		<nom>declarer_tables_auxiliaires</nom>
+		<inclure>base/petitions.php</inclure>
+	</pipeline>	
+
 	<pipeline>
 		<nom>declarer_tables_interfaces</nom>
 		<inclure>base/petitions.php</inclure>

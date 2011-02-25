@@ -49,12 +49,34 @@ function petitions_declarer_tables_interfaces($interfaces){
 	return $interfaces;
 }
 
+function petitions_declarer_tables_auxiliaires($tables_auxiliaires){
+
+	$spip_petitions = array(
+			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
+			"email_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"site_obli"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"site_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"message"	=> "CHAR (3) DEFAULT '' NOT NULL",
+			"texte"	=> "LONGTEXT DEFAULT '' NOT NULL",
+			"maj"	=> "TIMESTAMP");
+
+	$spip_petitions_key = array(
+			"PRIMARY KEY"	=> "id_article");
+
+
+	$tables_auxiliaires['spip_petitions'] = array(
+		'field' => &$spip_petitions,
+		'key' => &$spip_petitions_key);
+
+	return $tables_auxiliaires;
+}
+
 function petitions_declarer_tables_objets_sql($tables){
 	$tables['spip_petitions'] = array(
 	  'url_voir'=>'controler_petition',
 	  'url_edit'=>'controler_petition',
 	  'editable'=>'non',
-	  'principale' => 'oui',
+	  'principale' => 'non',
 		'page'=>'', // pas de page editoriale pour une petition
 
 		'texte_retour' => 'icone_retour',
