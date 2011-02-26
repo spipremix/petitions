@@ -19,9 +19,11 @@ function formulaires_signature_charger_dist($id_article) {
 	// pas de signature sur une petition fermee (TODO)
 	if (isset($r['statut']) AND $r['statut']=='off')
 		return false;
+	$id_petition = $r['id_petition'];
 
 	$valeurs = array(
-		'id_article' => $id_article,
+		'id_petition' => $id_petition,
+		'id_article' => $id_article, # pour compat
 		'session_nom' => sinon($GLOBALS['visiteur_session']['session_nom'],
 			$GLOBALS['visiteur_session']['nom']),
 		'session_email'=> sinon($GLOBALS['visiteur_session']['session_email'],
@@ -50,9 +52,13 @@ function affiche_reponse_confirmation($confirm) {
 function formulaires_signature_verifier_dist($id_article) {
 	$erreurs = array();
 	$oblis = array('session_email','session_email');
-	$r = sql_fetsel('*','spip_petitions','id_article='.intval($id_article));
+	include_spip('base/abstract_sql');
+	$row = sql_fetsel('*','spip_petitions','id_article='.intval($id_article));
+	if (!$row)
+		$erreurs['message_erreur'] = _T('form_pet_probleme_technique');
+	$id_petition = $row['id_petition'];
 
-	if ($r['site_obli'] == 'oui'){
+	if ($row['site_obli'] == 'oui'){
 		$oblis[] = 'signature_nom_site';
 		$oblis[] = 'signature_url_site';
 		set_request('signature_url_site', vider_url(_request('signature_url_site')));
@@ -79,7 +85,7 @@ function formulaires_signature_verifier_dist($id_article) {
 		#envoyer_mail('email_moderateur@example.tld', 'spam intercepte', var_export($_POST,1));
 		$erreurs['message_erreur'] = _T('form_pet_probleme_liens');
 	}
-	if ($r['site_obli'] == 'oui'){
+	if ($row['site_obli'] == 'oui'){
 		if (!vider_url($url_site = _request('signature_url_site'))) {
 			$erreurs['signature_url_site'] = _T('form_indiquer_nom_site');
 		}
@@ -92,29 +98,22 @@ function formulaires_signature_verifier_dist($id_article) {
 	
 	if (!count($erreurs)){
 		// tout le monde est la.
-		include_spip('base/abstract_sql');
-		$row = sql_fetsel('*', 'spip_petitions', "id_article=".intval($id_article));
+		$email_unique = $row['email_unique']  == "oui";
+		$site_unique = $row['site_unique']  == "oui";
 
-		if (!$row) 
-			$erreurs['message_erreur'] = _T('form_pet_probleme_technique');
-		else {
-			$email_unique = $row['email_unique']  == "oui";
-			$site_unique = $row['site_unique']  == "oui";
-		
-			// Refuser si deja signe par le mail ou le site quand demande
-			// Il y a un acces concurrent potentiel,
-			// mais ca n'est qu'un cas particulier de qq n'ayant jamais confirme'.
-			// On traite donc le probleme a la confirmation.
-		
-			if ($email_unique) {
-				$r = sql_countsel('spip_signatures', "id_article=$id_article AND ad_email=" . sql_quote($mail) . " AND statut='publie'");
-				if ($r)	$erreurs['message_erreur'] =  _T('form_pet_deja_signe');
-			}
-		
-			if ($site_unique) {
-				$r = sql_countsel('spip_signatures', "id_article=$id_article AND url_site=" . sql_quote($url_site) . " AND (statut='publie' OR statut='poubelle')");
-				if ($r)	$erreurs['message_erreur'] = _T('form_pet_site_deja_enregistre');
-			}
+		// Refuser si deja signe par le mail ou le site quand demande
+		// Il y a un acces concurrent potentiel,
+		// mais ca n'est qu'un cas particulier de qq n'ayant jamais confirme'.
+		// On traite donc le probleme a la confirmation.
+
+		if ($email_unique) {
+			$r = sql_countsel('spip_signatures', "id_petition=".intval($id_petition)." AND ad_email=" . sql_quote($mail) . " AND statut='publie'");
+			if ($r)	$erreurs['message_erreur'] =  _T('form_pet_deja_signe');
+		}
+
+		if ($site_unique) {
+			$r = sql_countsel('spip_signatures', "id_petition=".intval($id_petition)." AND url_site=" . sql_quote($url_site) . " AND (statut='publie' OR statut='poubelle')");
+			if ($r)	$erreurs['message_erreur'] = _T('form_pet_site_deja_enregistre');
 		}
 	}
 
@@ -148,7 +147,7 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 
 	// tout le monde est la.
 	// cela a ete verifie en amont, dans formulaires_signature_verifier()
-	if (!$row = sql_fetsel('*', 'spip_petitions', "id_article=$id_article"))
+	if (!$row = sql_fetsel('*', 'spip_petitions', "id_article=".intval($id_article))
 		return _T('form_pet_probleme_technique');
 
 	$statut = "";
@@ -157,7 +156,7 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 
 	include_spip('action/editer_signature');
 
-	$id_signature = insert_signature($id_article);
+	$id_signature = insert_signature($row['id_petition']);
 	if (!$id_signature) return _T('form_pet_probleme_technique');
 
 	signature_set($id_signature,
@@ -214,7 +213,7 @@ function signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url,
 	//
 	// Cas normal : envoi d'une demande de confirmation
 	//
-	$row = sql_fetsel('titre,lang', 'spip_articles', "id_article=$id_article");
+	$row = sql_fetsel('titre,lang', 'spip_articles', "id_article=".intval($id_article));
 	$lang = lang_select($row['lang']);
 	$titre = textebrut(typo($row['titre']));
 	if ($lang) lang_select();

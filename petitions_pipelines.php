@@ -27,21 +27,6 @@ function petitions_afficher_config_objet($flux){
 	return $flux;
 }
 
-/**
- * Liste et ponderation des champs pour la recherche
- * 
- * @param array $tables
- * @return int
- */
-function petitions_rechercher_liste_des_champs($tables){
-	$tables['signature'] = array(
-				'nom_email' => 2, 'ad_email' => 4,
-				'nom_site' => 2, 'url_site' => 4,
-				'message' => 1
-			);
-	
-	return $tables;
-}
 
 # cette requete devrait figurer dans l'optimisation
 #sql_delete("spip_signatures", "NOT (statut='publie' OR statut='poubelle') AND NOT(" . sql_date_proche('date_time', -10, ' DAY') . ')');

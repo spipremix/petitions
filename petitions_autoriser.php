@@ -28,7 +28,7 @@ function autoriser_modererpetition_dist($faire, $type, $id, $qui, $opt) {
  * @return bool
  */
 function autoriser_signature_publier($faire, $type, $id, $qui, $opt) {
-	$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id));
+	$id_article = sql_getfetsel('P.id_article','spip_signatures AS S JOIN spip_petitions AS P ON P.id_petition=S.id_petition','S.id_signature='.intval($id));
 	return
 		autoriser('modererpetition', 'article', $id_article, $qui, $opt);
 }
@@ -38,7 +38,7 @@ function autoriser_signature_publier($faire, $type, $id, $qui, $opt) {
  * @return bool
  */
 function autoriser_signature_supprimer($faire, $type, $id, $qui, $opt) {
-	$id_article = sql_getfetsel('id_article','spip_signatures','id_signature='.intval($id));
+	$id_article = sql_getfetsel('P.id_article','spip_signatures AS S JOIN spip_petitions AS P ON P.id_petition=S.id_petition','S.id_signature='.intval($id));
 	return
 		autoriser('modererpetition', 'article', $id_article, $qui, $opt);
 }

@@ -1,9 +1,9 @@
-<div class="formulaire_spip formulaire_signature ajax" id="sp#ENV{id_article}">
+<div class="formulaire_spip formulaire_signature ajax" id="sp#ENV{id_petition}">
 
 [<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok,#ENV*{_confirm}|affiche_reponse_confirmation})</p>]
 [<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
 [(#ENV{editable})
-<form method="post" action="#ENV{action}#sp#ENV{id_article}">
+<form method="post" action="#ENV{action}#sp#ENV{id_petition}">
 	#ACTION_FORMULAIRE{#ENV{action}}
 	
 	<input type="hidden" name="url_page" value="[(#SELF|url_absolue)]" />

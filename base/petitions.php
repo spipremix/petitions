@@ -50,23 +50,29 @@ function petitions_declarer_tables_objets_sql($tables){
 	  'url_voir'=>'controler_petition',
 	  'url_edit'=>'controler_petition',
 	  'editable'=>'non',
-	  'principale' => 'non',
+	  'principale' => 'oui',
 		'page'=>'', // pas de page editoriale pour une petition
 
 		'texte_retour' => 'icone_retour',
 		'titre' => "texte as titre, '' AS lang",
 
 		'field'=> array(
+			"id_petition"	=> "bigint(21) NOT NULL",
 			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
 			"email_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
 			"site_obli"	=> "CHAR (3) DEFAULT '' NOT NULL",
 			"site_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
 			"message"	=> "CHAR (3) DEFAULT '' NOT NULL",
 			"texte"	=> "LONGTEXT DEFAULT '' NOT NULL",
+			"statut"	=> "VARCHAR (10) DEFAULT 'publie' NOT NULL",
 			"maj"	=> "TIMESTAMP"
 		),
 		'key' => array(
-			"PRIMARY KEY"	=> "id_article"
+			"PRIMARY KEY"	=> "id_petition",
+			"UNIQUE id_article"	=> "id_article"
+		),
+		'statut' => array(
+			array('champ'=>'statut','publie'=>'publie,off','previsu'=>'publie,off','exception'=>array('statut')),
 		),
 	);
 
@@ -88,7 +94,8 @@ function petitions_declarer_tables_objets_sql($tables){
 
 		'field'=> array(
 			"id_signature"	=> "bigint(21) NOT NULL",
-			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
+			"id_petition"	=> "bigint(21) DEFAULT '0' NOT NULL",
+#			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
 			"date_time"	=> "datetime DEFAULT '0000-00-00 00:00:00' NOT NULL",
 			"nom_email"	=> "text DEFAULT '' NOT NULL",
 			"ad_email"	=> "text DEFAULT '' NOT NULL",
@@ -100,15 +107,24 @@ function petitions_declarer_tables_objets_sql($tables){
 		),
 		'key' => array(
 			"PRIMARY KEY"	=> "id_signature",
-			"KEY id_article"	=> "id_article",
+			"KEY id_petition"	=> "id_petition",
+#			"KEY id_article"	=> "id_article",
 			"KEY statut" => "statut"
 		),
 		'join' => array(
 			"id_signature"=>"id_signature",
-			"id_article"=>"id_article"
+			"id_petition"=>"id_petition"
+		),
+		'tables_jointures'=> array(
+			'petitions'
 		),
 		'statut' => array(
 			array('champ'=>'statut','publie'=>'publie','previsu'=>'publie','exception'=>array('statut','tout')),
+		),
+		'rechercher_champs' => array(
+			'nom_email' => 2, 'ad_email' => 4,
+			'nom_site' => 2, 'url_site' => 4,
+			'message' => 1
 		),
 	);
 

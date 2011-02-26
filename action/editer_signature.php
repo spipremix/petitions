@@ -23,12 +23,10 @@ function action_editer_signature_dist($arg=null) {
 	// si id_signature n'est pas un nombre, c'est une creation
 	// mais on verifie qu'on a toutes les donnees qu'il faut.
 	if (!$id_signature = intval($arg)) {
-		$id_article = _request('id_article');
-		if (!($id_article)) {
-			include_spip('inc/headers');
-			redirige_url_ecrire();
-		}
-		$id_signature = insert_signature($id_article);
+		$id_petition = _request('id_petition');
+		if (!($id_petition))
+			return array(0,'');
+		$id_signature = insert_signature($id_petition);
 	}
 
 	// Enregistre l'envoi dans la BD
@@ -59,7 +57,7 @@ function signature_set($id_signature, $set=null) {
 	$c = array();
 	if($set){
 		$c = $set;
-		unset($c['id_article']);
+		unset($c['id_petition']);
 		unset($c['statut']);
 		unset($c['date_time']);
 	}
@@ -74,10 +72,10 @@ function signature_set($id_signature, $set=null) {
 	include_spip('inc/modifier');
 	revision_signature($id_signature, $c);
 
-	// Modification de statut, changement de rubrique ?
+	// Modification de statut
 	$c = array();
 	foreach (array(
-		"date_time", 'statut', 'id_article'
+		"date_time", 'statut', 'id_petition'
 	) as $champ)
 		$c[$champ] = _request($champ,$set);
 	$err .= instituer_signature($id_signature, $c);
@@ -87,17 +85,17 @@ function signature_set($id_signature, $set=null) {
 
 /**
  * Inserer une signature en base
- * @param <type> $id_article
- * @return <type> 
+ * @param int $id_petition
+ * @return int
  */
-function insert_signature($id_article) {
+function insert_signature($id_petition) {
 
-	// Si id_article vaut 0 ou n'est pas definie, echouer
-	if (!$id_article = intval($id_article))
+	// Si $id_petition vaut 0 ou n'est pas definie, echouer
+	if (!$id_petition = intval($id_petition))
 		return 0;
 
 	$champs = array(
-		'id_article' => $id_article,
+		'id_petition' => $id_petition,
 		'statut' =>  'prepa',
 		'date_time' => date('Y-m-d H:i:s'));
 
@@ -127,7 +125,7 @@ function insert_signature($id_article) {
 }
 
 
-// $c est un array ('statut', 'id_article' = changement d'article)
+// $c est un array ('statut', 'id_petition' = changement de petition)
 // il n'est pas autoriser de deplacer une signature
 // http://doc.spip.org/@instituer_signature
 function instituer_signature($id_signature, $c, $calcul_rub=true) {
@@ -135,8 +133,7 @@ function instituer_signature($id_signature, $c, $calcul_rub=true) {
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
 
-	$row = sql_fetsel("statut, date_time, id_article", "spip_signatures", "id_signature=".intval($id_signature));
-	$id_article= $row['id_article'];
+	$row = sql_fetsel("S.statut, S.date_time, P.id_article", "spip_signatures AS S JOIN spip_petitions AS P ON S.id_petition=P.id_petition", "S.id_signature=".intval($id_signature));
 	$statut_ancien = $statut = $row['statut'];
 	$date_ancienne = $date = $row['date_time'];
 	$champs = array();
