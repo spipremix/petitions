@@ -26,7 +26,7 @@ include_spip('base/abstract_sql');
 
 // http://doc.spip.org/@balise_FORMULAIRE_SIGNATURE
 function balise_FORMULAIRE_SIGNATURE ($p) {
-	return calculer_balise_dynamique($p,'FORMULAIRE_SIGNATURE', array('id_article', 'petition'));
+	return calculer_balise_dynamique($p,'FORMULAIRE_SIGNATURE', array('id_article'));
 }
 
 // Verification des arguments (contexte + filtres)
@@ -41,20 +41,6 @@ function balise_FORMULAIRE_SIGNATURE_stat($args, $context_compil) {
 		erreur_squelette($msg, $context_compil);
 		return '';
 	}
-	// article sans petition => pas de balise
-	else if (!$args[1])
-		return '';
-
-	else {
-		// aller chercher dans la base la petition associee
-		if ($r = sql_fetsel("texte, site_obli, message", 'spip_petitions', "id_article = ".intval($args[0]))) {
-			$args[2] = $r['texte'];
-			// le signataire doit-il donner un site ?
-			$args[3] = ($r['site_obli'] == 'oui') ? ' ':'';
-			// le signataire peut-il proposer un commentaire
-			$args[4] = ($r['message'] == 'oui') ? ' ':'';
-		}
-		return $args;
-	}
+	return $args;
 }
 ?>

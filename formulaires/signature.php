@@ -12,7 +12,14 @@
 
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
-function formulaires_signature_charger_dist($id_article, $petition, $texte, $site_obli, $message) {
+function formulaires_signature_charger_dist($id_article) {
+	// pas de petition, pas de signature
+	if (!$r = sql_fetsel('*','spip_petitions','id_article='.intval($id_article)))
+		return false;
+	// pas de signature sur une petition fermee (TODO)
+	if (isset($r['statut']) AND $r['statut']=='off')
+		return false;
+
 	$valeurs = array(
 		'id_article' => $id_article,
 		'session_nom' => sinon($GLOBALS['visiteur_session']['session_nom'],
@@ -21,12 +28,12 @@ function formulaires_signature_charger_dist($id_article, $petition, $texte, $sit
 			$GLOBALS['visiteur_session']['email']),
 		'signature_nom_site'=>'',
 		'signature_url_site'=>'http://',
-		'_texte'=>$petition,
-		'_message'=>$message,
+		'_texte'=>$r['texte'],
+		'_message'=>($r['message'] == 'oui') ? ' ':'',
 		'message'=>'',
-		'site_obli' => $site_obli,
+		'site_obli' => ($r['site_obli'] == 'oui'?' ':''),
 		'debut_signatures'=>'' // pour le nettoyer de l'url d'action !
-		);
+	);
 
 	if ($c = _request('var_confirm')) {
 		$valeurs['_confirm'] = $c;
@@ -40,11 +47,12 @@ function affiche_reponse_confirmation($confirm) {
 	return $confirmer_signature($confirm);  # calculee plus tot: cf petitions_options
 }
 
-function formulaires_signature_verifier_dist($id_article, $petition, $texte, $site_obli, $message) {
+function formulaires_signature_verifier_dist($id_article) {
 	$erreurs = array();
 	$oblis = array('session_email','session_email');
+	$r = sql_fetsel('*','spip_petitions','id_article='.intval($id_article));
 
-	if ($site_obli){
+	if ($r['site_obli'] == 'oui'){
 		$oblis[] = 'signature_nom_site';
 		$oblis[] = 'signature_url_site';
 		set_request('signature_url_site', vider_url(_request('signature_url_site')));
@@ -63,7 +71,7 @@ function formulaires_signature_verifier_dist($id_article, $petition, $texte, $si
 		$erreurs['adresse_email'] = _T('form_email_non_valide');
 	elseif (strlen(_request('nobot'))
 		OR (@preg_match_all(',\bhref=[\'"]?http,i', // bug PHP
-				    $message 
+				    _request('message')
 				    # ,  PREG_PATTERN_ORDER
 				   )
 		    >2)) {
@@ -71,7 +79,7 @@ function formulaires_signature_verifier_dist($id_article, $petition, $texte, $si
 		#envoyer_mail('email_moderateur@example.tld', 'spam intercepte', var_export($_POST,1));
 		$erreurs['message_erreur'] = _T('form_pet_probleme_liens');
 	}
-	if ($site_obli){
+	if ($r['site_obli'] == 'oui'){
 		if (!vider_url($url_site = _request('signature_url_site'))) {
 			$erreurs['signature_url_site'] = _T('form_indiquer_nom_site');
 		}
@@ -113,7 +121,7 @@ function formulaires_signature_verifier_dist($id_article, $petition, $texte, $si
 	return $erreurs;
 }
 
-function formulaires_signature_traiter_dist($id_article, $petition, $texte, $site_obli, $message) {
+function formulaires_signature_traiter_dist($id_article) {
 	$reponse = _T('form_pet_probleme_technique');
 	include_spip('base/abstract_sql');
 	if (spip_connect()) {
