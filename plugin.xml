@@ -1,7 +1,7 @@
 <plugin>
 	<nom>P&#233;titions</nom>
 	<auteur>Collectif SPIP</auteur>
-	<version>1.1.0</version>
+	<version>1.1.1</version>
 	<version_base>1.0</version_base>
 	<etat>test</etat>
 	<description>P&eacute;titions dans SPIP</description>
@@ -15,11 +15,6 @@
 		<nom>declarer_tables_objets_sql</nom>
 		<inclure>base/petitions.php</inclure>
 	</pipeline>
-
-	<pipeline>
-		<nom>declarer_tables_auxiliaires</nom>
-		<inclure>base/petitions.php</inclure>
-	</pipeline>	
 
 	<pipeline>
 		<nom>declarer_tables_interfaces</nom>

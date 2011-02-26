@@ -25,10 +25,6 @@ function petitions_declarer_tables_interfaces($interfaces){
 	$interfaces['exceptions_des_tables']['signatures']['nom']='nom_email';
 	$interfaces['exceptions_des_tables']['signatures']['email']='ad_email';
 	
-	#$interfaces['table_date']['signatures']='date_time';
-
-	$interfaces['table_statut']['spip_signatures'][] = array('champ'=>'statut','publie'=>'publie','previsu'=>'publie','exception'=>array('statut','tout'));
-
 	$interfaces['tables_jointures']['spip_articles'][]= 'petitions';
 	$interfaces['tables_jointures']['spip_articles'][]= 'signatures';
 
@@ -47,28 +43,6 @@ function petitions_declarer_tables_interfaces($interfaces){
 				$interfaces['table_des_traitements'][$balise]['signatures'] = 'safehtml('.$interfaces['table_des_traitements'][$balise]['signatures'].')';
 
 	return $interfaces;
-}
-
-function petitions_declarer_tables_auxiliaires($tables_auxiliaires){
-
-	$spip_petitions = array(
-			"id_article"	=> "bigint(21) DEFAULT '0' NOT NULL",
-			"email_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"site_obli"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"site_unique"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"message"	=> "CHAR (3) DEFAULT '' NOT NULL",
-			"texte"	=> "LONGTEXT DEFAULT '' NOT NULL",
-			"maj"	=> "TIMESTAMP");
-
-	$spip_petitions_key = array(
-			"PRIMARY KEY"	=> "id_article");
-
-
-	$tables_auxiliaires['spip_petitions'] = array(
-		'field' => &$spip_petitions,
-		'key' => &$spip_petitions_key);
-
-	return $tables_auxiliaires;
 }
 
 function petitions_declarer_tables_objets_sql($tables){
@@ -132,6 +106,9 @@ function petitions_declarer_tables_objets_sql($tables){
 		'join' => array(
 			"id_signature"=>"id_signature",
 			"id_article"=>"id_article"
+		),
+		'statut' => array(
+			array('champ'=>'statut','publie'=>'publie','previsu'=>'publie','exception'=>array('statut','tout')),
 		),
 	);
 
