@@ -147,7 +147,7 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 
 	// tout le monde est la.
 	// cela a ete verifie en amont, dans formulaires_signature_verifier()
-	if (!$row = sql_fetsel('*', 'spip_petitions', "id_article=".intval($id_article))
+	if (!$row = sql_fetsel('*', 'spip_petitions', "id_article=".intval($id_article)))
 		return _T('form_pet_probleme_technique');
 
 	$statut = "";
