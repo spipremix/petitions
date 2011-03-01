@@ -54,30 +54,23 @@ function action_editer_signature_dist($arg=null) {
 function signature_set($id_signature, $set=null) {
 	$err = '';
 
-	$c = array();
-	if($set){
-		$c = $set;
-		unset($c['id_petition']);
-		unset($c['statut']);
-		unset($c['date_time']);
-	}
-	else {
-		foreach (array(
-			"nom_email","ad_email",
-			"nom_site","url_site","message","statut"
-		) as $champ)
-			$c[$champ] = _request($champ,$set);
-	}
-
 	include_spip('inc/modifier');
+	$c = collecter_requests(
+		// white list
+		array(
+		 "nom_email","ad_email",
+		 "nom_site","url_site","message","statut"
+		),
+		// black list
+		array('statut','id_petition','date_time'),
+		// donnees eventuellement fournies
+		$set
+	);
+
 	revision_signature($id_signature, $c);
 
 	// Modification de statut
-	$c = array();
-	foreach (array(
-		"date_time", 'statut', 'id_petition'
-	) as $champ)
-		$c[$champ] = _request($champ,$set);
+	$c = collecter_requests(array('statut','id_petition','date_time'),array(),$set);
 	$err .= instituer_signature($id_signature, $c);
 
 	return $err;

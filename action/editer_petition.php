@@ -55,29 +55,23 @@ function action_editer_petition_dist($arg=null) {
 function petition_set($id_petition, $set=null) {
 	$err = '';
 
-	$c = array();
-	if($set){
-		$c = $set;
-		unset($c['id_article']);
-	}
-	else {
-		foreach (array(
-			"email_unique","site_obli",
-			"site_unique","message","texte"
-		) as $champ)
-			$c[$champ] = _request($champ,$set);
-	}
-
 	include_spip('inc/modifier');
+	$c = collecter_requests(
+		// white list
+		array(
+		  "email_unique","site_obli",
+		  "site_unique","message","texte"
+		),
+		// black list
+		array('statut','id_article'),
+		// donnees eventuellement fournies
+		$set
+	);
+
 	revision_petition($id_petition, $c);
 
 	// changement d'article ou de statut ?
-	$c = array();
-	foreach (array(
-		'statut',
-		'id_article'
-	) as $champ)
-		$c[$champ] = _request($champ,$set);
+	$c = collecter_requests(array('statut','id_article'),array(),$set);
 	$err .= instituer_petition($id_petition, $c);
 
 	return $err;
