@@ -1,7 +1,7 @@
 <plugin>
 	<nom>P&#233;titions</nom>
 	<auteur>Collectif SPIP</auteur>
-	<version>1.2.0</version>
+	<version>1.3.0</version>
 	<version_base>1.1.6</version_base>
 	<etat>test</etat>
 	<description>P&eacute;titions dans SPIP</description>
@@ -39,5 +39,5 @@
 		<icone>images/petition-16.png</icone>
 		<titre>petitions:icone_suivi_petitions</titre>
 	</bouton>
-	<necessite id="SPIP" version="[2.2.0 dev;)" />
+	<necessite id="SPIP" version="[2.3.0-dev;)" />
 </plugin>
