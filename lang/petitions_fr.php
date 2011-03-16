@@ -8,6 +8,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 'une_signature' => '1 signature',
 'nombre_signatures' => '@nb@ signatures',
 
+'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette p&eacute;tition. &Ecirc;tes-vous sur de vouloir continuer ?',
 'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message',
 'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web',
 'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email',

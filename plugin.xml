@@ -29,6 +29,11 @@
 		<nom>afficher_config_objet</nom>
 		<inclure>petitions_pipelines.php</inclure>
 	</pipeline>
+	<pipeline>
+		<nom>optimiser_base_disparus</nom>
+		<inclure>petitions_pipelines.php</inclure>
+	</pipeline>
+
 
 	<bouton id='controler_petition' parent='bando_activite' position="-1">
 		<icone>images/petition-16.png</icone>

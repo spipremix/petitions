@@ -29,6 +29,9 @@ function action_traiter_lot_signature_dist($arg=null) {
 		$where = '';
 		if (intval($id_petition = _request('id_petition'))){
 			$where="id_petition=".intval($id_petition);
+			// pour relancer ou valider on ne prend que celles en attente
+			if (in_array($statut,array('relancer','valider')))
+				$where.=" AND statut!='publie' AND statut!='poubelle'";
 		}
 		else {
 			$ids=_request('ids');

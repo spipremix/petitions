@@ -28,7 +28,30 @@ function petitions_afficher_config_objet($flux){
 }
 
 
-# cette requete devrait figurer dans l'optimisation
-#sql_delete("spip_signatures", "NOT (statut='publie' OR statut='poubelle') AND NOT(" . sql_date_proche('date_time', -10, ' DAY') . ')');
+/**
+ * Optimiser la base de donnee en supprimant les forums orphelins
+ *
+ * @param int $n
+ * @return int
+ */
+function petitions_optimiser_base_disparus($flux){
+	$n = &$flux['data'];
+	$mydate = $flux['args']['date'];
+
+	//
+	// Signatures poubelles
+	//
+
+	sql_delete("spip_petitions", "statut='poubelle' AND maj < $mydate");
+
+	// rejeter les signatures non confirmees trop vieilles (20jours)
+	if (!defined('_PETITIONS_DELAI_SIGNATURES_REJETEES'))
+		define('_PETITIONS_DELAI_SIGNATURES_REJETEES',20);
+	sql_delete("spip_signatures", "NOT (statut='publie' OR statut='poubelle') AND NOT(" . sql_date_proche('date_time', -_PETITIONS_DELAI_SIGNATURES_REJETEES, ' DAY') . ')');
+
+
+	return $flux;
+
+}
 
 ?>
