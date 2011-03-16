@@ -28,7 +28,9 @@ function petitions_upgrade($nom_meta_base_version,$version_cible){
 			// mettre les metas par defaut
 			$config = charger_fonction('config','inc');
 			$config();
-			ecrire_meta($nom_meta_base_version,$current_version=$version_cible);
+
+			// forcer le passage par upgrade !
+			ecrire_meta($nom_meta_base_version,$current_version=0.0);
 		}
 
 		// maj des petitions
