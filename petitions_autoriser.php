@@ -60,7 +60,7 @@ function autoriser_signature_modifier_dist($faire, $type, $id, $qui, $opt) {
 		false;
 }
 
-function autoriser_petitions_reactions_bouton_dist($faire, $type='', $id=0, $qui = NULL, $opt = NULL){
+function autoriser_controlerpetition_bouton_dist($faire, $type='', $id=0, $qui = NULL, $opt = NULL){
 	return sql_countsel('spip_signatures')>0;
 }
 

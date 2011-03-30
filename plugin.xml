@@ -1,7 +1,7 @@
 <plugin>
 	<nom>P&#233;titions</nom>
 	<auteur>Collectif SPIP</auteur>
-	<version>1.3.1</version>
+	<version>1.3.2</version>
 	<version_base>1.1.6</version_base>
 	<etat>test</etat>
 	<description>P&eacute;titions dans SPIP</description>
