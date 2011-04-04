@@ -26,7 +26,7 @@
 <div class='par'><:petitions:filtre:> (#ENV{ad_email}|sinon{#ENV{url_site}})</div>
 </div>]
 
-[(#INCLURE{fond=prive/squelettes/inclure/boutons-filtres-statut-signature}{env})]
+[(#INCLURE{fond=prive/squelettes/inclure/boutons-filtres-statut-signature, env})]
 [<h2><:resultats_recherche:> &#171;&nbsp;(#ENV{recherche})&nbsp;&#187;</h2>]
 #FORMULAIRE_RECHERCHE_ECRIRE{#GET{self},ajax}
 
