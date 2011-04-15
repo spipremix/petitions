@@ -61,10 +61,10 @@ function formulaires_activer_petition_article_traiter_dist($id_article){
 
 			include_spip('action/editer_petition');
 			if (!$id_petition=sql_getfetsel('id_petition','spip_petitions','id_article='.intval($id_article))){
-				$id_petition = insert_petition($id_article);
+				$id_petition = petition_inserer($id_article);
 			}
 
-			petition_set(
+			petition_modifier(
 				$id_petition,
 			  array('email_unique' => _request('email_unique'),
 							'site_obli' => _request('site_obli'),
@@ -78,7 +78,7 @@ function formulaires_activer_petition_article_traiter_dist($id_article){
 		case 'off':
 			if ($id_petition=sql_getfetsel('id_petition','spip_petitions','id_article='.intval($id_article))){
 				include_spip('action/editer_petition');
-				petition_set($id_petition,array('statut'=>'poubelle'));
+				petition_modifier($id_petition,array('statut'=>'poubelle'));
 			}
 			break;
 		}

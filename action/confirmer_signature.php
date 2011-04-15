@@ -65,7 +65,7 @@ function action_confirmer_signature_dist($var_confirm=null) {
 			$_GET['refus'] == _action_auteur("supprimer signature $id_signature", '', '', 'alea_ephemere_ancien')
 			)) {
 			include_spip('action/editer_signature');
-			signature_set($id_signature,array("statut" => 'poubelle'));
+			signature_modifier($id_signature,array("statut" => 'poubelle'));
 			$confirm = _T('info_signature_supprimee');
 		} else $confirm = _T('info_signature_supprimee_erreur');
 		return '';
@@ -90,7 +90,7 @@ function action_confirmer_signature_dist($var_confirm=null) {
 	$id_article = $row['id_article'];
 
 	include_spip('action/editer_signature');
-	signature_set($id_signature,array('statut' => 'publie'));
+	signature_modifier($id_signature,array('statut' => 'publie'));
 
 	if ($email_unique) {
 		$r = "id_petition=".intval($id_petition)." AND ad_email=" . sql_quote($adresse_email);

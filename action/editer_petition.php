@@ -27,22 +27,14 @@ function action_editer_petition_dist($arg=null) {
 			include_spip('inc/headers');
 			redirige_url_ecrire();
 		}
-		$id_petition = insert_petition($id_article);
+		$id_petition = petition_inserer($id_article);
 	}
 
 	// Enregistre l'envoi dans la BD
 	if ($id_petition > 0)
-		$err = petitions_set($id_petition);
+		$err = petition_modifier($id_petition);
 
-	if (_request('redirect')) {
-		$redirect = parametre_url(urldecode(_request('redirect')),
-			'id_petition', $id_petition, '&') . $err;
-	
-		include_spip('inc/headers');
-		redirige_par_entete($redirect);
-	}
-	else 
-		return array($id_petition,$err);
+	return array($id_petition,$err);
 }
 
 /**
@@ -52,7 +44,7 @@ function action_editer_petition_dist($arg=null) {
  * @param array $set
  * @return string
  */
-function petition_set($id_petition, $set=null) {
+function petition_modifier($id_petition, $set=null) {
 	$err = '';
 
 	include_spip('inc/modifier');
@@ -68,11 +60,11 @@ function petition_set($id_petition, $set=null) {
 		$set
 	);
 
-	revision_petition($id_petition, $c);
+	return modifier_contenu('petition', $id_petition,array(),$c);
 
 	// changement d'article ou de statut ?
 	$c = collecter_requests(array('statut','id_article'),array(),$set);
-	$err .= instituer_petition($id_petition, $c);
+	$err .= petition_instituer($id_petition, $c);
 
 	return $err;
 }
@@ -82,7 +74,7 @@ function petition_set($id_petition, $set=null) {
  * @param <type> $id_article
  * @return <type> 
  */
-function insert_petition($id_article) {
+function petition_inserer($id_article) {
 
 	// Si id_article vaut 0 ou n'est pas definie, echouer
 	if (!$id_article = intval($id_article))
@@ -127,7 +119,7 @@ function insert_petition($id_article) {
  * @param bool $calcul_rub
  * @return string
  */
-function instituer_petition($id_petition, $c) {
+function petition_instituer($id_petition, $c) {
 
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
@@ -139,7 +131,7 @@ function instituer_petition($id_petition, $c) {
 
 	$s = isset($c['statut'])?$c['statut']:$statut;
 
-	// cf autorisations dans inc/instituer_petition
+	// cf autorisations dans inc/petition_instituer
 	if ($s != $statut /*OR ($d AND $d != $date)*/) {
 		$statut = $champs['statut'] = $s;
 
@@ -203,10 +195,8 @@ function instituer_petition($id_petition, $c) {
 }
 
 // http://doc.spip.org/@revision_petition
-function revision_petition($id_petition, $c=false) {
-
-	include_spip('inc/modifier');
-	return modifier_contenu('petition', $id_petition,array(),$c);
+function revision_petition($id_petition, $c=null) {
+	return petition_modifier($id_petition,$c);
 }
 
 

@@ -26,22 +26,14 @@ function action_editer_signature_dist($arg=null) {
 		$id_petition = _request('id_petition');
 		if (!($id_petition))
 			return array(0,'');
-		$id_signature = insert_signature($id_petition);
+		$id_signature = signature_inserer($id_petition);
 	}
 
 	// Enregistre l'envoi dans la BD
 	if ($id_signature > 0)
-		$err = signatures_set($id_signature);
+		$err = signature_modifier($id_signature);
 
-	if (_request('redirect')) {
-		$redirect = parametre_url(urldecode(_request('redirect')),
-			'id_signature', $id_signature, '&') . $err;
-	
-		include_spip('inc/headers');
-		redirige_par_entete($redirect);
-	}
-	else 
-		return array($id_signature,$err);
+	return array($id_signature,$err);
 }
 
 /**
@@ -51,7 +43,7 @@ function action_editer_signature_dist($arg=null) {
  * @param array $set
  * @return string
  */
-function signature_set($id_signature, $set=null) {
+function signature_modifier($id_signature, $set=null) {
 	$err = '';
 
 	include_spip('inc/modifier');
@@ -67,11 +59,15 @@ function signature_set($id_signature, $set=null) {
 		$set
 	);
 
-	revision_signature($id_signature, $c);
+	return modifier_contenu('signature', $id_signature,
+		array(
+			'nonvide' => array('nom_email' => _T('info_sans_titre'))
+		),
+		$c);
 
 	// Modification de statut
 	$c = collecter_requests(array('statut','id_petition','date_time'),array(),$set);
-	$err .= instituer_signature($id_signature, $c);
+	$err .= signature_instituer($id_signature, $c);
 
 	return $err;
 }
@@ -81,7 +77,7 @@ function signature_set($id_signature, $set=null) {
  * @param int $id_petition
  * @return int
  */
-function insert_signature($id_petition) {
+function signature_inserer($id_petition) {
 
 	// Si $id_petition vaut 0 ou n'est pas definie, echouer
 	if (!$id_petition = intval($id_petition))
@@ -120,8 +116,8 @@ function insert_signature($id_petition) {
 
 // $c est un array ('statut', 'id_petition' = changement de petition)
 // il n'est pas autoriser de deplacer une signature
-// http://doc.spip.org/@instituer_signature
-function instituer_signature($id_signature, $c, $calcul_rub=true) {
+// http://doc.spip.org/@signature_instituer
+function signature_instituer($id_signature, $c, $calcul_rub=true) {
 
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
@@ -134,7 +130,7 @@ function instituer_signature($id_signature, $c, $calcul_rub=true) {
 	$d = isset($c['date_time'])?$c['date_time']:null;
 	$s = isset($c['statut'])?$c['statut']:$statut;
 
-	// cf autorisations dans inc/instituer_signature
+	// cf autorisations dans inc/signature_instituer
 	if ($s != $statut OR ($d AND $d != $date)) {
 		$statut = $champs['statut'] = $s;
 
@@ -196,17 +192,6 @@ function instituer_signature($id_signature, $c, $calcul_rub=true) {
 	return ''; // pas d'erreur
 }
 
-// http://doc.spip.org/@revision_signature
-function revision_signature($id_signature, $c=false) {
-
-	include_spip('inc/modifier');
-	return modifier_contenu('signature', $id_signature,
-		array(
-			'nonvide' => array('nom_email' => _T('info_sans_titre'))
-		),
-		$c);
-}
-
 
 // Pour eviter le recours a un verrou (qui bloque l'acces a la base),
 // on commence par inserer systematiquement la signature
@@ -234,6 +219,11 @@ function signature_entrop($where)
 	}
 
 	return $entrop;
+}
+
+// obsolete
+function revision_signature($id_signature, $c=false) {
+	return signature_modifier($id_signature,$c);
 }
 
 ?>

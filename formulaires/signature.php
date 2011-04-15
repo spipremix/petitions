@@ -156,10 +156,10 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 
 	include_spip('action/editer_signature');
 
-	$id_signature = insert_signature($row['id_petition']);
+	$id_signature = signature_inserer($row['id_petition']);
 	if (!$id_signature) return _T('form_pet_probleme_technique');
 
-	signature_set($id_signature,
+	signature_modifier($id_signature,
 		array(
 		'statut' => $statut,
 		'nom_email' => $nom,

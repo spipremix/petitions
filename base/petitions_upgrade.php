@@ -72,7 +72,7 @@ function upgrade_index_signatures(){
 			$id_petition = sql_getfetsel('id_petition','spip_petitions','id_article='.intval($id_article));
 			if (!$id_petition){
 				include_spip('action/editer_petition');
-				$id_petition = insert_petition($id_article);
+				$id_petition = petition_inserer($id_article);
 				sql_updateq('spip_petitions',array('statut'=>'poubelle'),'id_petition='.$id_petition);
 			}
 			sql_updateq('spip_signatures',array('id_petition'=>$id_petition),'id_article='.$id_article);
