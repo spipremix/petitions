@@ -46,7 +46,7 @@ function action_confirmer_signature_dist($var_confirm=null) {
 		return '';
 
 	if (!spip_connect()) {
-		$confirm = _T('form_pet_probleme_technique');
+		$confirm = _T('petitions:form_pet_probleme_technique');
 		return '';
 	}
 	include_spip('inc/texte');
@@ -66,15 +66,15 @@ function action_confirmer_signature_dist($var_confirm=null) {
 			)) {
 			include_spip('action/editer_signature');
 			signature_modifier($id_signature,array("statut" => 'poubelle'));
-			$confirm = _T('info_signature_supprimee');
-		} else $confirm = _T('info_signature_supprimee_erreur');
+			$confirm = _T('petitions:info_signature_supprimee');
+		} else $confirm = _T('petitions:info_signature_supprimee_erreur');
 		return '';
 	}
 
 	$row = sql_fetsel('*', 'spip_signatures', "statut=" . sql_quote($var_confirm), '', "1");
 
 	if (!$row) {
-		$confirm = _T('form_pet_aucune_signature');
+		$confirm = _T('petitions:form_pet_aucune_signature');
 		return '';
 	}
 
@@ -95,19 +95,19 @@ function action_confirmer_signature_dist($var_confirm=null) {
 	if ($email_unique) {
 		$r = "id_petition=".intval($id_petition)." AND ad_email=" . sql_quote($adresse_email);
 		if (signature_entrop($r))
-			  $confirm =  _T('form_pet_deja_signe');
+			  $confirm =  _T('petitions:form_pet_deja_signe');
 	}
 
 	if ($site_unique) {
 		$r = "id_petition=".intval($id_petition)." AND url_site=" . sql_quote($url_site);
 		if (signature_entrop($r))
-			$confirm = _T('form_pet_site_deja_enregistre');
+			$confirm = _T('petitions:form_pet_site_deja_enregistre');
 	}
 
 	include_spip('inc/session');
 
 	if (!$confirm) {
-		$confirm = _T('form_pet_signature_validee');
+		$confirm = _T('petitions:form_pet_signature_validee');
 
 		// noter dans la session que l'email est valide
 		// de facon a permettre de signer les prochaines

@@ -44,7 +44,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 'statut_poubelle' => 'Supprim&eacute;e',
 'statut_prop' => 'En attente de validation',
 'statut_publie' => 'Confirm&eacute;e',
-'voir_signatures_objet' => 'Voir les signatures'
+'voir_signatures_objet' => 'Voir les signatures',
+'signatures_meme_auteur' => 'Les signatures du même auteur',
+'signatures_meme_site' => 'Les signatures avec le même site',
 
 );
 
