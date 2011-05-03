@@ -39,5 +39,5 @@
 		<icone>images/petition-16.png</icone>
 		<titre>petitions:icone_suivi_petitions</titre>
 	</bouton>
-	<necessite id="SPIP" version="[2.3.0-dev;)" />
+	<necessite id="SPIP" version="[3.0.0-dev;)" />
 </plugin>
