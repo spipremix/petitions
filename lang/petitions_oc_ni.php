@@ -44,6 +44,7 @@ serà refudada) :
 
 Mercé de la voastra participacion
 ',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca ?',
 	'form_pet_nom_site2' => 'Nom dau voastre sit web',
 	'form_pet_probleme_liens' => 'Vorgatz tornar escriure lo voastre messatge en supprimant lu ligams ipertèxt.',
 	'form_pet_probleme_technique' => 'Problèma tecnic, li signaturas son temporàriament arrestadi.',
@@ -68,6 +69,9 @@ Mercé de la voastra participacion
 	'info_signature_supprimee_erreur' => 'Error : aquèu còde de supression correspoande à minga signatura',
 	'info_site_web' => 'SIT WEB :',
 	'info_texte_message' => 'Tèxt dau voastre messatge:',
+
+	// L
+	'lien_reponse_article' => 'Respoasta à l\'article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

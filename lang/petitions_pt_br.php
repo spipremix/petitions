@@ -44,6 +44,7 @@ rejeitado):
 
 Obrigado por participar
 ',
+	'form_pet_message_commentaire' => 'Uma mensagem ou comentário?',
 	'form_pet_nom_site2' => 'Nome do seu website',
 	'form_pet_probleme_liens' => 'Por favor, retire os links hipertexto da sua mensagem.',
 	'form_pet_probleme_technique' => 'Problema técnico: as assinaturas estão suspensas temporariamente.',
@@ -68,6 +69,9 @@ Obrigado por participar
 	'info_signature_supprimee_erreur' => 'Erro: este código de exclusão não corresponde a nenhuma assinatura',
 	'info_site_web' => 'WEBSITE:',
 	'info_texte_message' => 'Texto da sua mensagem:',
+
+	// L
+	'lien_reponse_article' => 'Resposta à matéria',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

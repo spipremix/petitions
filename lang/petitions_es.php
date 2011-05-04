@@ -45,6 +45,7 @@ no podrá ser tomada en cuenta):
 
 Gracias por tu participación
 ',
+	'form_pet_message_commentaire' => '¿Un mensaje, un comentario?',
 	'form_pet_nom_site2' => 'Nombre de tu sitio Web',
 	'form_pet_probleme_liens' => 'Ingresa nuevamente tu mensaje, quitando los enlaces hypertexto.',
 	'form_pet_probleme_technique' => 'Problema técnico, las firmas están temporalmente suspendidas.',
@@ -69,6 +70,9 @@ Gracias por tu participación
 	'info_signature_supprimee_erreur' => 'Error: este código de eliminación no  corresponde a ninguna firma',
 	'info_site_web' => 'Sitio Web:',
 	'info_texte_message' => 'Texto del mensaje',
+
+	// L
+	'lien_reponse_article' => 'Respuesta al artículo',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

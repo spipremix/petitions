@@ -44,6 +44,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Ευχαριστούμε για τη συμμετοχή σας
 ',
+	'form_pet_message_commentaire' => 'Μήνυμα, σχόλιο ;',
 	'form_pet_nom_site2' => 'Ονομα της ιστοσελίδα σας',
 	'form_pet_probleme_liens' => 'Παρακαλώ να ξαναγράψετε το μήνυμά σας χωρίς ενεργούς δεσμούς.',
 	'form_pet_probleme_technique' => 'Τεχνικό πρόβλημα, προσωρινά δεν είναι δυνατόν να γίνουν εγγραφές.',
@@ -68,6 +69,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signature', # NEW
 	'info_site_web' => 'WEB SITE:', # NEW
 	'info_texte_message' => 'Text of your message:', # NEW
+
+	// L
+	'lien_reponse_article' => 'Reply to the article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

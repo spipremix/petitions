@@ -25,6 +25,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_deja_signe' => 'Vec ste potpisali ovaj tekst.',
 	'form_pet_envoi_mail_confirmation' => 'Upravo vam je poslan e-mail sa potvrdom. Trebate posjetiti web stranicu naznacenu u tom e-mailu, da bi ste ovjerili vas potpis.', # MODIF
 	'form_pet_mail_confirmation' => 'Dobar dan',
+	'form_pet_message_commentaire' => 'Da li zelite napisati poruku ili komentar?',
 	'form_pet_nom_site2' => 'Ime vase web stranice',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Tehnicki problem, potpisi su trenutno nedostupni.',
@@ -49,6 +50,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'WEB STRANICA :',
 	'info_texte_message' => 'Tekst vase poruke:',
+
+	// L
+	'lien_reponse_article' => 'Odgovori na clanak',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

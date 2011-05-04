@@ -44,6 +44,7 @@ zostanie odrzucona):
 
 Dziękujemy za wzięcie udziału.
 ',
+	'form_pet_message_commentaire' => 'Jakieś wiadomości lub komentarze?',
 	'form_pet_nom_site2' => 'Nazwa Twojej strony internetowej',
 	'form_pet_probleme_liens' => 'Spróbuj wysłać wiadomość po usunięciu linków.',
 	'form_pet_probleme_technique' => 'Problem techniczny, podpisy są tymczasowo zawieszone.',
@@ -68,6 +69,9 @@ Dziękujemy za wzięcie udziału.
 	'info_signature_supprimee_erreur' => 'Błąd: ten kod nie odpowiada żadnemu wpisowi',
 	'info_site_web' => 'STRONA INTERNETOWA:',
 	'info_texte_message' => 'Tekst Twojej wiadomości:',
+
+	// L
+	'lien_reponse_article' => 'Odpowiedz na ten artykuł',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

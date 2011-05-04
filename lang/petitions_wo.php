@@ -36,6 +36,7 @@ Boo bëggee weral sa xaatim, kokkal ci xàmmekaayu dal bi ci suuf boo ko deful, 
 
 
 Jaajëf ci seen wallusi',
+	'form_pet_message_commentaire' => 'Benn bataaxal, benn faranfacce ?',
 	'form_pet_nom_site2' => 'Sa makkaanu dalub web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Jafe jafe xarala, xaatim yi aja gum nañu leen.',
@@ -60,6 +61,9 @@ Jaajëf ci seen wallusi',
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SITE WEB :', # NEW
 	'info_texte_message' => 'Texte de votre message :', # NEW
+
+	// L
+	'lien_reponse_article' => 'Réponse à l\'article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

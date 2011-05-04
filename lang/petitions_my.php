@@ -26,6 +26,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_envoi_mail_confirmation' => 'အတည်ပြုချက် စာစောင်ကို​ အီးမေးလ်နှင့် ပို့ပြီးပါပြီ၊ ပေးထားသော လိပ်စာသို့သွားပြီး သင်လက်မှတ်ကို အတည်ပြုပါ။', # MODIF
 	'form_pet_mail_confirmation' => '​ဟေလို၊ သင်သည် ဒီ@titre@ တောင်းဆိုချက်ကို လက်မှတ်ထိုးရန် အဆိုပြုခဲ့ပြီးပြီ၊ အောက်ပါ သတင်းအချက်အလက်များကို ပေးထားပြီးဖြစ်ပါသည်။ နာမည် @nom_email@ ဝက်ဘ်ဆိုက်လိပ်စာ @nom_site@ - @url_site@ စာစောင် @message@
 အရေးကြီးသည်၊ သင့်လက်မှတ်ကို အတည်ပြုရန် အောက်ပါ လိပ်စာကိုနှိပ်ခြင်းဖြင့်သွားပါ၊ သို့မဟုတ်လျှင် တောင်းဆိုချက်သည် ပယ်ဖျက်ခြင်းခံရမည်။ @url@ တက်ကြွစွာပါဝင်မှုအတွက် ကျေးဇူးအထူး သင်ပါသည်။',
+	'form_pet_message_commentaire' => 'မှတ်ချက် တစ်စုံတစ်ရာ ပေးလိုပါသလား?',
 	'form_pet_nom_site2' => 'သင့်ဝက်ဘ်ဆိုက် နာမည်ပေးပါအုံး',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'နည်းပညာပြသနာ၊ လက်မှတ်ဖော်လို့မရ ဖြစ်နေသည်၊ ခဏလောက်ဆောင့်ပါအုံး၊',
@@ -50,6 +51,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'ဝက်ဘ်ဆိုက်',
 	'info_texte_message' => 'သင့် မှာကြားချက်ရှိ စာသား',
+
+	// L
+	'lien_reponse_article' => 'ဆောင်းပါးသို့ ပြန်တုန့်ပြန်ပါ',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

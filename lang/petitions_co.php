@@ -44,6 +44,7 @@ l\'indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 
 À ringrazià vi
 ',
+	'form_pet_message_commentaire' => 'Qualchì messagiu o cummentu ?',
 	'form_pet_nom_site2' => 'Nome di u vostru situ Web',
 	'form_pet_probleme_liens' => 'Ripigliate puru u vostru messagiu caccendu e lee ipertestu.',
 	'form_pet_probleme_technique' => 'Problemu tècnicu, e zifre sò suspese per qualchì tempu.',
@@ -68,6 +69,9 @@ l\'indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 	'info_signature_supprimee_erreur' => 'Errore : stu còdice di sguassamentu ùn currisponde à nisuna zifra',
 	'info_site_web' => 'SITU WEB :',
 	'info_texte_message' => 'Testu di u messagiu :',
+
+	// L
+	'lien_reponse_article' => 'Risposta à l\'artìculu',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

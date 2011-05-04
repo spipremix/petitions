@@ -44,6 +44,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 شكراً لمساهمتك
 
 ',
+	'form_pet_message_commentaire' => 'أي رسالة أو تعليق؟',
 	'form_pet_nom_site2' => 'اسم موقعك',
 	'form_pet_probleme_liens' => 'الرجاء إعادة إدخال رسالتك بعد حذف كل روابط هايبرتكست.',
 	'form_pet_probleme_technique' => 'مشكلة تقنية، التوقيعات معلقة مؤقتاً.',
@@ -68,6 +69,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'خطأ: معلومات الحذف هذه لا تناسب اي توقيع',
 	'info_site_web' => 'الموقع:',
 	'info_texte_message' => 'نص مشاركتك:',
+
+	// L
+	'lien_reponse_article' => 'الرد على المقال',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

@@ -44,6 +44,7 @@ rebutjada) :
 
 Gràcies per la participació
 ',
+	'form_pet_message_commentaire' => 'Un missatge, un comentari?',
 	'form_pet_nom_site2' => 'Nom del vostre lloc Web',
 	'form_pet_probleme_liens' => 'Vulgueu reprendre el vostre missatge suprimint-ne els enllaços.',
 	'form_pet_probleme_technique' => 'Problema tècnic, les signatures estan temporalment suspeses.',
@@ -68,6 +69,9 @@ Gràcies per la participació
 	'info_signature_supprimee_erreur' => 'Error: el codi de supressió no correspon a cap signatura',
 	'info_site_web' => 'LLOC WEB:',
 	'info_texte_message' => 'Text del vostre missatge:',
+
+	// L
+	'lien_reponse_article' => 'Resposta a l\'article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

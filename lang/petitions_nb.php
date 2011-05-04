@@ -41,6 +41,7 @@ denne adressen for å bli godkjent:
 
 Tusen takk!
 ',
+	'form_pet_message_commentaire' => 'Har du en melding eller kommentar?',
 	'form_pet_nom_site2' => 'Nettstedets navn',
 	'form_pet_probleme_liens' => 'Vennligst rediger meldingen og fjern alle lenker.',
 	'form_pet_probleme_technique' => 'Vi har et teknisk problem. Signaturer er ikke tilgjengelig. ',
@@ -65,6 +66,9 @@ Tusen takk!
 	'info_signature_supprimee_erreur' => 'Feil: det finnes ingen signatur som stemmer med denne koden ',
 	'info_site_web' => 'NETTSTED:',
 	'info_texte_message' => 'Texte de votre message :', # NEW
+
+	// L
+	'lien_reponse_article' => 'Svar på artikkelen',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

@@ -41,6 +41,7 @@ Da biste ovjerili Vaš potpis, morate se spojiti na slijedeću adresu (ukoliko t
 
 Hvala na suradnji
 ',
+	'form_pet_message_commentaire' => 'Želite li napisati poruku ili komentar?',
 	'form_pet_nom_site2' => 'Ime Vašeg web sajta',
 	'form_pet_probleme_liens' => 'Molim obrišite sve hiperlinkove u Vašoj poruci.',
 	'form_pet_probleme_technique' => 'Trenutačno imamo tehničkih poteškoća, potpisi ne funkcioniraju.',
@@ -65,6 +66,9 @@ Hvala na suradnji
 	'info_signature_supprimee_erreur' => 'Greška: Ovaj kod za brisanje ne odgovara nijednom potpisu',
 	'info_site_web' => 'WEB SITE:', # NEW
 	'info_texte_message' => 'Sadržaj vaše poruke:',
+
+	// L
+	'lien_reponse_article' => 'Reply to the article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

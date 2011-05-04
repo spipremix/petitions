@@ -44,6 +44,7 @@ será rexeitada):
 
 Grazas pola súa participación
 ',
+	'form_pet_message_commentaire' => 'Algunha mensaxe, un comentario?',
 	'form_pet_nom_site2' => 'Nome do seu Web',
 	'form_pet_probleme_liens' => 'Retome a súa mensaxe logo de suprimir as ligazóns de hipertexto.',
 	'form_pet_probleme_technique' => 'Problema técnico, as sinaturas foron suspendidas temporalmente.',
@@ -68,6 +69,9 @@ Grazas pola súa participación
 	'info_signature_supprimee_erreur' => 'Erro : este código de supresión non corresponde a ningunha sinatura',
 	'info_site_web' => 'WEB:',
 	'info_texte_message' => 'Texto da súa mensaxe:',
+
+	// L
+	'lien_reponse_article' => 'Responder ao artigo',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

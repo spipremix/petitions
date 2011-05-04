@@ -40,6 +40,7 @@ adressen nedenfor (ellers vil underskriften blive afvist):
 
 Tak for din deltagelse
 ', # MODIF
+	'form_pet_message_commentaire' => 'Meddelelse eller kommentar?',
 	'form_pet_nom_site2' => 'Navn på dit websted',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Teknisk problem: Appelfunktionen er i øjeblikket ude af drift.',
@@ -64,6 +65,9 @@ Tak for din deltagelse
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'WEBSTED:',
 	'info_texte_message' => 'Meddelelsens tekst:',
+
+	// L
+	'lien_reponse_article' => 'Kommenter denne artikel',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

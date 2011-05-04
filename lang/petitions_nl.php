@@ -43,6 +43,7 @@ Om je gegevens te valideren, volstaat het het onderstaande adres
 
 Bedankt voor je deelname
 ',
+	'form_pet_message_commentaire' => 'Een bericht, een commentaar?',
 	'form_pet_nom_site2' => 'Naam van je website',
 	'form_pet_probleme_liens' => 'Gelieve uw bericht te herbeginnen zonder internet links.',
 	'form_pet_probleme_technique' => 'Technisch probleem. Inloggen is momenteel niet mogelijk.',
@@ -67,6 +68,9 @@ Bedankt voor je deelname
 	'info_signature_supprimee_erreur' => 'Fout : de verwijderde code komt met geen enkele handtekening overeen.',
 	'info_site_web' => 'WEBSITE :',
 	'info_texte_message' => 'Tekst van je bericht:',
+
+	// L
+	'lien_reponse_article' => 'Beantwoord dit artikel',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

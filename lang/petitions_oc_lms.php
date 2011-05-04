@@ -43,6 +43,7 @@ vòstra demanda):
 
 Mercés per vòstra participacion
 ',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca?',
 	'form_pet_nom_site2' => 'Nom de vòstre sit web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problema tecnic, las signaturas son temporàriament \'restadas.',
@@ -67,6 +68,9 @@ Mercés per vòstra participacion
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SIT WEB:',
 	'info_texte_message' => 'Text de vòstre messatge:',
+
+	// L
+	'lien_reponse_article' => 'Responsa a l\'article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

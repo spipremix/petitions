@@ -38,6 +38,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 感谢您的参与
 ', # MODIF
+	'form_pet_message_commentaire' => '其它消息和评论?',
 	'form_pet_nom_site2' => '您的站点名',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '技术问题,签名被即刻中断.',
@@ -62,6 +63,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => '站点:',
 	'info_texte_message' => '你的消息正文:',
+
+	// L
+	'lien_reponse_article' => '回应文章',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

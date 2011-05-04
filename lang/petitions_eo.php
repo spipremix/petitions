@@ -44,6 +44,7 @@ estos rifuzita):
 
 Dankon pro via partopreno
 ',
+	'form_pet_message_commentaire' => 'Ĉu mesaĝon, ĉu komenton ?',
 	'form_pet_nom_site2' => 'Nomo de via retejo',
 	'form_pet_probleme_liens' => 'Bonvolu retrakti vian mesaĝon forigante hiperteskajn ligilojn.',
 	'form_pet_probleme_technique' => 'Teknika problemo, la subskribeblo estas portempe ne ebla.',
@@ -68,6 +69,9 @@ Dankon pro via partopreno
 	'info_signature_supprimee_erreur' => 'Eraro : tiu ĉi forviŝcela kodo kongruas kun neniu subskribo',
 	'info_site_web' => 'RETEJO :',
 	'info_texte_message' => 'Teksto de via mesaĝo :',
+
+	// L
+	'lien_reponse_article' => 'Respondo al la artikolo',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

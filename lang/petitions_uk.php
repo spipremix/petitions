@@ -25,6 +25,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_deja_signe' => 'Ви вже підписали цей текст.',
 	'form_pet_envoi_mail_confirmation' => 'Підтвердження по електронній пошті було відправлено до вас. Ви повинні відвідати веб-адресу, вказану в листі для підтвердження вашого підпису.',
 	'form_pet_mail_confirmation' => 'Добрий день! Ви просили підписати петицію:  заголовок.Ви надали наступну інформацію:      Ім\'я: e-mail     Сайт: назва сайту     Сайт повідомленняВАЖЛИВО ...Щоб перевірити свій підпис, достатньо підключитись за нижче поданою адресою (в іншому випадку, Ваш запит буде відхилено): Спасибі за вашу участь ',
+	'form_pet_message_commentaire' => 'Повідомлення чи коментар?',
 	'form_pet_nom_site2' => 'Назва вашого сайту',
 	'form_pet_probleme_liens' => 'Будь ласка, відправте ваше повідомлення шляхом видалення гіперпосилання.',
 	'form_pet_probleme_technique' => 'Технічна проблема, підписи тимчасово призупинено.',
@@ -49,6 +50,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SITE WEB :', # NEW
 	'info_texte_message' => 'Texte de votre message :', # NEW
+
+	// L
+	'lien_reponse_article' => 'Réponse à l\'article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

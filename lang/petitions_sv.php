@@ -40,6 +40,7 @@ adressen nedan (annars kommer din begäran att nekas:
 
 Tack för ditt deltagande
 ',
+	'form_pet_message_commentaire' => 'Något meddelande eller kommentar?',
 	'form_pet_nom_site2' => 'Namn på din webbssajt',
 	'form_pet_probleme_liens' => 'Var vänlig ändra ditt meddelande, ta bort alla hyperlänkar.',
 	'form_pet_probleme_technique' => 'Registrering är tillfälligtvis omöjligt på grund av ett tekniskt problem.',
@@ -64,6 +65,9 @@ Tack för ditt deltagande
 	'info_signature_supprimee_erreur' => 'Fel: den här raderingskoden motsvarar ingen underskrift',
 	'info_site_web' => 'WEBBSAJT:',
 	'info_texte_message' => 'Texten i ditt meddelande:',
+
+	// L
+	'lien_reponse_article' => 'Svara på artikeln',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

@@ -42,6 +42,7 @@ Um Ihre Unterschrift zu bestätigen müssen Sie diese Seite aufrufen (wenn Sie e
 
 Vielen Dank für Ihre Teilnahme
 ',
+	'form_pet_message_commentaire' => 'Eine Nachricht, ein Kommentar?',
 	'form_pet_nom_site2' => 'Name Ihrer Website',
 	'form_pet_probleme_liens' => 'Bitte entfernen Sie die Hyperlinks aus Ihrer Nachricht.',
 	'form_pet_probleme_technique' => 'Technisches Problem: Signaturen sind vorübergehend nicht möglich.',
@@ -66,6 +67,9 @@ Vielen Dank für Ihre Teilnahme
 	'info_signature_supprimee_erreur' => 'Fehler: Dieser Löschcode entspricht keiner Unterschrift.',
 	'info_site_web' => 'WEBSITE:',
 	'info_texte_message' => 'Text Ihrer Nachricht:',
+
+	// L
+	'lien_reponse_article' => 'Antwort auf Artikel',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

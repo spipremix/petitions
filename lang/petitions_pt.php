@@ -43,6 +43,7 @@ Para validar a sua assinatura, basta ligar-se ao
 
 Obrigado pela sua participação
 ', # MODIF
+	'form_pet_message_commentaire' => 'Uma mensagem, um comentário ?',
 	'form_pet_nom_site2' => 'Nome do seu sítio Web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problema técnico, as assinaturas estão temporariamente suspensas.',
@@ -67,6 +68,9 @@ Obrigado pela sua participação
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SÍTIO WEB :',
 	'info_texte_message' => 'Texto da sua mensagem :',
+
+	// L
+	'lien_reponse_article' => 'Resposta ao artigo',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

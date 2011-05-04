@@ -42,6 +42,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Благодаря за участието!
 ',
+	'form_pet_message_commentaire' => 'Коментар?',
 	'form_pet_nom_site2' => 'Име на Вашия сайт',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Техническа грешка: записите са прекъснати моментално.',
@@ -66,6 +67,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'ИНТЕРНЕТ САЙТ:',
 	'info_texte_message' => 'Текст на съобщението:',
+
+	// L
+	'lien_reponse_article' => 'Отговор на статията',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

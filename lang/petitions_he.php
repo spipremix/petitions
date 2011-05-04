@@ -41,6 +41,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 תודה על השתתפותך
 ',
+	'form_pet_message_commentaire' => 'יש לך תגובה או הודעה ?',
 	'form_pet_nom_site2' => 'שם האתר שלך',
 	'form_pet_probleme_liens' => 'נא לתקן את הודעתך בהסרת הקישורים.',
 	'form_pet_probleme_technique' => 'בעיה טכנית, חתימות לא עובדות כרגע.',
@@ -65,6 +66,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'טעות : קוד המחיקה לא מתאים לאף חתימה',
 	'info_site_web' => 'אתר אינטרנט :',
 	'info_texte_message' => 'הטקסט של ההודעה שלך :',
+
+	// L
+	'lien_reponse_article' => 'Réponse à l\'article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

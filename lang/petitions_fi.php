@@ -42,6 +42,7 @@ will be rejected):
 
 Thank you for your participation!
 ', # NEW
+	'form_pet_message_commentaire' => 'Viestiä tai kommenttia?',
 	'form_pet_nom_site2' => 'Nettisivustosi nimi',
 	'form_pet_probleme_liens' => 'Please edit your message, taking out all hyperlinks.', # NEW
 	'form_pet_probleme_technique' => 'Technical problem, signatures are interrupted momentarily.', # NEW
@@ -66,6 +67,9 @@ Thank you for your participation!
 	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signature', # NEW
 	'info_site_web' => 'NETTISIVU:',
 	'info_texte_message' => 'Viestisi teksti:',
+
+	// L
+	'lien_reponse_article' => 'Reply to the article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

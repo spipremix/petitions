@@ -43,6 +43,7 @@ adresa de mai jos (în caz contrat, cererea dumneavoastră va fi refuzată) :
 
 Mulţumim pentru participarea dumneavoastră
 ',
+	'form_pet_message_commentaire' => 'Un mesaj, un comentariu ?',
 	'form_pet_nom_site2' => 'Numele site-ului dumneavoastră de Web',
 	'form_pet_probleme_liens' => 'Vă rugăm să reluati introducerea mesajului - suprimaţi legăturile hipertext.',
 	'form_pet_probleme_technique' => 'Datorită unor probleme tehnice, semnăturile sunt deocamdată suspendate.',
@@ -67,6 +68,9 @@ Mulţumim pentru participarea dumneavoastră
 	'info_signature_supprimee_erreur' => 'Eroare : acest cod de ştergere nu corespunde nici unei semnături',
 	'info_site_web' => 'SITE WEB :',
 	'info_texte_message' => 'Textul mesajului dumneavoastră :',
+
+	// L
+	'lien_reponse_article' => 'Răspuns la articol',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

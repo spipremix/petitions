@@ -25,6 +25,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_deja_signe' => 'mī kó ɖálɔ wěmá é lɔ mɛ',
 	'form_pet_envoi_mail_confirmation' => 'mī kó sɛ e-mailù ɖó mí. mī kpɔn gèsí wɛbù ɔ tɔn é lò e-mailù ɔ mɛ ɔ bó sɔ hɛn nú àlɔɖówěmámɛ mī tɔn', # MODIF
 	'form_pet_mail_confirmation' => 'mī fɔn á', # MODIF
+	'form_pet_message_commentaire' => 'wɛn, tɛ xójí?',
 	'form_pet_nom_site2' => 'nyìkɔ gblogblojí ɔ tɔn ',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'mī ɖó àlɔɖówěmámɛ tè hwɛ',
@@ -49,6 +50,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'Gblogblojí :',
 	'info_texte_message' => 'wě wɛn mi tɔn :',
+
+	// L
+	'lien_reponse_article' => 'yígbjè nú wékpá é lɔ',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

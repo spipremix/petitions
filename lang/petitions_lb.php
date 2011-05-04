@@ -43,6 +43,7 @@ Fir är Ënnerschrëft ze validéieren, surft op dës Adress (am aneren Fall gë
 
 Merci fir är Participatioun
 ',
+	'form_pet_message_commentaire' => 'E Message, e Kommentar?',
 	'form_pet_nom_site2' => 'Numm vun ärem Site',
 	'form_pet_probleme_liens' => 'Korrigéiert äre Message a maacht d\'Hypertext-Linken ewech.',
 	'form_pet_probleme_technique' => 'Technësche Problem, d\'Ënnerschrëften si momentan ausser Betrieb.',
@@ -67,6 +68,9 @@ Merci fir är Participatioun
 	'info_signature_supprimee_erreur' => 'Fehler: dëse Läsch-Code entsprëcht kénger Ënnerschrëft',
 	'info_site_web' => 'SITE:',
 	'info_texte_message' => 'Text vun ärem Message:',
+
+	// L
+	'lien_reponse_article' => 'Äntwert op den Artikel',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

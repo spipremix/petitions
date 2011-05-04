@@ -45,6 +45,7 @@ reddedilecektir) :
 
 Katılımınız için teşekkürler
 ',
+	'form_pet_message_commentaire' => 'Bir ileti, bir yorum ?',
 	'form_pet_nom_site2' => 'Sitenizin ismi',
 	'form_pet_probleme_liens' => 'Lütfen iletinizi hipermetin bağlarını silerek tekrar giriniz',
 	'form_pet_probleme_technique' => 'Teknik bir sorun var, imzalar geçici olarak iptal edildi.',
@@ -69,6 +70,9 @@ Katılımınız için teşekkürler
 	'info_signature_supprimee_erreur' => 'Hata : bu silme kodu hiçbir imzaya karşı düşmüyor',
 	'info_site_web' => 'WEB SiTESİ :',
 	'info_texte_message' => 'İletinizin metni :',
+
+	// L
+	'lien_reponse_article' => 'Bu makaleye yanıt ',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

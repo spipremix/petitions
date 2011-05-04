@@ -43,6 +43,7 @@ lenti címhez kell csatlakozni (ellenkező esetben az Ön kérése el lesz utas�
 
 Köszönjük részvételét!
 ',
+	'form_pet_message_commentaire' => 'Üzenet, hozzászólás ?',
 	'form_pet_nom_site2' => 'Honlapjának neve',
 	'form_pet_probleme_liens' => 'Kérjük, törölje a hiperhivatkozásokat üzenetéből.',
 	'form_pet_probleme_technique' => 'Technikai hiba, az aláírás ideiglenesen fel van függesztve.',
@@ -67,6 +68,9 @@ Köszönjük részvételét!
 	'info_signature_supprimee_erreur' => 'Hiba: a törlési kód nem egyezik egyetlen aláírással sem',
 	'info_site_web' => 'HONLAP :',
 	'info_texte_message' => 'Üzenete szövege :',
+
+	// L
+	'lien_reponse_article' => 'Hozzászólás a cikkről',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

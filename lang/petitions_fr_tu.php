@@ -40,6 +40,7 @@ sera rejetée) :
 
 Merci de ta participation
 ',
+	'form_pet_message_commentaire' => 'Un message, un commentaire ?',
 	'form_pet_nom_site2' => 'Nom de ton site Web',
 	'form_pet_probleme_liens' => 'Reprends ton message en supprimant les liens hypertexte.',
 	'form_pet_probleme_technique' => 'Problème technique, les signatures sont temporairement suspendues.',
@@ -64,6 +65,9 @@ Merci de ta participation
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature',
 	'info_site_web' => 'SITE WEB :',
 	'info_texte_message' => 'Texte de ton message :',
+
+	// L
+	'lien_reponse_article' => 'Réponse à l\'article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

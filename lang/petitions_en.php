@@ -42,6 +42,7 @@ will be rejected):
 
 Thank you for participating!
 ',
+	'form_pet_message_commentaire' => 'Any message or comments?',
 	'form_pet_nom_site2' => 'Name of your website',
 	'form_pet_probleme_liens' => 'Please edit your message, removing all hyperlinks.',
 	'form_pet_probleme_technique' => 'Technical problem: signatures are interrupted momentarily.',
@@ -66,6 +67,9 @@ Thank you for participating!
 	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signatures',
 	'info_site_web' => 'WEBSITE:',
 	'info_texte_message' => 'Text of your message:',
+
+	// L
+	'lien_reponse_article' => 'Comment on this article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

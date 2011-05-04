@@ -38,6 +38,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 از شركتتان متشكريم
  ',
+	'form_pet_message_commentaire' => 'يك پيام ، يك تفسير ؟',
 	'form_pet_nom_site2' => 'نام سايتتان<b>      ',
 	'form_pet_probleme_liens' => 'خواهشمند است پیامتان را با حذف پیوند هایپرتکت دریافت کنید.',
 	'form_pet_probleme_technique' => 'نقص فنى، امضاء ها موقتأ لغو شدند',
@@ -62,6 +63,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'اشتباه: این کد حذفی به هیچ امضائی مربوط نیست',
 	'info_site_web' => 'SITE WEB :', # NEW
 	'info_texte_message' => 'Texte de votre message :', # NEW
+
+	// L
+	'lien_reponse_article' => 'Réponse à l\'article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

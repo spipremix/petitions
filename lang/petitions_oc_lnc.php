@@ -44,6 +44,7 @@ vòstra demanda):
 
 Mercés per vòstra participacion
 ',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca ?',
 	'form_pet_nom_site2' => 'Nom de vòstre sit Web',
 	'form_pet_probleme_liens' => 'Volgatz tornar prene vòstre messatge en supprimir los ligams ipertèxt.',
 	'form_pet_probleme_technique' => 'Problèma tecnic, las signaturas son temporàriament arrestadas.',
@@ -68,6 +69,9 @@ Mercés per vòstra participacion
 	'info_signature_supprimee_erreur' => 'Error : aquel còde de suppression correspond pas a a cap de signatura',
 	'info_site_web' => 'SIT WEB:',
 	'info_texte_message' => 'Tèxt del vòstre messatge:',
+
+	// L
+	'lien_reponse_article' => 'Responsa a l\'article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

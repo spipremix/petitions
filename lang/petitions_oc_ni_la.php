@@ -43,6 +43,7 @@ Per validar la vòstra signatura, basta de vos connectar a
 
 Mercé per la vòstra participacion
 ',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca?',
 	'form_pet_nom_site2' => 'Nom dau vòstre sit web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problèma tecnic, li signaturas son temporàriament arrestadi.',
@@ -67,6 +68,9 @@ Mercé per la vòstra participacion
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SIT WEB:',
 	'info_texte_message' => 'Tèxt dau vòstre messatge:',
+
+	// L
+	'lien_reponse_article' => 'Respòsta a l\'article',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

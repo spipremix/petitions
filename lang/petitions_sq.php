@@ -41,6 +41,7 @@ poshtë këtij teksti:
 
 Faleminderit për pjesëmarrjen
 ', # MODIF
+	'form_pet_message_commentaire' => 'A keni ndonjë mesazh apo koment për të bërë?',
 	'form_pet_nom_site2' => 'Emri i Faqes suaj',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problem teknik, nuk mund të firmosni në këtë moment.',
@@ -65,6 +66,9 @@ Faleminderit për pjesëmarrjen
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SITE WEB :', # NEW
 	'info_texte_message' => 'Texte de votre message :', # NEW
+
+	// L
+	'lien_reponse_article' => 'Réponse à l\'article', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

@@ -42,6 +42,7 @@ akan ditolak):
 
 Terima kasih atas partisipasi anda!
 ',
+	'form_pet_message_commentaire' => 'Ada pesan atau komentar?',
 	'form_pet_nom_site2' => 'Nama situs web anda',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Permasalahan teknis, sistem tanda tangan untuk sementara waktu terganggu.',
@@ -66,6 +67,9 @@ Terima kasih atas partisipasi anda!
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
 	'info_site_web' => 'SITUS WEB:',
 	'info_texte_message' => 'Teks pesan anda:',
+
+	// L
+	'lien_reponse_article' => 'Balasan pada artikel',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

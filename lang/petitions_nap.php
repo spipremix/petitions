@@ -40,6 +40,7 @@ Pe cunvalidà \\\'a firma d\\\'\\\'a vosta, v\\\'avite cullegà \\\'o nnerizzoin
 
 
 Grazzje assaje pe pparticipà',
+	'form_pet_message_commentaire' => 'Nu messaggio, na crosa?',
 	'form_pet_nom_site2' => 'Nomme d\\\'\\\'o sito web d\\\'\\\'o vuosto',
 	'form_pet_probleme_liens' => 'Pe ppiacere, cagnate \\\'o messaggio d\\\'\\\'o vuosto cancellanno tutte \\\'e gghjonte.',
 	'form_pet_probleme_technique' => 'Prublema t&amp;egrave;cnico, \\\'e scrizzione stanno \\\'ncampana pe mmo.',
@@ -64,6 +65,9 @@ Grazzje assaje pe pparticipà',
 	'info_signature_supprimee_erreur' => 'Arrore: chistu codice \'e eliminazzione nun currisponne a nisciuna firma',
 	'info_site_web' => 'SITO WEB:', # NEW
 	'info_texte_message' => 'Testo del messaggio:', # NEW
+
+	// L
+	'lien_reponse_article' => 'Risposta all\'articolo', # NEW
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

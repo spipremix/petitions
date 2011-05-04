@@ -43,6 +43,7 @@ Evit kadarnaat ho sinadur eo trawalc\'h deoc\'h mont d\'ar chomlec\'h amañ dind
 
 Trugarez da gemer perzh
 ',
+	'form_pet_message_commentaire' => 'Ur gemennadenn, un evezhiadenn ?',
 	'form_pet_nom_site2' => 'Anv ho lec\'hienn',
 	'form_pet_probleme_liens' => 'Savit ho kemennadenn en-dro en ur dennañ ar gourliammoù zo enni. ',
 	'form_pet_probleme_technique' => 'Ur gudenn deknikel zo, n\'haller ket sinañ evit ar poent.',
@@ -67,6 +68,9 @@ Trugarez da gemer perzh
 	'info_signature_supprimee_erreur' => 'Fazi : ne glot ar c\'hod diverkañ-mañ gant sinadur ebet.',
 	'info_site_web' => 'LEC\'HIENN :',
 	'info_texte_message' => 'Testenn ho kemennadenn :',
+
+	// L
+	'lien_reponse_article' => 'Respont d\'ar pennad',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW

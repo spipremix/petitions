@@ -40,6 +40,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Спасибо за участие!
 ',
+	'form_pet_message_commentaire' => 'Любое сообщение или комментарий?',
 	'form_pet_nom_site2' => 'Название вашего сайта',
 	'form_pet_probleme_liens' => 'Отредактируйте ваше сообщение, исключив из него все ссылки.',
 	'form_pet_probleme_technique' => 'Техническая проблема, подписка временно не работает.',
@@ -64,6 +65,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'Ошибка: данному удалению не соответствует никакая подпись',
 	'info_site_web' => 'ВЕБСАЙТ:',
 	'info_texte_message' => 'Текст Вашего сообщения:',
+
+	// L
+	'lien_reponse_article' => 'Ответить на статью',
 
 	// N
 	'nombre_signatures' => '@nb@ signatures', # NEW
