@@ -42,7 +42,7 @@ Per confermare la tua adesione è sufficiente visitare l\'indirizzo web qui sott
 
 
 Grazie per la partecipazione',
-	'form_pet_message_commentaire' => 'Un messaggio, un commento?',
+	'form_pet_message_commentaire' => 'Un messaggio, un commento?', # MODIF
 	'form_pet_nom_site2' => 'Nome del tuo sito Web',
 	'form_pet_probleme_liens' => 'Per favore, riprenda il suo messaggio ed elimini i link ipertestuali.',
 	'form_pet_probleme_technique' => 'Le adesioni sono temporaneamente sospese per il verificarsi di problemi tecnici.',

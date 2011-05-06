@@ -44,7 +44,7 @@ rebutjada) :
 
 Gràcies per la participació
 ',
-	'form_pet_message_commentaire' => 'Un missatge, un comentari?',
+	'form_pet_message_commentaire' => 'Un missatge, un comentari?', # MODIF
 	'form_pet_nom_site2' => 'Nom del vostre lloc Web',
 	'form_pet_probleme_liens' => 'Vulgueu reprendre el vostre missatge suprimint-ne els enllaços.',
 	'form_pet_probleme_technique' => 'Problema tècnic, les signatures estan temporalment suspeses.',

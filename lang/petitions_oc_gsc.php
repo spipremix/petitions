@@ -43,7 +43,7 @@ la vòsta demanda):
 
 Mercés entà la vòsta participacion
 ', # MODIF
-	'form_pet_message_commentaire' => 'Un messatge, ua remarca?',
+	'form_pet_message_commentaire' => 'Un messatge, ua remarca?', # MODIF
 	'form_pet_nom_site2' => 'Nom deu vòste sit web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problèma tecnic, las signaturas que son temporàriament arrestadas.',

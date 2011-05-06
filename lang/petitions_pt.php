@@ -43,7 +43,7 @@ Para validar a sua assinatura, basta ligar-se ao
 
 Obrigado pela sua participação
 ', # MODIF
-	'form_pet_message_commentaire' => 'Uma mensagem, um comentário ?',
+	'form_pet_message_commentaire' => 'Uma mensagem, um comentário ?', # MODIF
 	'form_pet_nom_site2' => 'Nome do seu sítio Web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problema técnico, as assinaturas estão temporariamente suspensas.',

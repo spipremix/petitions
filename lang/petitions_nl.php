@@ -43,7 +43,7 @@ Om je gegevens te valideren, volstaat het het onderstaande adres
 
 Bedankt voor je deelname
 ',
-	'form_pet_message_commentaire' => 'Een bericht, een commentaar?',
+	'form_pet_message_commentaire' => 'Een bericht, een commentaar?', # MODIF
 	'form_pet_nom_site2' => 'Naam van je website',
 	'form_pet_probleme_liens' => 'Gelieve uw bericht te herbeginnen zonder internet links.',
 	'form_pet_probleme_technique' => 'Technisch probleem. Inloggen is momenteel niet mogelijk.',

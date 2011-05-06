@@ -44,7 +44,7 @@ será rexeitada):
 
 Grazas pola súa participación
 ',
-	'form_pet_message_commentaire' => 'Algunha mensaxe, un comentario?',
+	'form_pet_message_commentaire' => 'Algunha mensaxe, un comentario?', # MODIF
 	'form_pet_nom_site2' => 'Nome do seu Web',
 	'form_pet_probleme_liens' => 'Retome a súa mensaxe logo de suprimir as ligazóns de hipertexto.',
 	'form_pet_probleme_technique' => 'Problema técnico, as sinaturas foron suspendidas temporalmente.',

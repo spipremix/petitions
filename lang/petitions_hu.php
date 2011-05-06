@@ -43,7 +43,7 @@ lenti címhez kell csatlakozni (ellenkező esetben az Ön kérése el lesz utas�
 
 Köszönjük részvételét!
 ',
-	'form_pet_message_commentaire' => 'Üzenet, hozzászólás ?',
+	'form_pet_message_commentaire' => 'Üzenet, hozzászólás ?', # MODIF
 	'form_pet_nom_site2' => 'Honlapjának neve',
 	'form_pet_probleme_liens' => 'Kérjük, törölje a hiperhivatkozásokat üzenetéből.',
 	'form_pet_probleme_technique' => 'Technikai hiba, az aláírás ideiglenesen fel van függesztve.',

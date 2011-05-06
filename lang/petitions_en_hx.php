@@ -41,7 +41,7 @@ w111 b3 r3j3c73d):
 
 7h4nk y0u f0r y0ur p4r71c1p4710n
 ', # MODIF
-	'form_pet_message_commentaire' => '4ny m3554g3 0r c0mm3n7?',
+	'form_pet_message_commentaire' => '4ny m3554g3 0r c0mm3n7?', # MODIF
 	'form_pet_nom_site2' => 'N4m3 0f y0ur w3b 5173',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '73chn1c41 pr0b13m, 51gn47ur35 4r3 1n73rrup73d m0m3n74r11y.',

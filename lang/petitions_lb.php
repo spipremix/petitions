@@ -43,7 +43,7 @@ Fir är Ënnerschrëft ze validéieren, surft op dës Adress (am aneren Fall gë
 
 Merci fir är Participatioun
 ',
-	'form_pet_message_commentaire' => 'E Message, e Kommentar?',
+	'form_pet_message_commentaire' => 'E Message, e Kommentar?', # MODIF
 	'form_pet_nom_site2' => 'Numm vun ärem Site',
 	'form_pet_probleme_liens' => 'Korrigéiert äre Message a maacht d\'Hypertext-Linken ewech.',
 	'form_pet_probleme_technique' => 'Technësche Problem, d\'Ënnerschrëften si momentan ausser Betrieb.',

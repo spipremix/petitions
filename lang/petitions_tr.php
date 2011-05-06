@@ -45,7 +45,7 @@ reddedilecektir) :
 
 Katılımınız için teşekkürler
 ',
-	'form_pet_message_commentaire' => 'Bir ileti, bir yorum ?',
+	'form_pet_message_commentaire' => 'Bir ileti, bir yorum ?', # MODIF
 	'form_pet_nom_site2' => 'Sitenizin ismi',
 	'form_pet_probleme_liens' => 'Lütfen iletinizi hipermetin bağlarını silerek tekrar giriniz',
 	'form_pet_probleme_technique' => 'Teknik bir sorun var, imzalar geçici olarak iptal edildi.',

@@ -43,7 +43,7 @@ Per validar la vòstra signatura, basta de vos connectar a
 
 Mercé per la vòstra participacion
 ',
-	'form_pet_message_commentaire' => 'Un messatge, una remarca?',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca?', # MODIF
 	'form_pet_nom_site2' => 'Nom dau vòstre sit web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problèma tecnic, li signaturas son temporàriament arrestadi.',

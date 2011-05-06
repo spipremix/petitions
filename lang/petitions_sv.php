@@ -40,7 +40,7 @@ adressen nedan (annars kommer din begäran att nekas:
 
 Tack för ditt deltagande
 ',
-	'form_pet_message_commentaire' => 'Något meddelande eller kommentar?',
+	'form_pet_message_commentaire' => 'Något meddelande eller kommentar?', # MODIF
 	'form_pet_nom_site2' => 'Namn på din webbssajt',
 	'form_pet_probleme_liens' => 'Var vänlig ändra ditt meddelande, ta bort alla hyperlänkar.',
 	'form_pet_probleme_technique' => 'Registrering är tillfälligtvis omöjligt på grund av ett tekniskt problem.',

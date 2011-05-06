@@ -44,7 +44,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Ευχαριστούμε για τη συμμετοχή σας
 ',
-	'form_pet_message_commentaire' => 'Μήνυμα, σχόλιο ;',
+	'form_pet_message_commentaire' => 'Μήνυμα, σχόλιο ;', # MODIF
 	'form_pet_nom_site2' => 'Ονομα της ιστοσελίδα σας',
 	'form_pet_probleme_liens' => 'Παρακαλώ να ξαναγράψετε το μήνυμά σας χωρίς ενεργούς δεσμούς.',
 	'form_pet_probleme_technique' => 'Τεχνικό πρόβλημα, προσωρινά δεν είναι δυνατόν να γίνουν εγγραφές.',

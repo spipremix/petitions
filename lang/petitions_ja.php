@@ -40,7 +40,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 参加してくれてありがとうございました。
 ', # MODIF
-	'form_pet_message_commentaire' => 'よろしければメッセージをお寄せください。',
+	'form_pet_message_commentaire' => 'よろしければメッセージをお寄せください。', # MODIF
 	'form_pet_nom_site2' => 'あなたのウェブサイトの名前',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '技術的問題、署名はほんの短い間、中断されました。',

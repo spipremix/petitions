@@ -44,7 +44,7 @@ sera rejetée) :
 
 Merci de votre participation
 ', # NEW
-	'form_pet_message_commentaire' => 'Pranešimas, komentaras?',
+	'form_pet_message_commentaire' => 'Pranešimas, komentaras?', # MODIF
 	'form_pet_nom_site2' => 'Jūsų interneto svetainės vardas',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problème technique, les signatures sont temporairement suspendues.', # NEW

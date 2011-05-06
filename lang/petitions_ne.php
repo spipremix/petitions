@@ -42,7 +42,7 @@ will be rejected):
 
 तपाईको सहभागितको लागि धेरै धेरै धन्यबाद ॥
 ', # still english
-	'form_pet_message_commentaire' => 'कुनै खबर अथवा टिप्पणी?',
+	'form_pet_message_commentaire' => 'कुनै खबर अथवा टिप्पणी?', # MODIF
 	'form_pet_nom_site2' => 'वोइभसाईटको नाम',
 	'form_pet_probleme_liens' => 'सबै हाईपरलिङ्कहरु निकालेर तपाईको खबर सम्पादन गर्नुहोस्',
 	'form_pet_probleme_technique' => 'प्राविधक समस्याको कारण हस्ताक्षरहरुमा अबरोध भएको छैन ।',

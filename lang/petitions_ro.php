@@ -43,7 +43,7 @@ adresa de mai jos (în caz contrat, cererea dumneavoastră va fi refuzată) :
 
 Mulţumim pentru participarea dumneavoastră
 ',
-	'form_pet_message_commentaire' => 'Un mesaj, un comentariu ?',
+	'form_pet_message_commentaire' => 'Un mesaj, un comentariu ?', # MODIF
 	'form_pet_nom_site2' => 'Numele site-ului dumneavoastră de Web',
 	'form_pet_probleme_liens' => 'Vă rugăm să reluati introducerea mesajului - suprimaţi legăturile hipertext.',
 	'form_pet_probleme_technique' => 'Datorită unor probleme tehnice, semnăturile sunt deocamdată suspendate.',

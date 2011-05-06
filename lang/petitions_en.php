@@ -42,7 +42,7 @@ will be rejected):
 
 Thank you for participating!
 ',
-	'form_pet_message_commentaire' => 'Any message or comments?',
+	'form_pet_message_commentaire' => 'Any message or comments?', # MODIF
 	'form_pet_nom_site2' => 'Name of your website',
 	'form_pet_probleme_liens' => 'Please edit your message, removing all hyperlinks.',
 	'form_pet_probleme_technique' => 'Technical problem: signatures are interrupted momentarily.',

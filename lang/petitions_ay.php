@@ -45,7 +45,7 @@ Iyaw sawima iyaw sañatakix utjawir uñachayata ukar chinusiñamawa
 
 Arsusiwitamatxa yuspagara
    ',
-	'form_pet_message_commentaire' => '¿Mä yatiyawi, mä amuyu?',
+	'form_pet_message_commentaire' => '¿Mä yatiyawi, mä amuyu?', # MODIF
 	'form_pet_nom_site2' => 'Web qamawiman sutipa',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Jan wali, iyawsanakax sayt\'ataw anchhichanakax.',

@@ -40,7 +40,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Спасибо за участие!
 ',
-	'form_pet_message_commentaire' => 'Любое сообщение или комментарий?',
+	'form_pet_message_commentaire' => 'Любое сообщение или комментарий?', # MODIF
 	'form_pet_nom_site2' => 'Название вашего сайта',
 	'form_pet_probleme_liens' => 'Отредактируйте ваше сообщение, исключив из него все ссылки.',
 	'form_pet_probleme_technique' => 'Техническая проблема, подписка временно не работает.',

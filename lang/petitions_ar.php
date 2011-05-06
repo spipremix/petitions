@@ -44,7 +44,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 شكراً لمساهمتك
 
 ',
-	'form_pet_message_commentaire' => 'أي رسالة أو تعليق؟',
+	'form_pet_message_commentaire' => 'أي رسالة أو تعليق؟', # MODIF
 	'form_pet_nom_site2' => 'اسم موقعك',
 	'form_pet_probleme_liens' => 'الرجاء إعادة إدخال رسالتك بعد حذف كل روابط هايبرتكست.',
 	'form_pet_probleme_technique' => 'مشكلة تقنية، التوقيعات معلقة مؤقتاً.',

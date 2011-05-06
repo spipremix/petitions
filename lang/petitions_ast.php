@@ -44,7 +44,7 @@ la to solicitú):
 
 Gracies por participar
 ',
-	'form_pet_message_commentaire' => '¿Un mensaxe, un comentariu?',
+	'form_pet_message_commentaire' => '¿Un mensaxe, un comentariu?', # MODIF
 	'form_pet_nom_site2' => 'Nome del to sitiu Web',
 	'form_pet_probleme_liens' => 'Ties que iguar el to mensaxe quitando-y los enllaces d\'hipertestu.',
 	'form_pet_probleme_technique' => 'Hai un problema téunicu, les firmes tan temporalmente suspendíes.',

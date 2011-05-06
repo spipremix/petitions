@@ -40,7 +40,7 @@ Pe cunvalidà \\\'a firma d\\\'\\\'a vosta, v\\\'avite cullegà \\\'o nnerizzoin
 
 
 Grazzje assaje pe pparticipà',
-	'form_pet_message_commentaire' => 'Nu messaggio, na crosa?',
+	'form_pet_message_commentaire' => 'Nu messaggio, na crosa?', # MODIF
 	'form_pet_nom_site2' => 'Nomme d\\\'\\\'o sito web d\\\'\\\'o vuosto',
 	'form_pet_probleme_liens' => 'Pe ppiacere, cagnate \\\'o messaggio d\\\'\\\'o vuosto cancellanno tutte \\\'e gghjonte.',
 	'form_pet_probleme_technique' => 'Prublema t&amp;egrave;cnico, \\\'e scrizzione stanno \\\'ncampana pe mmo.',

@@ -38,7 +38,7 @@ Zure sinadura onartzeko, hurrengo helbidera konektatzea beharrezkoa da (bestela,
 @url@
 
 Milesker parte hartzeagatik ',
-	'form_pet_message_commentaire' => 'Mezurik, azalpenik ?',
+	'form_pet_message_commentaire' => 'Mezurik, azalpenik ?', # MODIF
 	'form_pet_nom_site2' => 'Zure Webgunearen izena',
 	'form_pet_probleme_liens' => 'Otoi, zure mezua bermoldatu hiperestekak kenduz.',
 	'form_pet_probleme_technique' => 'Arazo teknikoa, sinadurak behin-behineko etenaldian daude.',

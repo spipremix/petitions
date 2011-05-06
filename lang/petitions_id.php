@@ -42,7 +42,7 @@ akan ditolak):
 
 Terima kasih atas partisipasi anda!
 ',
-	'form_pet_message_commentaire' => 'Ada pesan atau komentar?',
+	'form_pet_message_commentaire' => 'Ada pesan atau komentar?', # MODIF
 	'form_pet_nom_site2' => 'Nama situs web anda',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Permasalahan teknis, sistem tanda tangan untuk sementara waktu terganggu.',

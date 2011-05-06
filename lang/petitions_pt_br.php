@@ -44,7 +44,7 @@ rejeitado):
 
 Obrigado por participar
 ',
-	'form_pet_message_commentaire' => 'Uma mensagem ou comentário?',
+	'form_pet_message_commentaire' => 'Uma mensagem ou comentário?', # MODIF
 	'form_pet_nom_site2' => 'Nome do seu website',
 	'form_pet_probleme_liens' => 'Por favor, retire os links hipertexto da sua mensagem.',
 	'form_pet_probleme_technique' => 'Problema técnico: as assinaturas estão suspensas temporariamente.',

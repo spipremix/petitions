@@ -41,7 +41,7 @@ poshtë këtij teksti:
 
 Faleminderit për pjesëmarrjen
 ', # MODIF
-	'form_pet_message_commentaire' => 'A keni ndonjë mesazh apo koment për të bërë?',
+	'form_pet_message_commentaire' => 'A keni ndonjë mesazh apo koment për të bërë?', # MODIF
 	'form_pet_nom_site2' => 'Emri i Faqes suaj',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problem teknik, nuk mund të firmosni në këtë moment.',

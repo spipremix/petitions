@@ -43,7 +43,7 @@ Evit kadarnaat ho sinadur eo trawalc\'h deoc\'h mont d\'ar chomlec\'h amañ dind
 
 Trugarez da gemer perzh
 ',
-	'form_pet_message_commentaire' => 'Ur gemennadenn, un evezhiadenn ?',
+	'form_pet_message_commentaire' => 'Ur gemennadenn, un evezhiadenn ?', # MODIF
 	'form_pet_nom_site2' => 'Anv ho lec\'hienn',
 	'form_pet_probleme_liens' => 'Savit ho kemennadenn en-dro en ur dennañ ar gourliammoù zo enni. ',
 	'form_pet_probleme_technique' => 'Ur gudenn deknikel zo, n\'haller ket sinañ evit ar poent.',

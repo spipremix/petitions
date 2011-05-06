@@ -42,7 +42,7 @@ Um Ihre Unterschrift zu bestätigen müssen Sie diese Seite aufrufen (wenn Sie e
 
 Vielen Dank für Ihre Teilnahme
 ',
-	'form_pet_message_commentaire' => 'Eine Nachricht, ein Kommentar?',
+	'form_pet_message_commentaire' => 'Eine Nachricht, ein Kommentar?', # MODIF
 	'form_pet_nom_site2' => 'Name Ihrer Website',
 	'form_pet_probleme_liens' => 'Bitte entfernen Sie die Hyperlinks aus Ihrer Nachricht.',
 	'form_pet_probleme_technique' => 'Technisches Problem: Signaturen sind vorübergehend nicht möglich.',

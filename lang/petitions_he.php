@@ -41,7 +41,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 תודה על השתתפותך
 ',
-	'form_pet_message_commentaire' => 'יש לך תגובה או הודעה ?',
+	'form_pet_message_commentaire' => 'יש לך תגובה או הודעה ?', # MODIF
 	'form_pet_nom_site2' => 'שם האתר שלך',
 	'form_pet_probleme_liens' => 'נא לתקן את הודעתך בהסרת הקישורים.',
 	'form_pet_probleme_technique' => 'בעיה טכנית, חתימות לא עובדות כרגע.',

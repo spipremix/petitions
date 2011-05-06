@@ -40,7 +40,7 @@ Pou konfirm out sinyatir-la, i fo sèlman akost ladrès anba (si lé pa fé, sit
 
 Mersi aou mèt ansanm isi
 ',
-	'form_pet_message_commentaire' => 'Inn modékri, inn ti lavi, inn komantèr ?',
+	'form_pet_message_commentaire' => 'Inn modékri, inn ti lavi, inn komantèr ?', # MODIF
 	'form_pet_nom_site2' => '<b>Lo non out sitwèb ',
 	'form_pet_probleme_liens' => 'Arpran out\' mèzaz pou siprim bann gatiraz.',
 	'form_pet_probleme_technique' => 'Astèr, nana inn larlik èk latéknik : bann sinyatir lé baré pou inn moman.',

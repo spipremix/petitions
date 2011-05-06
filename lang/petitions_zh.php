@@ -38,7 +38,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 感谢您的参与
 ', # MODIF
-	'form_pet_message_commentaire' => '其它消息和评论?',
+	'form_pet_message_commentaire' => '其它消息和评论?', # MODIF
 	'form_pet_nom_site2' => '您的站点名',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '技术问题,签名被即刻中断.',

@@ -36,7 +36,7 @@ Boo bëggee weral sa xaatim, kokkal ci xàmmekaayu dal bi ci suuf boo ko deful, 
 
 
 Jaajëf ci seen wallusi',
-	'form_pet_message_commentaire' => 'Benn bataaxal, benn faranfacce ?',
+	'form_pet_message_commentaire' => 'Benn bataaxal, benn faranfacce ?', # MODIF
 	'form_pet_nom_site2' => 'Sa makkaanu dalub web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Jafe jafe xarala, xaatim yi aja gum nañu leen.',

@@ -44,7 +44,7 @@ serà refudada) :
 
 Mercé de la voastra participacion
 ',
-	'form_pet_message_commentaire' => 'Un messatge, una remarca ?',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca ?', # MODIF
 	'form_pet_nom_site2' => 'Nom dau voastre sit web',
 	'form_pet_probleme_liens' => 'Vorgatz tornar escriure lo voastre messatge en supprimant lu ligams ipertèxt.',
 	'form_pet_probleme_technique' => 'Problèma tecnic, li signaturas son temporàriament arrestadi.',

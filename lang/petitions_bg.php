@@ -42,7 +42,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 Благодаря за участието!
 ',
-	'form_pet_message_commentaire' => 'Коментар?',
+	'form_pet_message_commentaire' => 'Коментар?', # MODIF
 	'form_pet_nom_site2' => 'Име на Вашия сайт',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Техническа грешка: записите са прекъснати моментално.',

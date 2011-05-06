@@ -44,7 +44,7 @@ vòstra demanda):
 
 Mercés per vòstra participacion
 ',
-	'form_pet_message_commentaire' => 'Un messatge, una remarca ?',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca ?', # MODIF
 	'form_pet_nom_site2' => 'Nom de vòstre sit Web',
 	'form_pet_probleme_liens' => 'Volgatz tornar prene vòstre messatge en supprimir los ligams ipertèxt.',
 	'form_pet_probleme_technique' => 'Problèma tecnic, las signaturas son temporàriament arrestadas.',

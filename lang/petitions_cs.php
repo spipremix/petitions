@@ -44,7 +44,7 @@ zamítnut):
 
 Děkujeme vám za účast
 ',
-	'form_pet_message_commentaire' => 'Chcete nám něco sdělit nebo máte nějaké připomínky?',
+	'form_pet_message_commentaire' => 'Chcete nám něco sdělit nebo máte nějaké připomínky?', # MODIF
 	'form_pet_nom_site2' => 'Název vašeho webu',
 	'form_pet_probleme_liens' => 'Please edit your message, taking out all hyperlinks.', # NEW
 	'form_pet_probleme_technique' => 'Z technických důvodů nelze momentálně podepisovat.',

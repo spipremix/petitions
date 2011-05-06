@@ -44,7 +44,7 @@ sera rejetée) :
 
 Merci de votre participation
 ',
-	'form_pet_message_commentaire' => 'Un message, un commentaire ?',
+	'form_pet_message_commentaire' => 'Un message, un commentaire ?', # MODIF
 	'form_pet_nom_site2' => 'Nom de votre site Web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problème technique, les signatures sont temporairement suspendues.',

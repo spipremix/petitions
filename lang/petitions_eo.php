@@ -44,7 +44,7 @@ estos rifuzita):
 
 Dankon pro via partopreno
 ',
-	'form_pet_message_commentaire' => 'Ĉu mesaĝon, ĉu komenton ?',
+	'form_pet_message_commentaire' => 'Ĉu mesaĝon, ĉu komenton ?', # MODIF
 	'form_pet_nom_site2' => 'Nomo de via retejo',
 	'form_pet_probleme_liens' => 'Bonvolu retrakti vian mesaĝon forigante hiperteskajn ligilojn.',
 	'form_pet_probleme_technique' => 'Teknika problemo, la subskribeblo estas portempe ne ebla.',

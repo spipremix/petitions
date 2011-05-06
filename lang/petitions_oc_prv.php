@@ -43,7 +43,7 @@ Per validar vòstra signatura, basta de vos connectar a
 
 Grandmercé per vòstra participacion
 ',
-	'form_pet_message_commentaire' => 'Un messatge, una remarca?',
+	'form_pet_message_commentaire' => 'Un messatge, una remarca?', # MODIF
 	'form_pet_nom_site2' => 'Nom de vòstre sit Web',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problèma tecnic, lei signaturas son temporàriament arrestadas.',

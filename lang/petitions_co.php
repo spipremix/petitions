@@ -44,7 +44,7 @@ l\'indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 
 À ringrazià vi
 ',
-	'form_pet_message_commentaire' => 'Qualchì messagiu o cummentu ?',
+	'form_pet_message_commentaire' => 'Qualchì messagiu o cummentu ?', # MODIF
 	'form_pet_nom_site2' => 'Nome di u vostru situ Web',
 	'form_pet_probleme_liens' => 'Ripigliate puru u vostru messagiu caccendu e lee ipertestu.',
 	'form_pet_probleme_technique' => 'Problemu tècnicu, e zifre sò suspese per qualchì tempu.',

@@ -44,7 +44,7 @@ será rechazada):
 
 Gracias por su participación
 ', # MODIF
-	'form_pet_message_commentaire' => '¿Un mensaje, un comentario?',
+	'form_pet_message_commentaire' => '¿Un mensaje, un comentario?', # MODIF
 	'form_pet_nom_site2' => 'Nombre de su sitio web',
 	'form_pet_probleme_liens' => 'Ingresa nuevamente tu mensaje, quitando los enlaces hypertexto.', # NEW
 	'form_pet_probleme_technique' => 'Problema técnico, las firmas están temporalmente suspendidas.',

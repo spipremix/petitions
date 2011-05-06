@@ -37,7 +37,7 @@ QUAN TRỌNG...
     @url@
 
 Cám ơn sự tham gia của bạn.', # MODIF
-	'form_pet_message_commentaire' => 'Có nhắn tin hay bình luận gì không?',
+	'form_pet_message_commentaire' => 'Có nhắn tin hay bình luận gì không?', # MODIF
 	'form_pet_nom_site2' => 'Tên trang web của bạn',
 	'form_pet_probleme_liens' => 'Sửa đổi phần nội dung, xin lấy ra các hyperlink.',
 	'form_pet_probleme_technique' => 'Trục trặc kỹ thuật, chữ ký bị đình trệ trong giây lát.',

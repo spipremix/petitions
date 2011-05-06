@@ -40,7 +40,7 @@ Pou konfime siyati-a, fòk sèlman w abòd ladrès anba (sinon, sitwèb-la ke pa
 
 Mèsi  w soutni petisyon-nan
 ', # MODIF
-	'form_pet_message_commentaire' => 'Gen yon mesaj, yon komanté pou di ?',
+	'form_pet_message_commentaire' => 'Gen yon mesaj, yon komanté pou di ?', # MODIF
 	'form_pet_nom_site2' => 'Kouman sitwèb ou rele',
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Pwoblèm teknik, siyati se pa posib kounye-a. Tann pwoblèm-la ke aranje pou rete sispann a yo.',

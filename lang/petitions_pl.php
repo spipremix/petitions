@@ -44,7 +44,7 @@ zostanie odrzucona):
 
 Dziękujemy za wzięcie udziału.
 ',
-	'form_pet_message_commentaire' => 'Jakieś wiadomości lub komentarze?',
+	'form_pet_message_commentaire' => 'Jakieś wiadomości lub komentarze?', # MODIF
 	'form_pet_nom_site2' => 'Nazwa Twojej strony internetowej',
 	'form_pet_probleme_liens' => 'Spróbuj wysłać wiadomość po usunięciu linków.',
 	'form_pet_probleme_technique' => 'Problem techniczny, podpisy są tymczasowo zawieszone.',

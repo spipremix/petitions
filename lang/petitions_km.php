@@ -41,7 +41,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 ​អរគុណ ចំពោះការ​ចូលរួម របស់អ្នក
 ',
-	'form_pet_message_commentaire' => 'មួយសារ មួយវិចារ ឬ  ?',
+	'form_pet_message_commentaire' => 'មួយសារ មួយវិចារ ឬ  ?', # MODIF
 	'form_pet_nom_site2' => 'ឈ្មោះ​វ៉ែបសៃថ៍ របស់​អ្នក',
 	'form_pet_probleme_liens' => 'សូមកែប្រែ សាររបស់អ្នក, យកចេញ គ្រប់តំណភ្ជាប់។',
 	'form_pet_probleme_technique' => 'បញ្ហា​បច្ចេកទេស, ហត្ថលេខាតាំងអស់ ​ត្រូវ​បាន​ពន្យួរ បណ្តោះអាសន្ន។',
