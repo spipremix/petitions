@@ -40,4 +40,6 @@
 		<titre>petitions:icone_suivi_petitions</titre>
 	</bouton>
 	<necessite id="SPIP" version="[3.0.0-dev;)" />
+	<categorie>communication</categorie>
+	<traduire gestionnaire="salvatore" module="petitions" reference="fr" />
 </plugin>
