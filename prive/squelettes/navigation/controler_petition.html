@@ -1,12 +1,8 @@
-#BOITE_OUVRIR{'',info}
-[(#VAL{signatures}|bouton_spip_rss{#ARRAY{id_article,#ID_ARTICLE}})]
-#BOITE_FERMER
-
 [(#AUTORISER{modererlot,petition}|oui)
 	#BOITE_OUVRIR{'',raccourcis}
 	#SET{nb,'<b>N</b>'}
 	<div id="actiongroup">
-		<label>Selection&nbsp;:</label>
+		<h3><:petitions:titre_selection_action:></h3>
 		<p class="status">
 			<span class="zero"><:petitions:aucune_signature:></span>
 			<span class="one none"><:petitions:une_signature:></span>

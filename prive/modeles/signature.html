@@ -15,7 +15,7 @@
 	<BOUCLE_art(ARTICLES){id_petition}{statut==.*}>
 		#SET{id_article,#ID_ARTICLE}
 		<div class='reponse_a'>
-			<p class="article"><:lien_reponse_article:> : <a href='[(#ID_ARTICLE|generer_url_entite{article})]'>#TITRE</a> [<a href='[(#GET{self}|parametre_url{id_article,#ID_ARTICLE})]' class="ajax"><:petitions:voir_signatures_objet:></a>]</p>
+			<p class="article"><:petitions:lien_reponse_article:> : <a href='[(#ID_ARTICLE|generer_url_entite{article})]'>#TITRE</a> [<a href='[(#GET{self}|parametre_url{id_article,#ID_ARTICLE})]' class="ajax"><:petitions:voir_signatures_objet:></a>]</p>
 			<BOUCLE_rub(RUBRIQUES){id_rubrique}>
 			<p class="rubrique"><:info_dans_rubrique:> <a href='[(#ID_RUBRIQUE|generer_url_entite{rubrique})]'>#TITRE</a></p>
 			</BOUCLE_rub>

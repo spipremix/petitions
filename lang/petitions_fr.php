@@ -95,6 +95,7 @@ Merci de votre participation
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es',
 	'titre_suivi_petition' => 'Suivi des p&eacute;titions',
 	'tout_voir' => 'Voir toutes les signatures',
+	'titre_selection_action' => 'Sélection',
 
 	// U
 	'une_signature' => '1 signature',
