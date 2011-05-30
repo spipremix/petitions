@@ -193,29 +193,35 @@ function signature_instituer($id_signature, $c, $calcul_rub=true) {
 }
 
 
-// Pour eviter le recours a un verrou (qui bloque l'acces a la base),
-// on commence par inserer systematiquement la signature
-// puis on demande toutes celles ayant la propriete devant etre unique
-// (mail ou site). S'il y en a plus qu'une on les retire sauf la premiere
-// En cas d'acces concurrents il y aura des requetes de retraits d'elements
-// deja detruits. Bizarre ?  C'est mieux que de bloquer!
-
-// http://doc.spip.org/@signature_entrop
+/**
+ * Pour eviter le recours a un verrou (qui bloque l'acces a la base),
+ * on commence par inserer systematiquement la signature
+ * puis on demande toutes celles ayant la propriete devant etre unique
+ * (mail ou site). S'il y en a plus qu'une on les retire sauf la premiere
+ * En cas d'acces concurrents il y aura des requetes de retraits d'elements
+ * deja detruits. Bizarre ?  C'est mieux que de bloquer!
+ *
+ * http://doc.spip.org/@signature_entrop
+ *
+ * @param string $where
+ * @return array
+ */
 function signature_entrop($where)
 {
+	$entrop = array();
 	$where .= " AND statut='publie'";
-	$query = sql_select('id_signature', 'spip_signatures', $where,'',"date_time desc");
-	$n = sql_count($query);
+	$res = sql_select('id_signature', 'spip_signatures', $where,'',"date_time desc");
+	$n = sql_count($res);
 	if ($n>1) {
-		$entrop = array();
-		for ($i=$n-1;$i;$i--) {
-			$r = sql_fetch($query);
+		while($r=sql_fetch($res))
 			$entrop[]=$r['id_signature'];
-		}
-		sql_free($query);
-		$where .= " OR " . sql_in('id_signature', $entrop);
+		// garder la premiere signature
+		array_shift($entrop);
+	}
+	sql_free($res);
 
-		sql_delete('spip_signatures', $where);
+	if (count($entrop)){
+		sql_delete('spip_signatures', sql_in('id_signature', $entrop));
 	}
 
 	return $entrop;
