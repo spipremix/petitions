@@ -91,11 +91,11 @@ Merci de votre participation
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition',
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions',
+	'titre_selection_action' => 'Sélection',
 	'titre_signatures_attente' => 'Signatures en attente de validation',
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es',
 	'titre_suivi_petition' => 'Suivi des p&eacute;titions',
 	'tout_voir' => 'Voir toutes les signatures',
-	'titre_selection_action' => 'Sélection',
 
 	// U
 	'une_signature' => '1 signature',

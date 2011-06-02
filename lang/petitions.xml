@@ -1,4 +1,7 @@
 <traduction module="petitions" gestionnaire="salvatore" reference="fr">
+	<langue code="ar">
+		<traducteur nom="kandalaft" />
+	</langue>
 	<langue code="ast" />
 	<langue code="ay" />
 	<langue code="bg" />

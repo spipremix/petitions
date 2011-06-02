@@ -8,17 +8,17 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette p&eacute;tition. &Ecirc;tes-vous sur de vouloir continuer ?', # NEW
-	'aucune_signature' => 'Aucune signature', # NEW
+	'alerte_confirmer_suppression_signatures' => 'سوف تحذف كل تواقيع هذه العريضة. هل انت متأكد من ذلك؟',
+	'aucune_signature' => 'لا توجد تواقيع',
 
 	// B
-	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
-	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_envoi_message' => 'إمكان بعث رسالة ',
+	'bouton_checkbox_indiquer_site' => 'يجب تحديد موقع على النسيج',
+	'bouton_checkbox_signature_unique_email' => 'توقيع واحد فقط لكل عنوان بريدي',
+	'bouton_checkbox_signature_unique_site' => 'توقيع واحد فقط لكل موقع',
 
 	// F
-	'filtre' => 'Filtre :', # NEW
+	'filtre' => 'مرشح:',
 	'form_pet_adresse_site' => 'عنوان موقعك',
 	'form_pet_aucune_signature' => 'لا يوجد أي توقيع يناسب هذه القيمة...',
 	'form_pet_confirmation' => 'الرجاء تأكيد توقيعك:',
@@ -44,7 +44,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 شكراً لمساهمتك
 
 ',
-	'form_pet_message_commentaire' => 'أي رسالة أو تعليق؟', # MODIF
+	'form_pet_message_commentaire' => 'أي رسالة أو تعليق؟',
 	'form_pet_nom_site2' => 'اسم موقعك',
 	'form_pet_probleme_liens' => 'الرجاء إعادة إدخال رسالتك بعد حذف كل روابط هايبرتكست.',
 	'form_pet_probleme_technique' => 'مشكلة تقنية، التوقيعات معلقة مؤقتاً.',
@@ -56,15 +56,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_votre_site' => 'إذا كان لديك موقع، قم بإدخاله أدناه',
 
 	// I
-	'icone_relancer_signataire' => 'Relancer le signataire', # NEW
-	'icone_relancer_signataires' => 'Relancer les signataires', # NEW
-	'icone_suivi_petitions' => 'Suivre/g&eacute;rer les p&eacute;titions', # NEW
-	'icone_supprimer_signature' => 'Supprimer cette signature', # NEW
-	'icone_supprimer_signatures' => 'Supprimer les signatures', # NEW
-	'icone_valider_signature' => 'Valider cette signature', # NEW
-	'icone_valider_signatures' => 'Valider les signatures', # NEW
+	'icone_relancer_signataire' => 'إعادة إنعاش التوقيع',
+	'icone_relancer_signataires' => 'إعادة إنعاش التواقيع',
+	'icone_suivi_petitions' => 'متابعة\\إدارة العرائض',
+	'icone_supprimer_signature' => 'حذف هذا التوقيع',
+	'icone_supprimer_signatures' => 'حذف التواقيع',
+	'icone_valider_signature' => 'التصديق على هذا التوقيع',
+	'icone_valider_signatures' => 'التصديق على التواقيع',
 	'info_adresse_email' => 'عنوان البريد الالكتروني :',
-	'info_fonctionnement_petition' => 'Fonctionnement de la p&eacute;tition :', # NEW
+	'info_fonctionnement_petition' => 'كيفية عمل العريضة:',
 	'info_signature_supprimee' => 'توقيع محذوف',
 	'info_signature_supprimee_erreur' => 'خطأ: معلومات الحذف هذه لا تناسب اي توقيع',
 	'info_site_web' => 'الموقع:',
@@ -74,35 +74,36 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_reponse_article' => 'الرد على المقال',
 
 	// N
-	'nombre_signatures' => '@nb@ signatures', # NEW
+	'nombre_signatures' => '@nb@ توقيع',
 
 	// S
-	'sans_nom' => 'Anonyme', # NEW
-	'signatures_article' => 'Signatures de l\'article :', # NEW
-	'signatures_aucune' => 'Aucune', # NEW
-	'signatures_meme_auteur' => 'Les signatures du m', # NEW
-	'signatures_meme_site' => 'Les signatures avec le m', # NEW
-	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
-	'signatures_prop' => 'En attente', # NEW
-	'signatures_publie' => 'Confirm&eacute;es', # NEW
-	'signatures_toutes' => 'Toutes', # NEW
-	'statut_poubelle' => 'Supprim&eacute;e', # NEW
-	'statut_prop' => 'En attente de validation', # NEW
-	'statut_publie' => 'Confirm&eacute;e', # NEW
+	'sans_nom' => 'مجهول',
+	'signatures_article' => 'تواقيع المقال:',
+	'signatures_aucune' => 'لا يوجد',
+	'signatures_meme_auteur' => 'تواقيع عائدة للمؤلف نفسه',
+	'signatures_meme_site' => 'تواقيع عائدة للوقع نفسه',
+	'signatures_poubelle' => 'محذوفة',
+	'signatures_prop' => 'قيد الانتظار',
+	'signatures_publie' => 'مصدقة',
+	'signatures_toutes' => 'الكل',
+	'statut_poubelle' => 'محذوف',
+	'statut_prop' => 'بانتظار التصديق',
+	'statut_publie' => 'مصدق',
 
 	// T
-	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
-	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
-	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
-	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW
-	'titre_suivi_petition' => 'Suivi des p&eacute;titions', # NEW
-	'tout_voir' => 'Voir toutes les signatures', # NEW
+	'texte_descriptif_petition' => 'وصف العريضة',
+	'titre_page_controle_petition' => 'متابعة العرائض',
+	'titre_selection_action' => 'Sélection', # NEW
+	'titre_signatures_attente' => 'تواقيع بانتظار التصديق',
+	'titre_signatures_publie' => 'تواقيع مصدقة',
+	'titre_suivi_petition' => 'متابعة العرائض',
+	'tout_voir' => 'عرض كل التواقيع',
 
 	// U
-	'une_signature' => '1 signature', # NEW
+	'une_signature' => 'توقيع واحد',
 
 	// V
-	'voir_signatures_objet' => 'Voir les signatures' # NEW
+	'voir_signatures_objet' => 'عرض التواقيع'
 );
 
 ?>
