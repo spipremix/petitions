@@ -60,7 +60,7 @@ function petition_modifier($id_petition, $set=null) {
 		$set
 	);
 
-	return modifier_contenu('petition', $id_petition,array(),$c);
+	$err = modifier_contenu('petition', $id_petition,array(),$c);
 
 	// changement d'article ou de statut ?
 	$c = collecter_requests(array('statut','id_article'),array(),$set);
