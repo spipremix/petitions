@@ -59,7 +59,7 @@ function signature_modifier($id_signature, $set=null) {
 		$set
 	);
 
-	return modifier_contenu('signature', $id_signature,
+	$err = modifier_contenu('signature', $id_signature,
 		array(
 			'nonvide' => array('nom_email' => _T('info_sans_titre'))
 		),
