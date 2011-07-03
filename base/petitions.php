@@ -126,6 +126,7 @@ function petitions_declarer_tables_objets_sql($tables){
 			'nom_site' => 2, 'url_site' => 4,
 			'message' => 1
 		),
+		'icone_objet' => 'petition',
 	);
 
 	return $tables;
