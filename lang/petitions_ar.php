@@ -93,7 +93,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'وصف العريضة',
 	'titre_page_controle_petition' => 'متابعة العرائض',
-	'titre_selection_action' => 'Sélection', # NEW
+	'titre_selection_action' => 'التحديد',
 	'titre_signatures_attente' => 'تواقيع بانتظار التصديق',
 	'titre_signatures_publie' => 'تواقيع مصدقة',
 	'titre_suivi_petition' => 'متابعة العرائض',
