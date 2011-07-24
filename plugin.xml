@@ -6,7 +6,7 @@
 	<etat>test</etat>
 	<slogan>Gestion des p&eacute;titions dans SPIP</slogan>
 	<description>P&eacute;titions dans SPIP</description>
-	<icon>prive/themes/spip/images/petition-24.png</icon>
+	<icon>prive/themes/spip/images/petition-32.png</icon>
 	<prefix>petitions</prefix>
 	<install>base/petitions_upgrade.php</install>
 	<fonctions>public/petitions.php</fonctions>
