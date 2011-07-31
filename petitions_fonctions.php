@@ -11,12 +11,17 @@
 \***************************************************************************/
 
 
-// #PETITION
-// retourne '' si l'article courant n'a pas de petition
-// le texte de celle-ci sinon (et ' ' si il est vide)
-// cf FORMULAIRE_PETITION
-
-// http://doc.spip.org/@balise_PETITION_dist
+/**
+ * #PETITION
+ * retourne '' si l'article courant n'a pas de petition
+ * le texte de celle-ci sinon (et ' ' si il est vide)
+ * cf FORMULAIRE_PETITION
+ *
+ * http://doc.spip.org/@balise_PETITION_dist
+ *
+ * @param $p
+ * @return
+ */
 function balise_PETITION_dist ($p) {
 	$nom = $p->id_boucle;
 	$p->code = "quete_petitions(" .
@@ -32,8 +37,17 @@ function balise_PETITION_dist ($p) {
 	return $p;
 }
 
-# retourne le champ 'texte' d'une petition
 if(!function_exists('quete_petitions')) {
+/**
+ * retourne le champ 'texte' d'une petition
+ *
+ * @param int $id_article
+ * @param string $table
+ * @param string $id_boucle
+ * @param string $serveur
+ * @param array $cache
+ * @return array|bool|null|string
+ */
 function quete_petitions($id_article, $table, $id_boucle, $serveur, &$cache) {
 	$retour = sql_getfetsel('texte', 'spip_petitions',("id_article=".intval($id_article)),'',array(),'','', $serveur);
 
