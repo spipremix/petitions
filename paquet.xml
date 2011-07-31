@@ -21,5 +21,5 @@
 	<pipeline nom="afficher_config_objet" inclure="petitions_pipelines.php" />
 	<pipeline nom="optimiser_base_disparus" inclure="petitions_pipelines.php" />
 
-	<menu nom="controler_petition" titre="petitions:icone_suivi_petitions" parent="bando_activite" position="-1" icone="images/petition-16.png" />
+	<menu nom="controler_petition" titre="petitions:icone_suivi_petitions" parent="menu_activite" position="-1" icone="images/petition-16.png" />
 </paquet>
