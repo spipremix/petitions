@@ -54,6 +54,9 @@ function petitions_declarer_tables_objets_sql($tables){
 		'page'=>'', // pas de page editoriale pour une petition
 
 		'texte_retour' => 'icone_retour',
+		'texte_objets' => 'petitions:titre_petitions',
+		'texte_objet'  => 'petitions:titre_petition',
+		
 		'titre' => "texte as titre, '' AS lang",
 
 		'field'=> array(
