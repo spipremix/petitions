@@ -84,7 +84,7 @@ function petitions_declarer_tables_objets_sql($tables){
 		'page'=>'', // pas de page editoriale pour une signature
 
 		'texte_retour' => 'icone_retour',
-		'texte_objets' => 'signatures_petition',
+		'texte_objets' => 'public:signatures_petition',
 		'texte_objet' => 'entree_signature',
 		'info_aucun_objet'=> 'petitions:aucune_signature',
 		'info_1_objet' => 'petitions:une_signature',

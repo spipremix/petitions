@@ -90,6 +90,8 @@ Merci de votre participation
 
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition',
+	'titre_petitions' => 'P&eacute;titions',
+	'titre_petition' => 'P&eacute;tition',
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions',
 	'titre_selection_action' => 'Sélection',
 	'titre_signatures_attente' => 'Signatures en attente de validation',
