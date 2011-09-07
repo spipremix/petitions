@@ -51,6 +51,7 @@ Merci de votre participation
 	'form_pet_url_invalide' => 'L\'URL que vous avez indiquée n\'est pas valide.',
 	'form_pet_votre_email' => 'Votre adresse email',
 	'form_pet_votre_nom' => 'Votre nom',
+	'form_pet_votre_site' => 'Si vous avez un site Web, vous pouvez l\'indiquer ci-dessous',
 
 	// I
 	'icone_relancer_signataire' => 'Relancer le signataire',
