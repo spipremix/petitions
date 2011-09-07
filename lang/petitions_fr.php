@@ -11,17 +11,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message',
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web',
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web',
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email',
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web',
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web',
 
 	// F
 	'filtre' => 'Filtre :',
-	'form_pet_adresse_site' => 'Adresse de votre site',
+	'form_pet_adresse_site' => 'Adresse URL de votre site',
 	'form_pet_aucune_signature' => 'Aucune signature ne correspond à ce code...',
 	'form_pet_confirmation' => 'Veuillez confirmer votre signature :',
 	'form_pet_deja_signe' => 'Vous avez déjà signé ce texte.',
-	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient d\'être envoyé à @email@. Vous devrez visiter l\'adresse Web mentionnée dans ce courrier pour valider votre signature.',
+	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient d\'être envoyé à @email@. Vous devrez visiter l\'adresse web mentionnée dans ce courrier pour valider votre signature.',
 	'form_pet_mail_confirmation' => 'Bonjour,
 
 Vous avez demandé à signer la pétition :
@@ -43,15 +43,14 @@ sera rejetée) :
 Merci de votre participation
 ',
 	'form_pet_message_commentaire' => 'Un message, un commentaire ?',
-	'form_pet_nom_site2' => 'Nom de votre site Web', # enlever le gras
+	'form_pet_nom_site2' => 'Nom de votre site web', # enlever le gras
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.',
 	'form_pet_probleme_technique' => 'Problème technique, les signatures sont temporairement suspendues.',
 	'form_pet_signature_validee' => 'Votre signature est validée. Merci !',
 	'form_pet_site_deja_enregistre' => 'Ce site est déjà enregistré',
 	'form_pet_url_invalide' => 'L\'URL que vous avez indiquée n\'est pas valide.',
 	'form_pet_votre_email' => 'Votre adresse email',
-	'form_pet_votre_nom' => 'Votre nom ou pseudo',
-	'form_pet_votre_site' => 'Si vous avez un site Web, vous pouvez l\'indiquer ci-dessous',
+	'form_pet_votre_nom' => 'Votre nom',
 
 	// I
 	'icone_relancer_signataire' => 'Relancer le signataire',
@@ -83,6 +82,7 @@ Merci de votre participation
 	'signatures_poubelle' => 'Supprim&eacute;es',
 	'signatures_prop' => 'En attente',
 	'signatures_publie' => 'Confirm&eacute;es',
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:',
 	'signatures_toutes' => 'Toutes',
 	'statut_poubelle' => 'Supprim&eacute;e',
 	'statut_prop' => 'En attente de validation',

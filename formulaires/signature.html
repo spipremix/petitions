@@ -1,14 +1,14 @@
 <div class="formulaire_spip formulaire_signature ajax" id="sp#ENV{id_petition}">
 
-[<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok,#ENV*{_confirm}|affiche_reponse_confirmation})</p>]
-[<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
+[<p class="reponse_formulaire reponse_formulaire_ok success">(#ENV*{message_ok,#ENV*{_confirm}|affiche_reponse_confirmation})</p>]
+[<p class="reponse_formulaire reponse_formulaire_erreur error">(#ENV*{message_erreur})</p>]
 [(#ENV{editable})
 <form method="post" action="#ENV{action}#sp#ENV{id_petition}">
 	#ACTION_FORMULAIRE{#ENV{action}}
 	
 	<input type="hidden" name="url_page" value="[(#SELF|url_absolue)]" />
-	[<fieldset>
-		<legend><:info_descriptif:></legend>
+	[<fieldset class="info">
+		<legend><:petitions:titre_petition:></legend>
 		<div class='explication'>(#ENV*{_texte}|propre)</div>
 	</fieldset>]
 	<fieldset>
@@ -28,7 +28,6 @@
 	</fieldset>
 	<fieldset>
 		<legend><:info_lien_hypertexte:></legend>
-		[<p class='explication'>(#ENV{site_obli})<:petitions:form_pet_votre_site:></p>]
 		<ul>
 			<li class='editer saisie_signature_nom_site[ (#ENV*{erreurs}|table_valeur{signature_nom_site}|oui)erreur][(#ENV{site_obli})obligatoire]'>
 				<label for="signature_nom_site"><:petitions:form_pet_nom_site2:></label>
@@ -54,7 +53,7 @@
 		<legend><:petitions:form_pet_message_commentaire:></legend>
 		<ul>
 			<li class='editer saisie_message'>
-				<label for="message"><:petitions:info_site_web:></label>
+				<label for="message"><:petitions:info_texte_message:></label>
 				<textarea name="message" id="message" rows="6" cols="60">#ENV{message}</textarea>
 			</li>
 		</ul>
