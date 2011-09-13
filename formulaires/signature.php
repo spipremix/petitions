@@ -13,6 +13,7 @@
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
 function formulaires_signature_charger_dist($id_article) {
+	include_spip('base/abstract_sql');
 	// pas de petition, pas de signature
 	if (!$r = sql_fetsel('*','spip_petitions','id_article='.intval($id_article)))
 		return false;
