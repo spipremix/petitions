@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Sitenizin adresi',
+	'form_pet_adresse_site' => 'Sitenizin adresi', # MODIF
 	'form_pet_aucune_signature' => 'Bu koda karşılık hiç bir imza yok...',
 	'form_pet_confirmation' => 'Lütfen imzanızı onaylayınız :',
 	'form_pet_deja_signe' => 'Bu metni zaten imzalamışsınız.',
-	'form_pet_envoi_mail_confirmation' => 'Şu anda @email@ adresine bir doğrulama e-postası gönderildi. İmzanızı doğrulamak için bu iletide belirtilen web adresini ziyaret etmelisiniz.',
+	'form_pet_envoi_mail_confirmation' => 'Şu anda @email@ adresine bir doğrulama e-postası gönderildi. İmzanızı doğrulamak için bu iletide belirtilen web adresini ziyaret etmelisiniz.', # MODIF
 	'form_pet_mail_confirmation' => 'Merhaba,
 
 Bir dilekçe imzalamak istediniz :
@@ -46,14 +46,14 @@ reddedilecektir) :
 Katılımınız için teşekkürler
 ',
 	'form_pet_message_commentaire' => 'Bir ileti, bir yorum ?', # MODIF
-	'form_pet_nom_site2' => 'Sitenizin ismi',
+	'form_pet_nom_site2' => 'Sitenizin ismi', # MODIF
 	'form_pet_probleme_liens' => 'Lütfen iletinizi hipermetin bağlarını silerek tekrar giriniz',
 	'form_pet_probleme_technique' => 'Teknik bir sorun var, imzalar geçici olarak iptal edildi.',
 	'form_pet_signature_validee' => 'İmzanız onaylandı. Teşekkürler !',
 	'form_pet_site_deja_enregistre' => 'Bu site zaten kayıtlı',
 	'form_pet_url_invalide' => 'Belirttiğiniz Url geçerli değil.',
 	'form_pet_votre_email' => 'E-posta adresiniz',
-	'form_pet_votre_nom' => 'İsminiz veya takma isminiz',
+	'form_pet_votre_nom' => 'İsminiz veya takma isminiz', # MODIF
 	'form_pet_votre_site' => 'Eğer bir siteniz varsa bunu aşağıda belirtebilirsiniz',
 
 	// I
@@ -86,6 +86,7 @@ Katılımınız için teşekkürler
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -94,6 +95,8 @@ Katılımınız için teşekkürler
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

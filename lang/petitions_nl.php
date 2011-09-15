@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adres van je website',
+	'form_pet_adresse_site' => 'Adres van je website', # MODIF
 	'form_pet_aucune_signature' => 'Geen enkele naam komt overeen met deze code ...',
 	'form_pet_confirmation' => 'Gelieve je handtekening te bevestigen :',
 	'form_pet_deja_signe' => 'Je hebt deze tekst al ondertekend.',
-	'form_pet_envoi_mail_confirmation' => 'Een elektronische bevestigingspost is zojuist naar @email@ verzonden. U zult het Web adres moeten bezoeken dat in deze post wordt vermeld om uw handtekening te valideren.',
+	'form_pet_envoi_mail_confirmation' => 'Een elektronische bevestigingspost is zojuist naar @email@ verzonden. U zult het Web adres moeten bezoeken dat in deze post wordt vermeld om uw handtekening te valideren.', # MODIF
 	'form_pet_mail_confirmation' => 'Hallo,
 
 Je hebt gevraagd om deze petitie te ondertekenen :
@@ -44,14 +44,14 @@ Om je gegevens te valideren, volstaat het het onderstaande adres
 Bedankt voor je deelname
 ',
 	'form_pet_message_commentaire' => 'Een bericht, een commentaar?', # MODIF
-	'form_pet_nom_site2' => 'Naam van je website',
+	'form_pet_nom_site2' => 'Naam van je website', # MODIF
 	'form_pet_probleme_liens' => 'Gelieve uw bericht te herbeginnen zonder internet links.',
 	'form_pet_probleme_technique' => 'Technisch probleem. Inloggen is momenteel niet mogelijk.',
 	'form_pet_signature_validee' => 'Je naam is goedgekeurd. Bedankt!',
 	'form_pet_site_deja_enregistre' => 'Deze website is reeds geregistreerd',
 	'form_pet_url_invalide' => 'De URL die je opgaf, is ongeldig.',
 	'form_pet_votre_email' => 'Je e-mailadres',
-	'form_pet_votre_nom' => 'Je naam of alias',
+	'form_pet_votre_nom' => 'Je naam of alias', # MODIF
 	'form_pet_votre_site' => 'Als je een website hebt, kan je ze hier vermelden',
 
 	// I
@@ -84,6 +84,7 @@ Bedankt voor je deelname
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Bedankt voor je deelname
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

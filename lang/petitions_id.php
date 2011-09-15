@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'URL situs anda',
+	'form_pet_adresse_site' => 'URL situs anda', # MODIF
 	'form_pet_aucune_signature' => 'Tidak ada tanda tangan yang cocok dengan kode ini...',
 	'form_pet_confirmation' => 'Silakan konfirmasi tanda tangan anda:',
 	'form_pet_deja_signe' => 'Anda telah menandatangani teks ini.',
@@ -43,14 +43,14 @@ akan ditolak):
 Terima kasih atas partisipasi anda!
 ',
 	'form_pet_message_commentaire' => 'Ada pesan atau komentar?', # MODIF
-	'form_pet_nom_site2' => 'Nama situs web anda',
+	'form_pet_nom_site2' => 'Nama situs web anda', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Permasalahan teknis, sistem tanda tangan untuk sementara waktu terganggu.',
 	'form_pet_signature_validee' => 'Tanda tangan anda sah. Terima kasih!',
 	'form_pet_site_deja_enregistre' => 'Situs ini telah terdaftar',
 	'form_pet_url_invalide' => 'URL yang anda berikan tidak sah.',
 	'form_pet_votre_email' => 'Alamat e-mail anda',
-	'form_pet_votre_nom' => 'Nama atau alias anda',
+	'form_pet_votre_nom' => 'Nama atau alias anda', # MODIF
 	'form_pet_votre_site' => 'Jika anda memiliki sebuah situs web, anda dapat memasukkannya di bawah',
 
 	// I
@@ -83,6 +83,7 @@ Terima kasih atas partisipasi anda!
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -91,6 +92,8 @@ Terima kasih atas partisipasi anda!
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

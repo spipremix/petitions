@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adress vun ärem Site',
+	'form_pet_adresse_site' => 'Adress vun ärem Site', # MODIF
 	'form_pet_aucune_signature' => 'Ët entsprëcht keng Ënnerschrëft dësem Kode...',
 	'form_pet_confirmation' => 'Konfirméiert weg är Ënnerschrëft:',
 	'form_pet_deja_signe' => 'Dir hutt dësen Text schon ënnerschriwen.',
-	'form_pet_envoi_mail_confirmation' => 'E Konfirmatiouns-Email gouf lo grad un @email@ geschéckt. Dir musst op déi Adress surfen déi am Email steet fir är Ënnerschrëft ze bestätegen.',
+	'form_pet_envoi_mail_confirmation' => 'E Konfirmatiouns-Email gouf lo grad un @email@ geschéckt. Dir musst op déi Adress surfen déi am Email steet fir är Ënnerschrëft ze bestätegen.', # MODIF
 	'form_pet_mail_confirmation' => 'Bonjour,
 
 Dir hutt gefroot fir d\'Petitioun:
@@ -44,14 +44,14 @@ Fir är Ënnerschrëft ze validéieren, surft op dës Adress (am aneren Fall gë
 Merci fir är Participatioun
 ',
 	'form_pet_message_commentaire' => 'E Message, e Kommentar?', # MODIF
-	'form_pet_nom_site2' => 'Numm vun ärem Site',
+	'form_pet_nom_site2' => 'Numm vun ärem Site', # MODIF
 	'form_pet_probleme_liens' => 'Korrigéiert äre Message a maacht d\'Hypertext-Linken ewech.',
 	'form_pet_probleme_technique' => 'Technësche Problem, d\'Ënnerschrëften si momentan ausser Betrieb.',
 	'form_pet_signature_validee' => 'Är Ënnerschrëft ass validéiert. Merci!',
 	'form_pet_site_deja_enregistre' => 'Dëse Site ass schon ageschriwen',
 	'form_pet_url_invalide' => 'D\'URL déi der uginn hutt ass nët richteg.',
 	'form_pet_votre_email' => 'Är Email-Adress',
-	'form_pet_votre_nom' => 'Äre Numm oder Pseudo',
+	'form_pet_votre_nom' => 'Äre Numm oder Pseudo', # MODIF
 	'form_pet_votre_site' => 'Wann dir e Web-Site hutt, da kënnt dër en hei uginn',
 
 	// I
@@ -84,6 +84,7 @@ Merci fir är Participatioun
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Merci fir är Participatioun
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'הכתובת הכללית של האתר שלך',
+	'form_pet_adresse_site' => 'הכתובת הכללית של האתר שלך', # MODIF
 	'form_pet_aucune_signature' => 'שום חתימה לא מתאימה לקוד...',
 	'form_pet_confirmation' => 'נא אשר את חתימתך.',
 	'form_pet_deja_signe' => 'כבר חתמת על הטקסט הזה.',
-	'form_pet_envoi_mail_confirmation' => 'דוא"ל אישור נשלח לכתובת @email@. נא להקליק בקישור שצוין בהודעה כדי לתת תוקף לחתימתך.',
+	'form_pet_envoi_mail_confirmation' => 'דוא"ל אישור נשלח לכתובת @email@. נא להקליק בקישור שצוין בהודעה כדי לתת תוקף לחתימתך.', # MODIF
 	'form_pet_mail_confirmation' => 'שלום,
 
 ביקשת לתחתום את הפטיציה הבאה:
@@ -42,14 +42,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 תודה על השתתפותך
 ',
 	'form_pet_message_commentaire' => 'יש לך תגובה או הודעה ?', # MODIF
-	'form_pet_nom_site2' => 'שם האתר שלך',
+	'form_pet_nom_site2' => 'שם האתר שלך', # MODIF
 	'form_pet_probleme_liens' => 'נא לתקן את הודעתך בהסרת הקישורים.',
 	'form_pet_probleme_technique' => 'בעיה טכנית, חתימות לא עובדות כרגע.',
 	'form_pet_signature_validee' => 'החתימה שלך מקובלת. תודה לך !',
 	'form_pet_site_deja_enregistre' => 'האתר הזה כבר רשום במערכת',
 	'form_pet_url_invalide' => 'הכתובת הכללית שכתבת לא ברת תוקף.',
 	'form_pet_votre_email' => 'כתובת הדוא"ל שלך',
-	'form_pet_votre_nom' => 'השם או הכינוי שלך',
+	'form_pet_votre_nom' => 'השם או הכינוי שלך', # MODIF
 	'form_pet_votre_site' => 'אם ברשותך אתר, כתוב את כתובתו להלן',
 
 	// I
@@ -82,6 +82,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -90,6 +91,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

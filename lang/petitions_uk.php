@@ -13,27 +13,27 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Адреса вашого сайту.',
+	'form_pet_adresse_site' => 'Адреса вашого сайту.', # MODIF
 	'form_pet_aucune_signature' => 'Ніякий підпис не відповідає цьому коду ...',
 	'form_pet_confirmation' => 'Будь ласка, підтвердіть свій підпис:',
 	'form_pet_deja_signe' => 'Ви вже підписали цей текст.',
-	'form_pet_envoi_mail_confirmation' => 'Підтвердження по електронній пошті було відправлено до вас. Ви повинні відвідати веб-адресу, вказану в листі для підтвердження вашого підпису.',
+	'form_pet_envoi_mail_confirmation' => 'Підтвердження по електронній пошті було відправлено до вас. Ви повинні відвідати веб-адресу, вказану в листі для підтвердження вашого підпису.', # MODIF
 	'form_pet_mail_confirmation' => 'Добрий день! Ви просили підписати петицію:  заголовок.Ви надали наступну інформацію:      Ім\'я: e-mail     Сайт: назва сайту     Сайт повідомленняВАЖЛИВО ...Щоб перевірити свій підпис, достатньо підключитись за нижче поданою адресою (в іншому випадку, Ваш запит буде відхилено): Спасибі за вашу участь ',
 	'form_pet_message_commentaire' => 'Повідомлення чи коментар?', # MODIF
-	'form_pet_nom_site2' => 'Назва вашого сайту',
+	'form_pet_nom_site2' => 'Назва вашого сайту', # MODIF
 	'form_pet_probleme_liens' => 'Будь ласка, відправте ваше повідомлення шляхом видалення гіперпосилання.',
 	'form_pet_probleme_technique' => 'Технічна проблема, підписи тимчасово призупинено.',
 	'form_pet_signature_validee' => 'Ваш підпис задіяно. Спасибі!',
 	'form_pet_site_deja_enregistre' => 'Цей сайт вже зареєстровано.',
 	'form_pet_url_invalide' => 'URL, який ви вказали, невірний.',
 	'form_pet_votre_email' => 'Ваша адреса email',
-	'form_pet_votre_nom' => 'Ваше ім\'я або нік',
+	'form_pet_votre_nom' => 'Ваше ім\'я або нік', # MODIF
 	'form_pet_votre_site' => 'Якщо у вас є сайт, ви можете ввести його нижче',
 
 	// I
@@ -66,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -74,6 +75,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

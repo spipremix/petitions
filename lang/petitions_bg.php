@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'URL на сайта',
+	'form_pet_adresse_site' => 'URL на сайта', # MODIF
 	'form_pet_aucune_signature' => 'Кодът не отговаря на никой запис',
 	'form_pet_confirmation' => 'Моля, потвърдете записа:',
 	'form_pet_deja_signe' => 'Тектът вече е записан.',
@@ -43,14 +43,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 Благодаря за участието!
 ',
 	'form_pet_message_commentaire' => 'Коментар?', # MODIF
-	'form_pet_nom_site2' => 'Име на Вашия сайт',
+	'form_pet_nom_site2' => 'Име на Вашия сайт', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Техническа грешка: записите са прекъснати моментално.',
 	'form_pet_signature_validee' => 'Подписът е одобрен. Благодаря!',
 	'form_pet_site_deja_enregistre' => 'Сайтът е вече регистриран',
 	'form_pet_url_invalide' => 'Грешен уеб-адрес (URL) на страницата',
 	'form_pet_votre_email' => 'Електронен адрес',
-	'form_pet_votre_nom' => 'Име или псевдоним',
+	'form_pet_votre_nom' => 'Име или псевдоним', # MODIF
 	'form_pet_votre_site' => 'Ако имате Интернет страница, може да я отворите по-долу',
 
 	// I
@@ -83,6 +83,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -91,6 +92,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

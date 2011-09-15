@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Sa makkaanu dalub web',
+	'form_pet_adresse_site' => 'Sa makkaanu dalub web', # MODIF
 	'form_pet_aucune_signature' => 'Benn xaatim dëppoowul ak baat bi',
 	'form_pet_confirmation' => 'Dëgalal sa xaatim',
 	'form_pet_deja_signe' => 'Xaatim nga mbind mi ba noppi.',
-	'form_pet_envoi_mail_confirmation' => '<MODIF>Yoonnees na ab E-bataaxal u dëggal ci @email@. war ngaa seeti sa sàqum E-bataaxal bii ngir weral sa xaatim.',
+	'form_pet_envoi_mail_confirmation' => '<MODIF>Yoonnees na ab E-bataaxal u dëggal ci @email@. war ngaa seeti sa sàqum E-bataaxal bii ngir weral sa xaatim.', # MODIF
 	'form_pet_mail_confirmation' => '<MODIF>Asalamaleekum yaa naan xaatim petisyoŋ @titre@.
  Joxe nga xibaar yii 
     Tur : @nom_email@
@@ -37,14 +37,14 @@ Boo bëggee weral sa xaatim, kokkal ci xàmmekaayu dal bi ci suuf boo ko deful, 
 
 Jaajëf ci seen wallusi',
 	'form_pet_message_commentaire' => 'Benn bataaxal, benn faranfacce ?', # MODIF
-	'form_pet_nom_site2' => 'Sa makkaanu dalub web',
+	'form_pet_nom_site2' => 'Sa makkaanu dalub web', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Jafe jafe xarala, xaatim yi aja gum nañu leen.',
 	'form_pet_signature_validee' => 'Sa xaatim weral nañu ko. Jërëjëf !',
 	'form_pet_site_deja_enregistre' => 'Aar nañu dalub web bi ba noppi ; ',
 	'form_pet_url_invalide' => 'URL bi nga joxoñ werul.',
 	'form_pet_votre_email' => 'Sa makkaanu emeel.',
-	'form_pet_votre_nom' => 'Sa tur wall dakental ; ',
+	'form_pet_votre_nom' => 'Sa tur wall dakental ; ', # MODIF
 	'form_pet_votre_site' => 'Su fekkee am nga dalub web mën nga ko joxoñ fii ci suuf.',
 
 	// I
@@ -77,6 +77,7 @@ Jaajëf ci seen wallusi',
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -85,6 +86,8 @@ Jaajëf ci seen wallusi',
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

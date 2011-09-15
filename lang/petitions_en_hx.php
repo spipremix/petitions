@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Y0ur 5173\'5 UR1',
+	'form_pet_adresse_site' => 'Y0ur 5173\'5 UR1', # MODIF
 	'form_pet_aucune_signature' => 'N0 51gn47ur3 m47ch35 7h15 c0d3...',
 	'form_pet_confirmation' => 'P13453 c0nf1rm y0ur 51gn47ur3:',
 	'form_pet_deja_signe' => 'Y0u h4v3 41r34dy 51gn3d 7h15 73x7.',
@@ -42,14 +42,14 @@ w111 b3 r3j3c73d):
 7h4nk y0u f0r y0ur p4r71c1p4710n
 ', # MODIF
 	'form_pet_message_commentaire' => '4ny m3554g3 0r c0mm3n7?', # MODIF
-	'form_pet_nom_site2' => 'N4m3 0f y0ur w3b 5173',
+	'form_pet_nom_site2' => 'N4m3 0f y0ur w3b 5173', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '73chn1c41 pr0b13m, 51gn47ur35 4r3 1n73rrup73d m0m3n74r11y.',
 	'form_pet_signature_validee' => 'Y0ur 51gn47ur3 15 v411d. 17 w111 4pp34r wh3n 7h3 5173 w111 b3 upd473d. 7h4nk y0u!', # MODIF
 	'form_pet_site_deja_enregistre' => '7h15 5173 15 41r34dy r3g1573r3d',
 	'form_pet_url_invalide' => '7h3 UR1 7h47 y0u h4v3 3n73r3d 15 n07 v411d.',
 	'form_pet_votre_email' => 'Y0ur 3-m411 4ddr355',
-	'form_pet_votre_nom' => 'Y0ur n4m3 0r 41145',
+	'form_pet_votre_nom' => 'Y0ur n4m3 0r 41145', # MODIF
 	'form_pet_votre_site' => '1f y0u h4v3 4 w3b 5173, y0u c4n 3n73r 17 b310w',
 
 	// I
@@ -82,6 +82,7 @@ w111 b3 r3j3c73d):
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -90,6 +91,8 @@ w111 b3 r3j3c73d):
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

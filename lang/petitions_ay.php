@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Qamawimat utjawipa',
+	'form_pet_adresse_site' => 'Qamawimat utjawipa', # MODIF
 	'form_pet_aucune_signature' => 'Janiw ni mä imt\'at qillqa utjkiti aka wakt\'at chimpuru',
 	'form_pet_confirmation' => 'Imt\'at qillqamar iyaw sam:',
 	'form_pet_deja_signe' => 'Aka saw qillqt\'xtaw.',
-	'form_pet_envoi_mail_confirmation' => 'Anchhitax mä iyaw sat aruskipayiri apayapxta. Iyawsamxa jisa sañatakix utjaw web aytat aka yatiyawinx uk tumpañamaw.',
+	'form_pet_envoi_mail_confirmation' => 'Anchhitax mä iyaw sat aruskipayiri apayapxta. Iyawsamxa jisa sañatakix utjaw web aytat aka yatiyawinx uk tumpañamaw.', # MODIF
 	'form_pet_mail_confirmation' => 'Kamisaki, 
 
 Mayiw iyaw saña uk maytawa:
@@ -46,14 +46,14 @@ Iyaw sawima iyaw sañatakix utjawir uñachayata ukar chinusiñamawa
 Arsusiwitamatxa yuspagara
    ',
 	'form_pet_message_commentaire' => '¿Mä yatiyawi, mä amuyu?', # MODIF
-	'form_pet_nom_site2' => 'Web qamawiman sutipa',
+	'form_pet_nom_site2' => 'Web qamawiman sutipa', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Jan wali, iyawsanakax sayt\'ataw anchhichanakax.',
 	'form_pet_signature_validee' => 'Iyawsamax iyaw sataxiwa. ¡Yuspajara!',
 	'form_pet_site_deja_enregistre' => 'Aka qamawix qillqt\'ataxiwa',
 	'form_pet_url_invalide' => 'URL uka uñachayktax janiw iyaw satakiti.',
 	'form_pet_votre_email' => 'Juman aruskipayiriman utjawipa',
-	'form_pet_votre_nom' => 'Sutima jan ukasti sutichama',
+	'form_pet_votre_nom' => 'Sutima jan ukasti sutichama', # MODIF
 	'form_pet_votre_site' => 'Sitix mä Web qamawi utjtam, uñachayasmaw',
 
 	// I
@@ -86,6 +86,7 @@ Arsusiwitamatxa yuspagara
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -94,6 +95,8 @@ Arsusiwitamatxa yuspagara
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

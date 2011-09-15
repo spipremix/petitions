@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Sivustosi URL-osoite',
+	'form_pet_adresse_site' => 'Sivustosi URL-osoite', # MODIF
 	'form_pet_aucune_signature' => 'Mikään allekirjoitus ei sovi tähän koodiin...',
 	'form_pet_confirmation' => 'Vahvista allekirjoituksesi:',
 	'form_pet_deja_signe' => 'Olet jo allekirjoittanut tämän tekstin.',
@@ -43,14 +43,14 @@ will be rejected):
 Thank you for your participation!
 ', # NEW
 	'form_pet_message_commentaire' => 'Viestiä tai kommenttia?', # MODIF
-	'form_pet_nom_site2' => 'Nettisivustosi nimi',
+	'form_pet_nom_site2' => 'Nettisivustosi nimi', # MODIF
 	'form_pet_probleme_liens' => 'Please edit your message, taking out all hyperlinks.', # NEW
 	'form_pet_probleme_technique' => 'Technical problem, signatures are interrupted momentarily.', # NEW
 	'form_pet_signature_validee' => 'Your signature is valid. Thank you!', # NEW
 	'form_pet_site_deja_enregistre' => 'Tämä sivusto on jo rekisteröity',
 	'form_pet_url_invalide' => 'Antamasi URL-osoite ei ole kelvollinen',
 	'form_pet_votre_email' => 'Sähköpostiosoitteesi',
-	'form_pet_votre_nom' => 'Nimesi tai nimimerkkisi',
+	'form_pet_votre_nom' => 'Nimesi tai nimimerkkisi', # MODIF
 	'form_pet_votre_site' => 'Voit lisätä seuraavaan, mahdollisen nettisivustosi',
 
 	// I
@@ -83,6 +83,7 @@ Thank you for your participation!
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -91,6 +92,8 @@ Thank you for your participation!
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

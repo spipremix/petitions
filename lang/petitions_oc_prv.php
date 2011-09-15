@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adreiça de vòstre sit',
+	'form_pet_adresse_site' => 'Adreiça de vòstre sit', # MODIF
 	'form_pet_aucune_signature' => 'Ges de signatura correspònd a aqueu còde...',
 	'form_pet_confirmation' => 'Vougatz confirmar vòstra signatura:',
 	'form_pet_deja_signe' => 'Avètz ja signat aqueu tèxt.',
@@ -44,14 +44,14 @@ Per validar vòstra signatura, basta de vos connectar a
 Grandmercé per vòstra participacion
 ',
 	'form_pet_message_commentaire' => 'Un messatge, una remarca?', # MODIF
-	'form_pet_nom_site2' => 'Nom de vòstre sit Web',
+	'form_pet_nom_site2' => 'Nom de vòstre sit Web', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problèma tecnic, lei signaturas son temporàriament arrestadas.',
 	'form_pet_signature_validee' => 'Vòstra signatura es validada. Grandmercé!',
 	'form_pet_site_deja_enregistre' => 'Ja aqueu sit es registrat',
 	'form_pet_url_invalide' => 'L\'URL qu\'avètz indicada es pas valida.',
 	'form_pet_votre_email' => 'Vòstra adreiça e-mail',
-	'form_pet_votre_nom' => 'Vòstre nom o pseudonim',
+	'form_pet_votre_nom' => 'Vòstre nom o pseudonim', # MODIF
 	'form_pet_votre_site' => 'Se tenètz un sit, o podètz marcar çai sota',
 
 	// I
@@ -84,6 +84,7 @@ Grandmercé per vòstra participacion
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Grandmercé per vòstra participacion
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

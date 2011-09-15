@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => '<NEW> Adresse de votre site',
+	'form_pet_adresse_site' => '<NEW> Adresse de votre site', # MODIF
 	'form_pet_aucune_signature' => '<NEW> Aucune signature ne correspond à ce code...',
 	'form_pet_confirmation' => 'Staðfestu undirskriftina:',
 	'form_pet_deja_signe' => '<NEW> Vous avez déjà signé ce texte.',
@@ -45,14 +45,14 @@ sera rejetée) :
 Merci de votre participation
 ',
 	'form_pet_message_commentaire' => '<NEW> Un message, un commentaire ?', # MODIF
-	'form_pet_nom_site2' => '<NEW> <b>Nom de votre site Web',
+	'form_pet_nom_site2' => '<NEW> <b>Nom de votre site Web', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '<NEW> Problème technique, les signatures sont temporairement suspendues.',
 	'form_pet_signature_validee' => '<NEW> Votre signature est validée. Elle apparaîtra lors de la prochaine mise à jour du site. Merci !',
 	'form_pet_site_deja_enregistre' => '<NEW> Ce site est déjà enregistré',
 	'form_pet_url_invalide' => '<NEW> L\'URL que vous avez indiquée n\'est pas valide.',
 	'form_pet_votre_email' => '<NEW> Votre adresse email',
-	'form_pet_votre_nom' => '<NEW> Votre nom ou pseudo',
+	'form_pet_votre_nom' => '<NEW> Votre nom ou pseudo', # MODIF
 	'form_pet_votre_site' => '<NEW> Si vous avez un site Web, vous pouvez l\'indiquer ci-dessous',
 
 	// I
@@ -85,6 +85,7 @@ Merci de votre participation
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ Merci de votre participation
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

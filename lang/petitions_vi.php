@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'URL của website bạn',
+	'form_pet_adresse_site' => 'URL của website bạn', # MODIF
 	'form_pet_aucune_signature' => 'Không ký hiệu nào phù hợp với mã số này...',
 	'form_pet_confirmation' => 'Xin xác nhận chữ ký của bạn:',
 	'form_pet_deja_signe' => 'Bạn đã ký văn bản này.',
@@ -38,14 +38,14 @@ QUAN TRỌNG...
 
 Cám ơn sự tham gia của bạn.', # MODIF
 	'form_pet_message_commentaire' => 'Có nhắn tin hay bình luận gì không?', # MODIF
-	'form_pet_nom_site2' => 'Tên trang web của bạn',
+	'form_pet_nom_site2' => 'Tên trang web của bạn', # MODIF
 	'form_pet_probleme_liens' => 'Sửa đổi phần nội dung, xin lấy ra các hyperlink.',
 	'form_pet_probleme_technique' => 'Trục trặc kỹ thuật, chữ ký bị đình trệ trong giây lát.',
 	'form_pet_signature_validee' => 'Chữ ký bạn được xác nhận. Cám ơn bạn!',
 	'form_pet_site_deja_enregistre' => 'Website này đã được ghi danh',
 	'form_pet_url_invalide' => 'URL bạn cho vào không đúng.',
 	'form_pet_votre_email' => 'Địa chỉ email của bạn',
-	'form_pet_votre_nom' => 'Tên hay bí danh',
+	'form_pet_votre_nom' => 'Tên hay bí danh', # MODIF
 	'form_pet_votre_site' => 'Nếu bạn có một trang web, bạn có thể cho biết tên của nó dưới đây',
 
 	// I
@@ -78,6 +78,7 @@ Cám ơn sự tham gia của bạn.', # MODIF
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -86,6 +87,8 @@ Cám ơn sự tham gia của bạn.', # MODIF
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

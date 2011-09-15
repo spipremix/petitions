@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Dit websteds URL',
+	'form_pet_adresse_site' => 'Dit websteds URL', # MODIF
 	'form_pet_aucune_signature' => 'Ingen signatur svarer til denne kode...',
 	'form_pet_confirmation' => 'Bekræft venligst din signatur:',
 	'form_pet_deja_signe' => 'Du har allerede signeret denne tekst.',
@@ -41,14 +41,14 @@ adressen nedenfor (ellers vil underskriften blive afvist):
 Tak for din deltagelse
 ', # MODIF
 	'form_pet_message_commentaire' => 'Meddelelse eller kommentar?', # MODIF
-	'form_pet_nom_site2' => 'Navn på dit websted',
+	'form_pet_nom_site2' => 'Navn på dit websted', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Teknisk problem: Appelfunktionen er i øjeblikket ude af drift.',
 	'form_pet_signature_validee' => 'Din underskrift er godkendt. Den vil blive offentliggjort, når webstedet opdateres. Tak!',
 	'form_pet_site_deja_enregistre' => 'Dette websted er allerede registreret',
 	'form_pet_url_invalide' => 'Den URL, du har angivet, er ikke gyldig.',
 	'form_pet_votre_email' => 'Din e-mail-adresse',
-	'form_pet_votre_nom' => 'Dit navn eller alias',
+	'form_pet_votre_nom' => 'Dit navn eller alias', # MODIF
 	'form_pet_votre_site' => 'Hvis du har et websted, kan du angive den nedenfor',
 
 	// I
@@ -81,6 +81,7 @@ Tak for din deltagelse
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -89,6 +90,8 @@ Tak for din deltagelse
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

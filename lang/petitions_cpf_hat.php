@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Ladrès sit ou',
+	'form_pet_adresse_site' => 'Ladrès sit ou', # MODIF
 	'form_pet_aucune_signature' => 'Okenn siyati ka koresponn kod-la...',
 	'form_pet_confirmation' => 'Mèsi konfime siyati ou :',
 	'form_pet_deja_signe' => 'W te deja sinye tèks-la.',
@@ -41,14 +41,14 @@ Pou konfime siyati-a, fòk sèlman w abòd ladrès anba (sinon, sitwèb-la ke pa
 Mèsi  w soutni petisyon-nan
 ', # MODIF
 	'form_pet_message_commentaire' => 'Gen yon mesaj, yon komanté pou di ?', # MODIF
-	'form_pet_nom_site2' => 'Kouman sitwèb ou rele',
+	'form_pet_nom_site2' => 'Kouman sitwèb ou rele', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Pwoblèm teknik, siyati se pa posib kounye-a. Tann pwoblèm-la ke aranje pou rete sispann a yo.',
 	'form_pet_signature_validee' => 'Siyati ou se konfime. Mèsi !',
 	'form_pet_site_deja_enregistre' => 'Sit-la se deja enskri',
 	'form_pet_url_invalide' => 'URL w te done se pa bon.',
 	'form_pet_votre_email' => 'Ladrès limèl ou',
-	'form_pet_votre_nom' => 'Kouman w rele',
+	'form_pet_votre_nom' => 'Kouman w rele', # MODIF
 	'form_pet_votre_site' => 'Si w ap gen sitwèb, se posib enskri ali isit-enba-mèm',
 
 	// I
@@ -81,6 +81,7 @@ Mèsi  w soutni petisyon-nan
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -89,6 +90,8 @@ Mèsi  w soutni petisyon-nan
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

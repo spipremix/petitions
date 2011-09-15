@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Retadreso de via retejo',
+	'form_pet_adresse_site' => 'Retadreso de via retejo', # MODIF
 	'form_pet_aucune_signature' => 'Neniu subskribo kongruas kun tiu kodo...',
 	'form_pet_confirmation' => 'Bonvolu konfirmi vian subskribon:',
 	'form_pet_deja_signe' => 'Vi jam subskribis tiun tekston.',
-	'form_pet_envoi_mail_confirmation' => 'Konfirma retmesaĝo estis ĵus sendita al @email@. Vi devas aliri la retadreson menciitan en tiu mesaĝo por validigi vian subskribon.',
+	'form_pet_envoi_mail_confirmation' => 'Konfirma retmesaĝo estis ĵus sendita al @email@. Vi devas aliri la retadreson menciitan en tiu mesaĝo por validigi vian subskribon.', # MODIF
 	'form_pet_mail_confirmation' => 'Saluton,
 
 Vi petis subskribi la petskribon:
@@ -45,14 +45,14 @@ estos rifuzita):
 Dankon pro via partopreno
 ',
 	'form_pet_message_commentaire' => 'Ĉu mesaĝon, ĉu komenton ?', # MODIF
-	'form_pet_nom_site2' => 'Nomo de via retejo',
+	'form_pet_nom_site2' => 'Nomo de via retejo', # MODIF
 	'form_pet_probleme_liens' => 'Bonvolu retrakti vian mesaĝon forigante hiperteskajn ligilojn.',
 	'form_pet_probleme_technique' => 'Teknika problemo, la subskribeblo estas portempe ne ebla.',
 	'form_pet_signature_validee' => 'Via subskribo estas validigita. Dankon !',
 	'form_pet_site_deja_enregistre' => 'Tiu retejo estas jam registrita',
 	'form_pet_url_invalide' => 'La retadreso, kiun vi indikis, ne validas.',
 	'form_pet_votre_email' => 'Via retpoŝtadreso',
-	'form_pet_votre_nom' => 'Via nomo aŭ salutnomo',
+	'form_pet_votre_nom' => 'Via nomo aŭ salutnomo', # MODIF
 	'form_pet_votre_site' => 'Se vi havas retejon, vi povas ĝin indiki ĉi-sube',
 
 	// I
@@ -85,6 +85,7 @@ Dankon pro via partopreno
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ Dankon pro via partopreno
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

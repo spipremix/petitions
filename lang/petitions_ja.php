@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'あなたのサイトのURL',
+	'form_pet_adresse_site' => 'あなたのサイトのURL', # MODIF
 	'form_pet_aucune_signature' => '署名がこのコードと一致しません...',
 	'form_pet_confirmation' => 'あなたの署名を確認してください:',
 	'form_pet_deja_signe' => 'あなたは既にこの文章に署名しました。',
@@ -41,14 +41,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 参加してくれてありがとうございました。
 ', # MODIF
 	'form_pet_message_commentaire' => 'よろしければメッセージをお寄せください。', # MODIF
-	'form_pet_nom_site2' => 'あなたのウェブサイトの名前',
+	'form_pet_nom_site2' => 'あなたのウェブサイトの名前', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => '技術的問題、署名はほんの短い間、中断されました。',
 	'form_pet_signature_validee' => 'あなたの署名は有効です。Thank you!',
 	'form_pet_site_deja_enregistre' => 'このサイトは既に登録されています。',
 	'form_pet_url_invalide' => 'あなたが入力したURLは、有効ではありません。',
 	'form_pet_votre_email' => 'あなたのe-mailアドレス',
-	'form_pet_votre_nom' => 'あなたの名前か別名',
+	'form_pet_votre_nom' => 'あなたの名前か別名', # MODIF
 	'form_pet_votre_site' => 'もしあなたがウェブサイトを持っているなら、下に入力することが出来ます。',
 
 	// I
@@ -81,6 +81,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -89,6 +90,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

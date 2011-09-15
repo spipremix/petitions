@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adresa site-ului dumneavoastră',
+	'form_pet_adresse_site' => 'Adresa site-ului dumneavoastră', # MODIF
 	'form_pet_aucune_signature' => 'Nici o semnătură nu corespunde acestui cod...',
 	'form_pet_confirmation' => 'Vă rugăm să confirmaţi semnătura dumneavoastră :',
 	'form_pet_deja_signe' => 'Aţi semnat deja acest text.',
-	'form_pet_envoi_mail_confirmation' => 'Un email de confirmare tocmai v-a fost trimis la adresa @email@. Pentru a valida semnătura dumneavoastră, va trebui să vizitaţi adresa de web menţionată in email.',
+	'form_pet_envoi_mail_confirmation' => 'Un email de confirmare tocmai v-a fost trimis la adresa @email@. Pentru a valida semnătura dumneavoastră, va trebui să vizitaţi adresa de web menţionată in email.', # MODIF
 	'form_pet_mail_confirmation' => 'Bună ziua,
 
 Aţi cerut să semnaţi petiţia :
@@ -44,14 +44,14 @@ adresa de mai jos (în caz contrat, cererea dumneavoastră va fi refuzată) :
 Mulţumim pentru participarea dumneavoastră
 ',
 	'form_pet_message_commentaire' => 'Un mesaj, un comentariu ?', # MODIF
-	'form_pet_nom_site2' => 'Numele site-ului dumneavoastră de Web',
+	'form_pet_nom_site2' => 'Numele site-ului dumneavoastră de Web', # MODIF
 	'form_pet_probleme_liens' => 'Vă rugăm să reluati introducerea mesajului - suprimaţi legăturile hipertext.',
 	'form_pet_probleme_technique' => 'Datorită unor probleme tehnice, semnăturile sunt deocamdată suspendate.',
 	'form_pet_signature_validee' => 'Semnătura dumneavoastră este validată. Mulţumiri  !',
 	'form_pet_site_deja_enregistre' => 'Acest site este deja înregistrat',
 	'form_pet_url_invalide' => 'Adresa URL indicată nu este valabilă.',
 	'form_pet_votre_email' => 'Adresa dumneavoastră de email',
-	'form_pet_votre_nom' => 'Numele sau pseudonimul dumneavoastră',
+	'form_pet_votre_nom' => 'Numele sau pseudonimul dumneavoastră', # MODIF
 	'form_pet_votre_site' => 'Dacă aveţi un site Web, puteţi să-l indicaţi mai jos',
 
 	// I
@@ -84,6 +84,7 @@ Mulţumim pentru participarea dumneavoastră
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Mulţumim pentru participarea dumneavoastră
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

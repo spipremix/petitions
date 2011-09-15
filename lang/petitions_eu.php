@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Zure gunearen helbidea',
+	'form_pet_adresse_site' => 'Zure gunearen helbidea', # MODIF
 	'form_pet_aucune_signature' => 'Ez dago kode honi dagokion sinadurarik...',
 	'form_pet_confirmation' => 'Zure sinadura baieztatu:',
 	'form_pet_deja_signe' => 'Testu hau dagoeneko sinatu duzu.',
-	'form_pet_envoi_mail_confirmation' => 'Oraintxe bertan baieztapen-mezu elektroniko bat @email@ helbidera igorri dugu. Mezu horretan aipatutako Web helbidea bisitatu behar duzu zure sinadura onartzeko.',
+	'form_pet_envoi_mail_confirmation' => 'Oraintxe bertan baieztapen-mezu elektroniko bat @email@ helbidera igorri dugu. Mezu horretan aipatutako Web helbidea bisitatu behar duzu zure sinadura onartzeko.', # MODIF
 	'form_pet_mail_confirmation' => 'Kaixo, 
 
 @titre@ eskaera sinatzea eskatu duzu.
@@ -39,14 +39,14 @@ Zure sinadura onartzeko, hurrengo helbidera konektatzea beharrezkoa da (bestela,
 
 Milesker parte hartzeagatik ',
 	'form_pet_message_commentaire' => 'Mezurik, azalpenik ?', # MODIF
-	'form_pet_nom_site2' => 'Zure Webgunearen izena',
+	'form_pet_nom_site2' => 'Zure Webgunearen izena', # MODIF
 	'form_pet_probleme_liens' => 'Otoi, zure mezua bermoldatu hiperestekak kenduz.',
 	'form_pet_probleme_technique' => 'Arazo teknikoa, sinadurak behin-behineko etenaldian daude.',
 	'form_pet_signature_validee' => 'Zure sinadura onartuta dago. Gunearen hurrengo gaurkotzean agertuko da. Eskerrik asko!',
 	'form_pet_site_deja_enregistre' => 'Gune hau erregistraturik dago jadanik',
 	'form_pet_url_invalide' => 'Zuk aipatutako URL-ak ez du balio',
 	'form_pet_votre_email' => 'Zure posta-elektronikoaren helbidea',
-	'form_pet_votre_nom' => 'Zure izena edo goitizena',
+	'form_pet_votre_nom' => 'Zure izena edo goitizena', # MODIF
 	'form_pet_votre_site' => 'Webgune bat baldin baduzu, jarraian adierazi dezakezu',
 
 	// I
@@ -79,6 +79,7 @@ Milesker parte hartzeagatik ',
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -87,6 +88,8 @@ Milesker parte hartzeagatik ',
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

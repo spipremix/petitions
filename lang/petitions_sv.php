@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Din sajts URL',
+	'form_pet_adresse_site' => 'Din sajts URL', # MODIF
 	'form_pet_aucune_signature' => 'Inga underskrifter motsvarar denna kod...',
 	'form_pet_confirmation' => 'Var god och bekräfta din underskrift:',
 	'form_pet_deja_signe' => 'Du har redan skrivit under texten.',
-	'form_pet_envoi_mail_confirmation' => 'Ett epost med en begäran om bekräftelse har precis skickats till @email@. Du bör besöka den URL som står i brevet för att bekräfta din inmatning.',
+	'form_pet_envoi_mail_confirmation' => 'Ett epost med en begäran om bekräftelse har precis skickats till @email@. Du bör besöka den URL som står i brevet för att bekräfta din inmatning.', # MODIF
 	'form_pet_mail_confirmation' => 'Hej,
 
 Du har begärt att skriva under namninsamlingen:
@@ -41,14 +41,14 @@ adressen nedan (annars kommer din begäran att nekas:
 Tack för ditt deltagande
 ',
 	'form_pet_message_commentaire' => 'Något meddelande eller kommentar?', # MODIF
-	'form_pet_nom_site2' => 'Namn på din webbssajt',
+	'form_pet_nom_site2' => 'Namn på din webbssajt', # MODIF
 	'form_pet_probleme_liens' => 'Var vänlig ändra ditt meddelande, ta bort alla hyperlänkar.',
 	'form_pet_probleme_technique' => 'Registrering är tillfälligtvis omöjligt på grund av ett tekniskt problem.',
 	'form_pet_signature_validee' => 'Din signatur är giltig. Tack!',
 	'form_pet_site_deja_enregistre' => 'Den här sajten är redan registrerad',
 	'form_pet_url_invalide' => 'URL:en som du angivit är inte giltig.',
 	'form_pet_votre_email' => 'Din epost-adress',
-	'form_pet_votre_nom' => 'Ditt namn eller aliass',
+	'form_pet_votre_nom' => 'Ditt namn eller aliass', # MODIF
 	'form_pet_votre_site' => 'Om du har en webbssajt, kan du ange dess adress nedan',
 
 	// I
@@ -81,6 +81,7 @@ Tack för ditt deltagande
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -89,6 +90,8 @@ Tack för ditt deltagande
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

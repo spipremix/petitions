@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => '\\\'O nnerizzo d\\\'\\\'o sito d\\\'\\\'o vuosto',
+	'form_pet_adresse_site' => '\\\'O nnerizzo d\\\'\\\'o sito d\\\'\\\'o vuosto', # MODIF
 	'form_pet_aucune_signature' => 'Chistu codice nun currispunne a nisciun suggetto...',
 	'form_pet_confirmation' => 'Abbalurate \\\'a dumanna \\\'e participazzione:',
 	'form_pet_deja_signe' => 'Gi&amp;agrave; avite firmato chistu scritto.',
@@ -41,14 +41,14 @@ Pe cunvalidà \\\'a firma d\\\'\\\'a vosta, v\\\'avite cullegà \\\'o nnerizzoin
 
 Grazzje assaje pe pparticipà',
 	'form_pet_message_commentaire' => 'Nu messaggio, na crosa?', # MODIF
-	'form_pet_nom_site2' => 'Nomme d\\\'\\\'o sito web d\\\'\\\'o vuosto',
+	'form_pet_nom_site2' => 'Nomme d\\\'\\\'o sito web d\\\'\\\'o vuosto', # MODIF
 	'form_pet_probleme_liens' => 'Pe ppiacere, cagnate \\\'o messaggio d\\\'\\\'o vuosto cancellanno tutte \\\'e gghjonte.',
 	'form_pet_probleme_technique' => 'Prublema t&amp;egrave;cnico, \\\'e scrizzione stanno \\\'ncampana pe mmo.',
 	'form_pet_signature_validee' => '\\\'A scrizzione d\\\'\\\'a vosta fuje appruvata. Grazzje assaje!',
 	'form_pet_site_deja_enregistre' => 'Chistu sito già venette allegistrato',
 	'form_pet_url_invalide' => 'Ll\\\'URL ca avite innicato nun è vàleta.',
 	'form_pet_votre_email' => '\\\'O nnerizzo \\\'e posta elettrònica d\\\'\\\'o vuosto',
-	'form_pet_votre_nom' => '\\\'O nomme o \'o pseudonimo d\\\'\\\'o vuosto',
+	'form_pet_votre_nom' => '\\\'O nomme o \'o pseudonimo d\\\'\\\'o vuosto', # MODIF
 	'form_pet_votre_site' => 'Si tenite nu sito web, \'o pputite innicà ccà abbascio',
 
 	// I
@@ -81,6 +81,7 @@ Grazzje assaje pe pparticipà',
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -89,6 +90,8 @@ Grazzje assaje pe pparticipà',
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

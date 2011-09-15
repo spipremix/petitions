@@ -13,27 +13,27 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adresa vase stranice',
+	'form_pet_adresse_site' => 'Adresa vase stranice', # MODIF
 	'form_pet_aucune_signature' => 'Nijedan potpis ne odgovara ovom kodu...',
 	'form_pet_confirmation' => 'Potvrdite vas potpis:',
 	'form_pet_deja_signe' => 'Vec ste potpisali ovaj tekst.',
 	'form_pet_envoi_mail_confirmation' => 'Upravo vam je poslan e-mail sa potvrdom. Trebate posjetiti web stranicu naznacenu u tom e-mailu, da bi ste ovjerili vas potpis.', # MODIF
 	'form_pet_mail_confirmation' => 'Dobar dan',
 	'form_pet_message_commentaire' => 'Da li zelite napisati poruku ili komentar?', # MODIF
-	'form_pet_nom_site2' => 'Ime vase web stranice',
+	'form_pet_nom_site2' => 'Ime vase web stranice', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Tehnicki problem, potpisi su trenutno nedostupni.',
 	'form_pet_signature_validee' => 'Vas potpis je vazeci. Hvala!',
 	'form_pet_site_deja_enregistre' => 'Ova stranica je vec registrovana',
 	'form_pet_url_invalide' => 'URL adresa koju ste naznacili nije vazeca.',
 	'form_pet_votre_email' => 'Vasa e-mail adresa',
-	'form_pet_votre_nom' => 'Vase ime ili pseudo',
+	'form_pet_votre_nom' => 'Vase ime ili pseudo', # MODIF
 	'form_pet_votre_site' => 'Ako imate web stranicu, mozete je naznaciti ispod',
 
 	// I
@@ -66,6 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -74,6 +75,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

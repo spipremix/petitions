@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Honlapjának címe',
+	'form_pet_adresse_site' => 'Honlapjának címe', # MODIF
 	'form_pet_aucune_signature' => 'Egyetlen aláírás sem felel meg ennek a kódnak...',
 	'form_pet_confirmation' => 'Kérjük, erősítse meg aláírását:',
 	'form_pet_deja_signe' => 'Már aláírta ezt a szöveget.',
@@ -44,14 +44,14 @@ lenti címhez kell csatlakozni (ellenkező esetben az Ön kérése el lesz utas�
 Köszönjük részvételét!
 ',
 	'form_pet_message_commentaire' => 'Üzenet, hozzászólás ?', # MODIF
-	'form_pet_nom_site2' => 'Honlapjának neve',
+	'form_pet_nom_site2' => 'Honlapjának neve', # MODIF
 	'form_pet_probleme_liens' => 'Kérjük, törölje a hiperhivatkozásokat üzenetéből.',
 	'form_pet_probleme_technique' => 'Technikai hiba, az aláírás ideiglenesen fel van függesztve.',
 	'form_pet_signature_validee' => 'Aláírását hitelesítettük. Köszönjük !',
 	'form_pet_site_deja_enregistre' => 'Ezt a honlapot már regisztrálták',
 	'form_pet_url_invalide' => 'A beírt URL nem érvényes.',
 	'form_pet_votre_email' => 'Az Ön email címe',
-	'form_pet_votre_nom' => 'Az Ön neve vagy felhasználóneve',
+	'form_pet_votre_nom' => 'Az Ön neve vagy felhasználóneve', # MODIF
 	'form_pet_votre_site' => 'Amennyiben van saját honlapja, lejjebb jelezheti',
 
 	// I
@@ -84,6 +84,7 @@ Köszönjük részvételét!
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Köszönjük részvételét!
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

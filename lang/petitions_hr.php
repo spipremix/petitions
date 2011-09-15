@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'URL Vašeg web sajta',
+	'form_pet_adresse_site' => 'URL Vašeg web sajta', # MODIF
 	'form_pet_aucune_signature' => 'Niti jedan potpis ne odgovara ovome kodu...',
 	'form_pet_confirmation' => 'Potvrdite Vaš potpis:',
 	'form_pet_deja_signe' => 'Već ste potpisali ovaj tekst.',
-	'form_pet_envoi_mail_confirmation' => 'Upravo Vam je poslan potvrdni mejl. Posjetite URL naveden u mejlu da biste ovjerili Vaš potpis.',
+	'form_pet_envoi_mail_confirmation' => 'Upravo Vam je poslan potvrdni mejl. Posjetite URL naveden u mejlu da biste ovjerili Vaš potpis.', # MODIF
 	'form_pet_mail_confirmation' => 'Dobar dan,
 
 Vi ste podnijeli zahtjev da potpišete peticiju:
@@ -42,14 +42,14 @@ Da biste ovjerili Vaš potpis, morate se spojiti na slijedeću adresu (ukoliko t
 Hvala na suradnji
 ',
 	'form_pet_message_commentaire' => 'Želite li napisati poruku ili komentar?', # MODIF
-	'form_pet_nom_site2' => 'Ime Vašeg web sajta',
+	'form_pet_nom_site2' => 'Ime Vašeg web sajta', # MODIF
 	'form_pet_probleme_liens' => 'Molim obrišite sve hiperlinkove u Vašoj poruci.',
 	'form_pet_probleme_technique' => 'Trenutačno imamo tehničkih poteškoća, potpisi ne funkcioniraju.',
 	'form_pet_signature_validee' => 'Vaš potpis je prihvaćen. Hvala!',
 	'form_pet_site_deja_enregistre' => 'Ovaj web sajt je već registriran',
 	'form_pet_url_invalide' => 'URL koji ste unijeli je neispravan.',
 	'form_pet_votre_email' => 'Vaša mejl adresa',
-	'form_pet_votre_nom' => 'Vaše ime ili pseudonim',
+	'form_pet_votre_nom' => 'Vaše ime ili pseudonim', # MODIF
 	'form_pet_votre_site' => 'Ako imate web sajt, možete ga unijeti dolje',
 
 	// I
@@ -82,6 +82,7 @@ Hvala na suradnji
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -90,6 +91,8 @@ Hvala na suradnji
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

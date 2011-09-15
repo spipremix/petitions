@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Ladrès out sitwèb',
+	'form_pet_adresse_site' => 'Ladrès out sitwèb', # MODIF
 	'form_pet_aucune_signature' => 'Astèr, nana pwinn sinyatir èk kod la-minm...',
 	'form_pet_confirmation' => 'Mersi konfirm tèrla out sinyatir :',
 	'form_pet_deja_signe' => 'Ou la déza finn sinyé lo tèks-la.',
@@ -41,14 +41,14 @@ Pou konfirm out sinyatir-la, i fo sèlman akost ladrès anba (si lé pa fé, sit
 Mersi aou mèt ansanm isi
 ',
 	'form_pet_message_commentaire' => 'Inn modékri, inn ti lavi, inn komantèr ?', # MODIF
-	'form_pet_nom_site2' => '<b>Lo non out sitwèb ',
+	'form_pet_nom_site2' => '<b>Lo non out sitwèb ', # MODIF
 	'form_pet_probleme_liens' => 'Arpran out\' mèzaz pou siprim bann gatiraz.',
 	'form_pet_probleme_technique' => 'Astèr, nana inn larlik èk latéknik : bann sinyatir lé baré pou inn moman.',
 	'form_pet_signature_validee' => 'Out sinyatir lé konfirmé. Mersi aou !',
 	'form_pet_site_deja_enregistre' => 'Sitwèb-la la déza finn dèt anrozistré',
 	'form_pet_url_invalide' => 'Ladrès URL ou la finn doné lé pa korèk.',
 	'form_pet_votre_email' => 'Out ladrès imèl',
-	'form_pet_votre_nom' => 'Out vrénon ou ti-non-gaté',
+	'form_pet_votre_nom' => 'Out vrénon ou ti-non-gaté', # MODIF
 	'form_pet_votre_site' => 'Si out néna out prop sitwèb, i pé mèt ali anba tèrla :',
 
 	// I
@@ -81,6 +81,7 @@ Mersi aou mèt ansanm isi
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -89,6 +90,8 @@ Mersi aou mèt ansanm isi
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Nettstedets URI',
+	'form_pet_adresse_site' => 'Nettstedets URI', # MODIF
 	'form_pet_aucune_signature' => 'Ingen signatur finnes for denne koden...',
 	'form_pet_confirmation' => 'Bekreft signaturen:',
 	'form_pet_deja_signe' => 'Du har allerede signert teksten.',
@@ -42,14 +42,14 @@ denne adressen for å bli godkjent:
 Tusen takk!
 ',
 	'form_pet_message_commentaire' => 'Har du en melding eller kommentar?', # MODIF
-	'form_pet_nom_site2' => 'Nettstedets navn',
+	'form_pet_nom_site2' => 'Nettstedets navn', # MODIF
 	'form_pet_probleme_liens' => 'Vennligst rediger meldingen og fjern alle lenker.',
 	'form_pet_probleme_technique' => 'Vi har et teknisk problem. Signaturer er ikke tilgjengelig. ',
 	'form_pet_signature_validee' => 'Din signatur er godkjent. Takk.',
 	'form_pet_site_deja_enregistre' => 'Nettstedet er allerede registrert',
 	'form_pet_url_invalide' => 'Lenken du har skrevet inn er ikke gyldig.',
 	'form_pet_votre_email' => 'Din epostadresse',
-	'form_pet_votre_nom' => 'Navn eller kallenavn',
+	'form_pet_votre_nom' => 'Navn eller kallenavn', # MODIF
 	'form_pet_votre_site' => 'Dersom du har et vev-sted kan du skrive det her',
 
 	// I
@@ -82,6 +82,7 @@ Tusen takk!
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -90,6 +91,8 @@ Tusen takk!
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

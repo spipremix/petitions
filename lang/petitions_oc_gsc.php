@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adreiça deu vòste sit',
+	'form_pet_adresse_site' => 'Adreiça deu vòste sit', # MODIF
 	'form_pet_aucune_signature' => 'Nada signatura non correspond pas a aqueth còde...',
 	'form_pet_confirmation' => 'Volhatz confirmar la vòsta signatura:',
 	'form_pet_deja_signe' => 'Qu\'avetz ja signat aqueth tèxt.',
@@ -44,14 +44,14 @@ la vòsta demanda):
 Mercés entà la vòsta participacion
 ', # MODIF
 	'form_pet_message_commentaire' => 'Un messatge, ua remarca?', # MODIF
-	'form_pet_nom_site2' => 'Nom deu vòste sit web',
+	'form_pet_nom_site2' => 'Nom deu vòste sit web', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problèma tecnic, las signaturas que son temporàriament arrestadas.',
 	'form_pet_signature_validee' => 'La vòsta signatura qu\'ei validada. Mercés!',
 	'form_pet_site_deja_enregistre' => 'Ja aqueth sit qu\'ei registrat',
 	'form_pet_url_invalide' => 'L\'URL qui avetz indicada n\'ei pas valida.',
 	'form_pet_votre_email' => 'La vòsta adreiça e-mail',
-	'form_pet_votre_nom' => 'Lo vòste nom o pseudonim',
+	'form_pet_votre_nom' => 'Lo vòste nom o pseudonim', # MODIF
 	'form_pet_votre_site' => 'Se tienetz un sit, qu\'ac podetz marcar ça devath',
 
 	// I
@@ -84,6 +84,7 @@ Mercés entà la vòsta participacion
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Mercés entà la vòsta participacion
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

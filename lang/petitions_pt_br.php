@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Endereço do seu site',
+	'form_pet_adresse_site' => 'Endereço do seu site', # MODIF
 	'form_pet_aucune_signature' => 'Nenhuma assinatura corresponde a este código...',
 	'form_pet_confirmation' => 'Por favor, confirme a sua assinatura:',
 	'form_pet_deja_signe' => 'Você já assinou este texto.',
-	'form_pet_envoi_mail_confirmation' => 'Um e-mail de confirmação acabou de ser enviado para @email@. Você deverá visitar o endereço web mencionado na mensagem para validar a sua assinatura.',
+	'form_pet_envoi_mail_confirmation' => 'Um e-mail de confirmação acabou de ser enviado para @email@. Você deverá visitar o endereço web mencionado na mensagem para validar a sua assinatura.', # MODIF
 	'form_pet_mail_confirmation' => 'Bom dia,
 
 Você pediu para assinar a petição:
@@ -45,14 +45,14 @@ rejeitado):
 Obrigado por participar
 ',
 	'form_pet_message_commentaire' => 'Uma mensagem ou comentário?', # MODIF
-	'form_pet_nom_site2' => 'Nome do seu website',
+	'form_pet_nom_site2' => 'Nome do seu website', # MODIF
 	'form_pet_probleme_liens' => 'Por favor, retire os links hipertexto da sua mensagem.',
 	'form_pet_probleme_technique' => 'Problema técnico: as assinaturas estão suspensas temporariamente.',
 	'form_pet_signature_validee' => 'Sua assinatura foi validada. Obrigado!',
 	'form_pet_site_deja_enregistre' => 'Este site já está cadastrado',
 	'form_pet_url_invalide' => 'O URL que você informou não é válido.',
 	'form_pet_votre_email' => 'Seu endereço de e-mail',
-	'form_pet_votre_nom' => 'Seu nome ou apelido',
+	'form_pet_votre_nom' => 'Seu nome ou apelido', # MODIF
 	'form_pet_votre_site' => 'Se você tem um website, você pode informá-lo abaixo',
 
 	// I
@@ -85,6 +85,7 @@ Obrigado por participar
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ Obrigado por participar
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

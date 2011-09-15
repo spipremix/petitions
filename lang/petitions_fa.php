@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'آدرس سايت تان',
+	'form_pet_adresse_site' => 'آدرس سايت تان', # MODIF
 	'form_pet_aucune_signature' => '...هيچ امضائى با اين كد مطابقت نميكند  ',
 	'form_pet_confirmation' => ':خواهشمند است امضاء تان را تأئيد كنيد',
 	'form_pet_deja_signe' => '.شما قبلأ اين متن را امضاء كرده ايد',
-	'form_pet_envoi_mail_confirmation' => 'يك نامه الكترونكي براى تأئيد @email@ برايتان فرستاده شده. شما بايد از آدرس ذكر شده براى تأئيد امضاء تان ديدن نمائيد',
+	'form_pet_envoi_mail_confirmation' => 'يك نامه الكترونكي براى تأئيد @email@ برايتان فرستاده شده. شما بايد از آدرس ذكر شده براى تأئيد امضاء تان ديدن نمائيد', # MODIF
 	'form_pet_mail_confirmation' => 'سلام,
  
  شما تقاضاى امضاء يك درخواست راكرده ايد    @titre@.
@@ -39,14 +39,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 از شركتتان متشكريم
  ',
 	'form_pet_message_commentaire' => 'يك پيام ، يك تفسير ؟', # MODIF
-	'form_pet_nom_site2' => 'نام سايتتان<b>      ',
+	'form_pet_nom_site2' => 'نام سايتتان<b>      ', # MODIF
 	'form_pet_probleme_liens' => 'خواهشمند است پیامتان را با حذف پیوند هایپرتکت دریافت کنید.',
 	'form_pet_probleme_technique' => 'نقص فنى، امضاء ها موقتأ لغو شدند',
 	'form_pet_signature_validee' => 'امضاء تان تأئيد شد. متشكريم !',
 	'form_pet_site_deja_enregistre' => 'اين سايت قبلأ ثبت شده',
 	'form_pet_url_invalide' => 'كه مشخص كرده ايد معتبر نميباشد URL ',
 	'form_pet_votre_email' => 'آدرس ايميل تان',
-	'form_pet_votre_nom' => 'نام يا نام مستعارتان',
+	'form_pet_votre_nom' => 'نام يا نام مستعارتان', # MODIF
 	'form_pet_votre_site' => 'اگر داراى سايتى هستيد، ميتوانيد آنرا در زير ذكر كنيد',
 
 	// I
@@ -79,6 +79,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -87,6 +88,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Jūsų interneto svetainės adresas',
+	'form_pet_adresse_site' => 'Jūsų interneto svetainės adresas', # MODIF
 	'form_pet_aucune_signature' => 'Aucune signature ne correspond à ce code...', # NEW
 	'form_pet_confirmation' => 'Veuillez confirmer votre signature :', # NEW
 	'form_pet_deja_signe' => 'Jūs jau pasirašėte šį tekstą',
@@ -45,14 +45,14 @@ sera rejetée) :
 Merci de votre participation
 ', # NEW
 	'form_pet_message_commentaire' => 'Pranešimas, komentaras?', # MODIF
-	'form_pet_nom_site2' => 'Jūsų interneto svetainės vardas',
+	'form_pet_nom_site2' => 'Jūsų interneto svetainės vardas', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problème technique, les signatures sont temporairement suspendues.', # NEW
 	'form_pet_signature_validee' => 'Votre signature est validée. Merci !', # NEW
 	'form_pet_site_deja_enregistre' => 'Ši interneto svetainė jau yra užregistruota',
 	'form_pet_url_invalide' => 'Jūsų nurodytas URL adresas negaliojantis',
 	'form_pet_votre_email' => 'Jūsų el. pašto adresas',
-	'form_pet_votre_nom' => 'Jūsų vardas arba pseudonimas',
+	'form_pet_votre_nom' => 'Jūsų vardas arba pseudonimas', # MODIF
 	'form_pet_votre_site' => 'Si vous avez un site Web, vous pouvez l\'indiquer ci-dessous', # NEW
 
 	// I
@@ -85,6 +85,7 @@ Merci de votre participation
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ Merci de votre participation
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

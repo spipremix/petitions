@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adresa URL e faqes.',
+	'form_pet_adresse_site' => 'Adresa URL e faqes.', # MODIF
 	'form_pet_aucune_signature' => 'Asnjë regjistrim nuk përkon me këtë kod...',
 	'form_pet_confirmation' => 'Ju lutem konfirmoni pjesëmarrjen tuaj:',
 	'form_pet_deja_signe' => 'Ju e keni firmosur një herë këtë tekst.',
@@ -42,14 +42,14 @@ poshtë këtij teksti:
 Faleminderit për pjesëmarrjen
 ', # MODIF
 	'form_pet_message_commentaire' => 'A keni ndonjë mesazh apo koment për të bërë?', # MODIF
-	'form_pet_nom_site2' => 'Emri i Faqes suaj',
+	'form_pet_nom_site2' => 'Emri i Faqes suaj', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problem teknik, nuk mund të firmosni në këtë moment.',
 	'form_pet_signature_validee' => 'Pjesëmarrja juaj u konfirmua. Faleminderit!',
 	'form_pet_site_deja_enregistre' => 'Kjo faqe është regjistruar një herë',
 	'form_pet_url_invalide' => 'Adresa që shkruat nuk është e saktë',
 	'form_pet_votre_email' => 'Adresa juaj e-mail',
-	'form_pet_votre_nom' => 'Emri apo pseudonimi',
+	'form_pet_votre_nom' => 'Emri apo pseudonimi', # MODIF
 	'form_pet_votre_site' => 'Nëse ju keni një faqe, mund ta shkruani këtu poshtë',
 
 	// I
@@ -82,6 +82,7 @@ Faleminderit për pjesëmarrjen
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -90,6 +91,8 @@ Faleminderit për pjesëmarrjen
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

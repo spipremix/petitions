@@ -13,18 +13,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Indirizzu di u vostru situ',
+	'form_pet_adresse_site' => 'Indirizzu di u vostru situ', # MODIF
 	'form_pet_aucune_signature' => 'Nisuna zifra currisponde à stu còdice ...',
 	'form_pet_confirmation' => 'Cunfirmate puru a vostra zifra :',
 	'form_pet_deja_signe' => 'Avete digià zifratu stu testu.',
 	'form_pet_envoi_mail_confirmation' => 'Vi hè statu mandatu avà un email di cunfirmazione à @email@. Vi tuccherà à andà à visità
-	l\'indirizzu Web mintuvatu in stu email da cunvalidà a vostra zifra.',
+	l\'indirizzu Web mintuvatu in stu email da cunvalidà a vostra zifra.', # MODIF
 	'form_pet_mail_confirmation' => 'Bonghjornu,
 
 Avete dumandatu à zifrà a petizione :
@@ -45,14 +45,14 @@ l\'indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 À ringrazià vi
 ',
 	'form_pet_message_commentaire' => 'Qualchì messagiu o cummentu ?', # MODIF
-	'form_pet_nom_site2' => 'Nome di u vostru situ Web',
+	'form_pet_nom_site2' => 'Nome di u vostru situ Web', # MODIF
 	'form_pet_probleme_liens' => 'Ripigliate puru u vostru messagiu caccendu e lee ipertestu.',
 	'form_pet_probleme_technique' => 'Problemu tècnicu, e zifre sò suspese per qualchì tempu.',
 	'form_pet_signature_validee' => 'Hè cunvalidata a vostra zifra. À ringrazià vi !',
 	'form_pet_site_deja_enregistre' => 'Hè digià arregistrau stu situ',
 	'form_pet_url_invalide' => 'Ùn hè vàlida l\'URL da voi rinsignata.',
 	'form_pet_votre_email' => 'U vostru indirizzu email',
-	'form_pet_votre_nom' => 'U vostru nome o pseudo',
+	'form_pet_votre_nom' => 'U vostru nome o pseudo', # MODIF
 	'form_pet_votre_site' => 'Sè vo avete un situ Web, rinsignate lu puru quì sottu',
 
 	// I
@@ -85,6 +85,7 @@ l\'indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ l\'indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

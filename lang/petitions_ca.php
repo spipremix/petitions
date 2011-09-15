@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'L\'adreça del vostre lloc',
+	'form_pet_adresse_site' => 'L\'adreça del vostre lloc', # MODIF
 	'form_pet_aucune_signature' => 'No hi ha cap signatura que correspongui a aquest codi...',
 	'form_pet_confirmation' => 'Confirmeu la vostra signatura:',
 	'form_pet_deja_signe' => 'Ja heu signat aquest text.',
-	'form_pet_envoi_mail_confirmation' => 'Us acabem d\'enviar un correu electrònic de confirmació a @email@. Heu d\'anar a l\'adreça Web que s\'hi esmenta per validar la vostra signatura. ',
+	'form_pet_envoi_mail_confirmation' => 'Us acabem d\'enviar un correu electrònic de confirmació a @email@. Heu d\'anar a l\'adreça Web que s\'hi esmenta per validar la vostra signatura. ', # MODIF
 	'form_pet_mail_confirmation' => 'Bon dia,
 
 Heu sol·licitat signar la petició:
@@ -45,14 +45,14 @@ rebutjada) :
 Gràcies per la participació
 ',
 	'form_pet_message_commentaire' => 'Un missatge, un comentari?', # MODIF
-	'form_pet_nom_site2' => 'Nom del vostre lloc Web',
+	'form_pet_nom_site2' => 'Nom del vostre lloc Web', # MODIF
 	'form_pet_probleme_liens' => 'Vulgueu reprendre el vostre missatge suprimint-ne els enllaços.',
 	'form_pet_probleme_technique' => 'Problema tècnic, les signatures estan temporalment suspeses.',
 	'form_pet_signature_validee' => 'La seva signatura ha estat validada. Gràcies!',
 	'form_pet_site_deja_enregistre' => 'Aquest lloc està ja enregistrat',
 	'form_pet_url_invalide' => 'L\'URL que heu indicat no és vàlida.',
 	'form_pet_votre_email' => 'Correu electrònic:',
-	'form_pet_votre_nom' => 'El vostre nom o pseudònim',
+	'form_pet_votre_nom' => 'El vostre nom o pseudònim', # MODIF
 	'form_pet_votre_site' => 'Si teniu un lloc Web, podeu indicar-ho aquí sota',
 
 	// I
@@ -85,6 +85,7 @@ Gràcies per la participació
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ Gràcies per la participació
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

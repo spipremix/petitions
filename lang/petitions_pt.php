@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Endereço do seu sítio',
+	'form_pet_adresse_site' => 'Endereço do seu sítio', # MODIF
 	'form_pet_aucune_signature' => 'Nenhuma assinatura corresponde a este código...',
 	'form_pet_confirmation' => 'Favor confirmar a sua assinatura:',
 	'form_pet_deja_signe' => 'Já assinou este texto.',
@@ -44,14 +44,14 @@ Para validar a sua assinatura, basta ligar-se ao
 Obrigado pela sua participação
 ', # MODIF
 	'form_pet_message_commentaire' => 'Uma mensagem, um comentário ?', # MODIF
-	'form_pet_nom_site2' => 'Nome do seu sítio Web',
+	'form_pet_nom_site2' => 'Nome do seu sítio Web', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problema técnico, as assinaturas estão temporariamente suspensas.',
 	'form_pet_signature_validee' => 'A sua assinatura foi validada. Obrigado!',
 	'form_pet_site_deja_enregistre' => 'Este sítio já está registado',
 	'form_pet_url_invalide' => 'O URL que indicou não é válido.',
 	'form_pet_votre_email' => 'O seu endereço email',
-	'form_pet_votre_nom' => 'O seu nome ou pseudónimo',
+	'form_pet_votre_nom' => 'O seu nome ou pseudónimo', # MODIF
 	'form_pet_votre_site' => 'Se tem um sítio Web, pode indicá-lo a seguir',
 
 	// I
@@ -84,6 +84,7 @@ Obrigado pela sua participação
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Obrigado pela sua participação
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

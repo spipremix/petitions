@@ -13,45 +13,45 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Your site\'s URL', # MODIF
+	'form_pet_adresse_site' => 'Adresa vašej stránky', # MODIF
 	'form_pet_aucune_signature' => 'No signature matches this code...',
-	'form_pet_confirmation' => 'Please confirm your signature:', # MODIF
+	'form_pet_confirmation' => 'Prosím, potvrďte svoj podpis:',
 	'form_pet_deja_signe' => 'You have already signed this text.',
-	'form_pet_envoi_mail_confirmation' => '<MODIF>Bol vám poslaný e-mail na potvrdenie. Na overenie podpisu treba navštíviť stránku uvedenú v e-maile.',
-	'form_pet_mail_confirmation' => 'Hello,
+	'form_pet_envoi_mail_confirmation' => 'Na adresu @email@ vám bol poslaný e-mail na potvrdenie. Na overenie podpisu treba navštíviť stránku uvedenú v e-maile.', # MODIF
+	'form_pet_mail_confirmation' => 'Dobrý deň,
 
-You asked to sign the petition:
+požiadali ste ma o podpis pod petíciu:
 @titre@.
 
-You provided the following information:
-    Name: @nom_email@
-    Site: @nom_site@ - @url_site@
+Uviedli ste tieto údaje:
+    Názov: @nom_email@
+    Stránka: @nom_site@ - @url_site@
 @message@
 
-IMPORTANT...
-To validate your signature, you just need to connect to
-the address below (otherwise your request
-will be rejected):
+DÔLEŽITÉ...
+Na overenie podpisu treba navštíviť adresu 
+uvedenú nižšie (v opačnom prípade bude vaša
+ požiadavka zamietnutá):
     @url@
 
-Thank you for your participation!
-', # MODIF
-	'form_pet_message_commentaire' => 'Any message or comment?', # MODIF
-	'form_pet_nom_site2' => 'Name of your web site', # MODIF
-	'form_pet_probleme_liens' => 'Please edit your message, taking out all hyperlinks.', # MODIF
+Ďakujeme vám za účasť!
+',
+	'form_pet_message_commentaire' => 'Máte správu alebo komentár?',
+	'form_pet_nom_site2' => 'Názov vašej internetovej stránky', # MODIF
+	'form_pet_probleme_liens' => 'Prosím upravte svoj príspevok tak, že vymažete všetky hypertextové odkazy.',
 	'form_pet_probleme_technique' => 'Technical problem, signatures are interrupted momentarily.',
-	'form_pet_signature_validee' => 'Váš podpis je platný. Děkujeme vám!', # NEW
+	'form_pet_signature_validee' => 'Váš podpis je platný. Ďakujeme!',
 	'form_pet_site_deja_enregistre' => 'This site is already registered',
 	'form_pet_url_invalide' => 'The URL that you have entered is not valid.',
 	'form_pet_votre_email' => 'Nová e-mailová adresa',
-	'form_pet_votre_nom' => 'Méno alebo prezývka (alias)',
-	'form_pet_votre_site' => 'If you have a web site, you can enter it below', # MODIF
+	'form_pet_votre_nom' => 'Méno alebo prezývka (alias)', # MODIF
+	'form_pet_votre_site' => 'Ak máte internetovú stránku, môžete ju zadať',
 
 	// I
 	'icone_relancer_signataire' => 'Relancer le signataire', # NEW
@@ -63,10 +63,10 @@ Thank you for your participation!
 	'icone_valider_signatures' => 'Valider les signatures', # NEW
 	'info_adresse_email' => 'E-MAIL ADDRESA:',
 	'info_fonctionnement_petition' => 'Fonctionnement de la p&eacute;tition :', # NEW
-	'info_signature_supprimee' => '<NEW>Signature deleted', # NEW
+	'info_signature_supprimee' => 'Podpis odstránený',
 	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signature',
-	'info_site_web' => 'WEB SITE:', # MODIF
-	'info_texte_message' => 'Text of your message:', # MODIF
+	'info_site_web' => 'INTERNETOVÁ STRÁNKA:',
+	'info_texte_message' => 'Text vášho príspevku:',
 
 	// L
 	'lien_reponse_article' => 'Reply to the article',
@@ -83,6 +83,7 @@ Thank you for your participation!
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -91,6 +92,8 @@ Thank you for your participation!
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

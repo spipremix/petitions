@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'तपाईको साईटको URL लेखनुहोस्',
+	'form_pet_adresse_site' => 'तपाईको साईटको URL लेखनुहोस्', # MODIF
 	'form_pet_aucune_signature' => 'यो कोड सँग तपाईको हस्ताक्षर मेल खाएन',
 	'form_pet_confirmation' => 'कृपया तपाईको हस्ताक्षर पुष्टि हस्ताक्षर:',
 	'form_pet_deja_signe' => 'तपाईले यस अंशलाई सही गर्नु भइसकेको छ ।',
-	'form_pet_envoi_mail_confirmation' => 'भरखरै तपाफको ईमेलमा @email@ पुष्टिकरण पठाएको छ । तपाईको सही नान्य गर्नको लागि तपाईको ईमेलमा निश्चित गरिएको URL भित्र जानु पर्ने छ।',
+	'form_pet_envoi_mail_confirmation' => 'भरखरै तपाफको ईमेलमा @email@ पुष्टिकरण पठाएको छ । तपाईको सही नान्य गर्नको लागि तपाईको ईमेलमा निश्चित गरिएको URL भित्र जानु पर्ने छ।', # MODIF
 	'form_pet_mail_confirmation' => 'नमस्ते,
 
 तपाईले तपाईको दरखास्त सही गर्न चाहानु भएको छ :
@@ -43,14 +43,14 @@ will be rejected):
 तपाईको सहभागितको लागि धेरै धेरै धन्यबाद ॥
 ', # still english
 	'form_pet_message_commentaire' => 'कुनै खबर अथवा टिप्पणी?', # MODIF
-	'form_pet_nom_site2' => 'वोइभसाईटको नाम',
+	'form_pet_nom_site2' => 'वोइभसाईटको नाम', # MODIF
 	'form_pet_probleme_liens' => 'सबै हाईपरलिङ्कहरु निकालेर तपाईको खबर सम्पादन गर्नुहोस्',
 	'form_pet_probleme_technique' => 'प्राविधक समस्याको कारण हस्ताक्षरहरुमा अबरोध भएको छैन ।',
 	'form_pet_signature_validee' => 'तपाईको हस्ताक्षर मान्य छ । धन्यवाद ॥',
 	'form_pet_site_deja_enregistre' => 'यो साईट पहिला नै दती भइसकेको छ ।',
 	'form_pet_url_invalide' => 'तपाईले राख्नु भएको URL मान्य छैन ।',
 	'form_pet_votre_email' => 'तपाईको ईमेल ठेगाना',
-	'form_pet_votre_nom' => 'तपाईको नाम वा उपनाम',
+	'form_pet_votre_nom' => 'तपाईको नाम वा उपनाम', # MODIF
 	'form_pet_votre_site' => 'तपाईसँग वेभसाईट भए तल लेख्नुहोस्',
 
 	// I
@@ -83,6 +83,7 @@ will be rejected):
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -91,6 +92,8 @@ will be rejected):
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

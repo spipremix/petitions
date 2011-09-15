@@ -72,7 +72,9 @@
 	<langue code="ro" />
 	<langue code="roa" />
 	<langue code="ru" />
-	<langue code="sk" />
+	<langue code="sk">
+		<traducteur nom="jaro" />
+	</langue>
 	<langue code="sq" />
 	<langue code="sv" />
 	<langue code="tr" />

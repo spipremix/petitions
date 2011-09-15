@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Adresse de votre site', # NEW
+	'form_pet_adresse_site' => 'Adresse URL de votre site', # NEW
 	'form_pet_aucune_signature' => 'Aucune signature ne correspond à ce code...', # NEW
 	'form_pet_confirmation' => 'Veuillez confirmer votre signature :', # NEW
 	'form_pet_deja_signe' => 'Vous avez déjà signé ce texte.', # NEW
-	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient d\'être envoyé à @email@. Vous devrez visiter l\'adresse Web mentionnée dans ce courrier pour valider votre signature.', # NEW
+	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient d\'être envoyé à @email@. Vous devrez visiter l\'adresse web mentionnée dans ce courrier pour valider votre signature.', # NEW
 	'form_pet_mail_confirmation' => 'Bonjour,
 
 Vous avez demandé à signer la pétition :
@@ -45,14 +45,14 @@ sera rejetée) :
 Merci de votre participation
 ', # NEW
 	'form_pet_message_commentaire' => 'Un message, un commentaire ?', # NEW
-	'form_pet_nom_site2' => 'Nom de votre site Web', # enlever le gras NEW
+	'form_pet_nom_site2' => 'Nom de votre site web', # enlever le gras NEW
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'Problème technique, les signatures sont temporairement suspendues.', # NEW
 	'form_pet_signature_validee' => 'Votre signature est validée. Merci !', # NEW
 	'form_pet_site_deja_enregistre' => 'Ce site est déjà enregistré', # NEW
 	'form_pet_url_invalide' => 'L\'URL que vous avez indiquée n\'est pas valide.', # NEW
 	'form_pet_votre_email' => 'Votre adresse email', # NEW
-	'form_pet_votre_nom' => 'Votre nom ou pseudo', # NEW
+	'form_pet_votre_nom' => 'Votre nom', # NEW
 	'form_pet_votre_site' => 'Si vous avez un site Web, vous pouvez l\'indiquer ci-dessous', # NEW
 
 	// I
@@ -85,6 +85,7 @@ Merci de votre participation
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -93,6 +94,8 @@ Merci de votre participation
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

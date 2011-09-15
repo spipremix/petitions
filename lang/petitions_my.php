@@ -13,13 +13,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'သင့်ဝက်ဘ်ဆိုက်လိပ်စာ',
+	'form_pet_adresse_site' => 'သင့်ဝက်ဘ်ဆိုက်လိပ်စာ', # MODIF
 	'form_pet_aucune_signature' => 'သင့်လက်မှတ်ကိုက်ညီမှုမရှိပါ',
 	'form_pet_confirmation' => 'သင့်လက်မှတ် ပြန်လည်​အတည်ပြုပါ',
 	'form_pet_deja_signe' => 'ဒီစာစောင်ကို သင်မှတ်တမ်းတင်ပြီးပြီ',
@@ -27,14 +27,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_mail_confirmation' => '​ဟေလို၊ သင်သည် ဒီ@titre@ တောင်းဆိုချက်ကို လက်မှတ်ထိုးရန် အဆိုပြုခဲ့ပြီးပြီ၊ အောက်ပါ သတင်းအချက်အလက်များကို ပေးထားပြီးဖြစ်ပါသည်။ နာမည် @nom_email@ ဝက်ဘ်ဆိုက်လိပ်စာ @nom_site@ - @url_site@ စာစောင် @message@
 အရေးကြီးသည်၊ သင့်လက်မှတ်ကို အတည်ပြုရန် အောက်ပါ လိပ်စာကိုနှိပ်ခြင်းဖြင့်သွားပါ၊ သို့မဟုတ်လျှင် တောင်းဆိုချက်သည် ပယ်ဖျက်ခြင်းခံရမည်။ @url@ တက်ကြွစွာပါဝင်မှုအတွက် ကျေးဇူးအထူး သင်ပါသည်။',
 	'form_pet_message_commentaire' => 'မှတ်ချက် တစ်စုံတစ်ရာ ပေးလိုပါသလား?', # MODIF
-	'form_pet_nom_site2' => 'သင့်ဝက်ဘ်ဆိုက် နာမည်ပေးပါအုံး',
+	'form_pet_nom_site2' => 'သင့်ဝက်ဘ်ဆိုက် နာမည်ပေးပါအုံး', # MODIF
 	'form_pet_probleme_liens' => 'Veuillez reprendre votre message en supprimant les liens hypertexte.', # NEW
 	'form_pet_probleme_technique' => 'နည်းပညာပြသနာ၊ လက်မှတ်ဖော်လို့မရ ဖြစ်နေသည်၊ ခဏလောက်ဆောင့်ပါအုံး၊',
 	'form_pet_signature_validee' => 'သင့်လက်မှတ်ကို လက်ခံရရှိပါတယ်၊ ကျေးဇူးပါဘဲ',
 	'form_pet_site_deja_enregistre' => 'ဒီဆိုက် မှတ်ပုံတင်ထားပြီးပြီ',
 	'form_pet_url_invalide' => 'သင်ဝင်လိုက်သောလိပ်စာ မရှိတော့ပါ',
 	'form_pet_votre_email' => 'သင့်အီးမေးလ်လိပ်စာ',
-	'form_pet_votre_nom' => 'သင့်နာမည်',
+	'form_pet_votre_nom' => 'သင့်နာမည်', # MODIF
 	'form_pet_votre_site' => 'သင့်မှာ ဝက်ဘ်ဆိုက်ရှိလျှင် အောက်တွင်ထည့်တွင်းနိုင်သည်',
 
 	// I
@@ -67,6 +67,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -75,6 +76,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW

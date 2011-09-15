@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site Web', # NEW
+	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email', # NEW
-	'bouton_checkbox_signature_unique_site' => 'une seule signature par site Web', # NEW
+	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web', # NEW
 
 	// F
 	'filtre' => 'Filtre :', # NEW
-	'form_pet_adresse_site' => 'Chomlec\'h ho lec\'hienn',
+	'form_pet_adresse_site' => 'Chomlec\'h ho lec\'hienn', # MODIF
 	'form_pet_aucune_signature' => 'Sinadur ebet ne glot gant ar c\'hod-mañ...',
 	'form_pet_confirmation' => 'Kadarnait ho sinadur mar-plij :',
 	'form_pet_deja_signe' => 'Sinet eo bet an destenn-se ganeoc\'h c\'hoazh.',
-	'form_pet_envoi_mail_confirmation' => 'Emeur o paouez kas ur postel gwiriañ da @email@. Ret e vo deoc\'h gweladenniñ ar chomlec\'h meneget er postel-se a-benn kadarnaat ho sinadur.',
+	'form_pet_envoi_mail_confirmation' => 'Emeur o paouez kas ur postel gwiriañ da @email@. Ret e vo deoc\'h gweladenniñ ar chomlec\'h meneget er postel-se a-benn kadarnaat ho sinadur.', # MODIF
 	'form_pet_mail_confirmation' => 'Demat, 
 
 Goulennet hoc\'h eus sinañ ar sinadeg :
@@ -44,14 +44,14 @@ Evit kadarnaat ho sinadur eo trawalc\'h deoc\'h mont d\'ar chomlec\'h amañ dind
 Trugarez da gemer perzh
 ',
 	'form_pet_message_commentaire' => 'Ur gemennadenn, un evezhiadenn ?', # MODIF
-	'form_pet_nom_site2' => 'Anv ho lec\'hienn',
+	'form_pet_nom_site2' => 'Anv ho lec\'hienn', # MODIF
 	'form_pet_probleme_liens' => 'Savit ho kemennadenn en-dro en ur dennañ ar gourliammoù zo enni. ',
 	'form_pet_probleme_technique' => 'Ur gudenn deknikel zo, n\'haller ket sinañ evit ar poent.',
 	'form_pet_signature_validee' => 'Kadarnet eo bet ho sinadur. Trugarez !',
 	'form_pet_site_deja_enregistre' => 'Enrollet eo bet al lec\'hienn-mañ c\'hoazh',
 	'form_pet_url_invalide' => 'Direizh eo an URL bet merket ganeoc\'h.',
 	'form_pet_votre_email' => 'Ho chomlec\'h postel',
-	'form_pet_votre_nom' => 'Hoc\'h anv pe lesanv',
+	'form_pet_votre_nom' => 'Hoc\'h anv pe lesanv', # MODIF
 	'form_pet_votre_site' => 'M\'ho peus ul lec\'hienn Web e c\'hellit he mennegiñ amañ da-heul',
 
 	// I
@@ -84,6 +84,7 @@ Trugarez da gemer perzh
 	'signatures_poubelle' => 'Supprim&eacute;es', # NEW
 	'signatures_prop' => 'En attente', # NEW
 	'signatures_publie' => 'Confirm&eacute;es', # NEW
+	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
 	'signatures_toutes' => 'Toutes', # NEW
 	'statut_poubelle' => 'Supprim&eacute;e', # NEW
 	'statut_prop' => 'En attente de validation', # NEW
@@ -92,6 +93,8 @@ Trugarez da gemer perzh
 	// T
 	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition', # NEW
 	'titre_page_controle_petition' => 'Suivi des p&eacute;titions', # NEW
+	'titre_petition' => 'P&eacute;tition', # NEW
+	'titre_petitions' => 'P&eacute;titions', # NEW
 	'titre_selection_action' => 'Sélection', # NEW
 	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
 	'titre_signatures_publie' => 'Signatures confirm&eacute;es', # NEW
