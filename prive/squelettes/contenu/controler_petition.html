@@ -34,12 +34,14 @@
 <B_signatures>
 <h3>[(#GRAND_TOTAL|singulier_ou_pluriel{petitions:une_signature,petitions:nombre_signatures}|sinon{<:petitions:aucune_signature:>})]</h3>
 
+<p class='tri'> [(#TRI{id_signature,ID,ajax})] | [(#TRI{date_time,<:date:>,ajax})] </p>
+
 [<p class='pagination'>(#PAGINATION{prive})</p>]
 <ul class='liste-items signatures'>
 <BOUCLE_signatures(SIGNATURES)
 	{id_signature?}
 	{id_article ?}
-	{!par id_signature}
+	{tri id_signature,inverse}
 	{pagination #ENV{nb,10}}
 	{statut LIKE #GET{statut}}
 	{statut ?!IN #GET{prop}}
