@@ -143,9 +143,6 @@ function formulaires_signature_traiter_dist($id_article) {
 // http://doc.spip.org/@inc_controler_signature_dist
 function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site, $url_site, $url_page) {
 
-	include_spip('inc/texte');
-	include_spip('inc/filtres');
-
 	// tout le monde est la.
 	// cela a ete verifie en amont, dans formulaires_signature_verifier()
 	if (!$row = sql_fetsel('*', 'spip_petitions', "id_article=".intval($id_article)))
@@ -177,6 +174,8 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 // http://doc.spip.org/@signature_a_confirmer
 function signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url, $msg, $lang, &$statut)
 {
+	include_spip('inc/texte');
+	include_spip('inc/filtres');
 
 	// Si on est deja connecte et que notre mail a ete valide d'une maniere
 	// ou d'une autre, on entre directement la signature dans la base, sans
