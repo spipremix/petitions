@@ -145,7 +145,7 @@ function signature_instituer($id_signature, $c, $calcul_rub=true) {
 				$champs['date_time'] = $date = date('Y-m-d H:i:s');
 		}
 		// on peut redater une signature qu'on relance
-		elseif($champs['statut'] == 'prepa' AND $d)
+		elseif($d)
 			$champs['date_time'] = $date = $d;
 	}
 
