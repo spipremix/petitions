@@ -40,7 +40,7 @@
 	{id_signature?}
 	{id_article ?}
 	{!par id_signature}
-	{pagination 10}
+	{pagination #ENV{nb,10}}
 	{statut LIKE #GET{statut}}
 	{statut ?!IN #GET{prop}}
 	{nom_email?}
