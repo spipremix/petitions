@@ -52,7 +52,7 @@ function affiche_reponse_confirmation($confirm) {
 
 function formulaires_signature_verifier_dist($id_article) {
 	$erreurs = array();
-	$oblis = array('session_email','session_email');
+	$oblis = array('session_nom','session_email');
 	include_spip('base/abstract_sql');
 	$row = sql_fetsel('*','spip_petitions','id_article='.intval($id_article));
 	if (!$row)
@@ -69,13 +69,13 @@ function formulaires_signature_verifier_dist($id_article) {
 			$erreurs[$obli] = _T('info_obligatoire');
 	
 	if ($nom = _request('session_nom') AND strlen($nom) < 2)
-		$erreurs['nom_email'] =  _T('form_indiquer_nom');
+		$erreurs['session_nom'] =  _T('form_indiquer_nom');
 
 	include_spip('inc/filtres');
 	if (($mail=_request('session_email')) == _T('info_mail_fournisseur'))
-		$erreurs['adresse_email'] = _T('form_indiquer_email');
+		$erreurs['session_email'] = _T('form_indiquer_email');
 	elseif ($mail AND !email_valide($mail)) 
-		$erreurs['adresse_email'] = _T('form_email_non_valide');
+		$erreurs['session_email'] = _T('form_email_non_valide');
 	elseif (strlen(_request('nobot'))
 		OR (@preg_match_all(',\bhref=[\'"]?http,i', // bug PHP
 				    _request('message')
@@ -96,7 +96,7 @@ function formulaires_signature_verifier_dist($id_article) {
 				$erreurs['signature_url_site'] = _T('petitions:form_pet_url_invalide');
 		}
 	}
-	
+
 	if (!count($erreurs)){
 		// tout le monde est la.
 		$email_unique = $row['email_unique']  == "oui";
