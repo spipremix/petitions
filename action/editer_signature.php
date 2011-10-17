@@ -59,11 +59,12 @@ function signature_modifier($id_signature, $set=null) {
 		$set
 	);
 
-	$err = modifier_contenu('signature', $id_signature,
+	if ($err = objet_modifier_champs('signature', $id_signature,
 		array(
 			'nonvide' => array('nom_email' => _T('info_sans_titre'))
 		),
-		$c);
+		$c))
+		return $err;
 
 	// Modification de statut
 	$c = collecter_requests(array('statut','id_petition','date_time'),array(),$set);
