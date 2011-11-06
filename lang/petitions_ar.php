@@ -13,17 +13,17 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// B
 	'bouton_checkbox_envoi_message' => 'إمكان بعث رسالة ',
-	'bouton_checkbox_indiquer_site' => 'يجب تحديد موقع على النسيج', # MODIF
+	'bouton_checkbox_indiquer_site' => 'يجب تحديد موقع على النسيج',
 	'bouton_checkbox_signature_unique_email' => 'توقيع واحد فقط لكل عنوان بريدي',
-	'bouton_checkbox_signature_unique_site' => 'توقيع واحد فقط لكل موقع', # MODIF
+	'bouton_checkbox_signature_unique_site' => 'توقيع واحد فقط لكل موقع',
 
 	// F
 	'filtre' => 'مرشح:',
-	'form_pet_adresse_site' => 'عنوان موقعك', # MODIF
+	'form_pet_adresse_site' => 'عنوان موقعك',
 	'form_pet_aucune_signature' => 'لا يوجد أي توقيع يناسب هذه القيمة...',
 	'form_pet_confirmation' => 'الرجاء تأكيد توقيعك:',
 	'form_pet_deja_signe' => 'سبق ووقعت هذا النص.',
-	'form_pet_envoi_mail_confirmation' => 'لقد تم إرسال بريد إلكتروني للتأكيد إلى @email@. يجب عليك أن تزور العنوان المذكور في الرسالة للتصديق على توقيعك.', # MODIF
+	'form_pet_envoi_mail_confirmation' => 'لقد تم إرسال بريد إلكتروني للتأكيد إلى @email@. يجب عليك أن تزور العنوان المذكور في الرسالة للتصديق على توقيعك.',
 	'form_pet_mail_confirmation' => 'مرحباً،
 
 طلبت توقيع العريضة:
@@ -45,14 +45,14 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 ',
 	'form_pet_message_commentaire' => 'أي رسالة أو تعليق؟',
-	'form_pet_nom_site2' => 'اسم موقعك', # MODIF
+	'form_pet_nom_site2' => 'اسم موقعك',
 	'form_pet_probleme_liens' => 'الرجاء إعادة إدخال رسالتك بعد حذف كل روابط هايبرتكست.',
 	'form_pet_probleme_technique' => 'مشكلة تقنية، التوقيعات معلقة مؤقتاً.',
 	'form_pet_signature_validee' => 'توقيعك صالح. شكراً!',
 	'form_pet_site_deja_enregistre' => 'سبق تسجيل هذا الموقع',
 	'form_pet_url_invalide' => 'العنوان الذي أدخلته غير صالح.',
 	'form_pet_votre_email' => 'عنوانك الإلكتروني',
-	'form_pet_votre_nom' => 'اسمك أو لقبك', # MODIF
+	'form_pet_votre_nom' => 'اسمك',
 	'form_pet_votre_site' => 'إذا كان لديك موقع، قم بإدخاله أدناه',
 
 	// I
@@ -85,7 +85,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'محذوفة',
 	'signatures_prop' => 'قيد الانتظار',
 	'signatures_publie' => 'مصدقة',
-	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:', # NEW
+	'signatures_recherche_label' => 'بحث عن التوقيعات:',
 	'signatures_toutes' => 'الكل',
 	'statut_poubelle' => 'محذوف',
 	'statut_prop' => 'بانتظار التصديق',
@@ -94,8 +94,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// T
 	'texte_descriptif_petition' => 'وصف العريضة',
 	'titre_page_controle_petition' => 'متابعة العرائض',
-	'titre_petition' => 'P&eacute;tition', # NEW
-	'titre_petitions' => 'P&eacute;titions', # NEW
+	'titre_petition' => 'عريضة',
+	'titre_petitions' => 'عرائض',
 	'titre_selection_action' => 'التحديد',
 	'titre_signatures_attente' => 'تواقيع بانتظار التصديق',
 	'titre_signatures_publie' => 'تواقيع مصدقة',
