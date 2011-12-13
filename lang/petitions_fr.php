@@ -6,11 +6,11 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette p&eacute;tition. &Ecirc;tes-vous sur de vouloir continuer ?',
+	'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette pétition. Êtes-vous sur de vouloir continuer ?',
 	'aucune_signature' => 'Aucune signature',
 
 	// B
-	'bouton_checkbox_envoi_message' => 'possibilit&eacute; d\'envoyer un message',
+	'bouton_checkbox_envoi_message' => 'possibilité d\'envoyer un message',
 	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web',
 	'bouton_checkbox_signature_unique_email' => 'une seule signature par adresse email',
 	'bouton_checkbox_signature_unique_site' => 'une seule signature par site web',
@@ -56,13 +56,13 @@ Merci de votre participation
 	// I
 	'icone_relancer_signataire' => 'Relancer le signataire',
 	'icone_relancer_signataires' => 'Relancer les signataires',
-	'icone_suivi_petitions' => 'Suivre/g&eacute;rer les p&eacute;titions',
+	'icone_suivi_petitions' => 'Suivre/gérer les pétitions',
 	'icone_supprimer_signature' => 'Supprimer cette signature',
 	'icone_supprimer_signatures' => 'Supprimer les signatures',
 	'icone_valider_signature' => 'Valider cette signature',
 	'icone_valider_signatures' => 'Valider les signatures',
 	'info_adresse_email' => 'ADRESSE EMAIL :',
-	'info_fonctionnement_petition' => 'Fonctionnement de la p&eacute;tition :',
+	'info_fonctionnement_petition' => 'Fonctionnement de la pétition :',
 	'info_signature_supprimee' => 'Signature supprimée',
 	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature',
 	'info_site_web' => 'SITE WEB :',
@@ -80,24 +80,24 @@ Merci de votre participation
 	'signatures_aucune' => 'Aucune',
 	'signatures_meme_auteur' => 'Les signatures du m',
 	'signatures_meme_site' => 'Les signatures avec le m',
-	'signatures_poubelle' => 'Supprim&eacute;es',
+	'signatures_poubelle' => 'Supprimées',
 	'signatures_prop' => 'En attente',
-	'signatures_publie' => 'Confirm&eacute;es',
-	'signatures_recherche_label' => 'Rechercher des signatures&nbsp;:',
+	'signatures_publie' => 'Confirmées',
+	'signatures_recherche_label' => 'Rechercher des signatures :',
 	'signatures_toutes' => 'Toutes',
-	'statut_poubelle' => 'Supprim&eacute;e',
+	'statut_poubelle' => 'Supprimée',
 	'statut_prop' => 'En attente de validation',
-	'statut_publie' => 'Confirm&eacute;e',
+	'statut_publie' => 'Confirmée',
 
 	// T
-	'texte_descriptif_petition' => 'Descriptif de la p&eacute;tition',
-	'titre_page_controle_petition' => 'Suivi des p&eacute;titions',
-	'titre_petition' => 'P&eacute;tition',
-	'titre_petitions' => 'P&eacute;titions',
+	'texte_descriptif_petition' => 'Descriptif de la pétition',
+	'titre_page_controle_petition' => 'Suivi des pétitions',
+	'titre_petition' => 'Pétition',
+	'titre_petitions' => 'Pétitions',
 	'titre_selection_action' => 'Sélection',
 	'titre_signatures_attente' => 'Signatures en attente de validation',
-	'titre_signatures_publie' => 'Signatures confirm&eacute;es',
-	'titre_suivi_petition' => 'Suivi des p&eacute;titions',
+	'titre_signatures_publie' => 'Signatures confirmées',
+	'titre_suivi_petition' => 'Suivi des pétitions',
 	'tout_voir' => 'Voir toutes les signatures',
 
 	// U
