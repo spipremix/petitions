@@ -2,6 +2,10 @@
 	<langue code="ar">
 		<traducteur nom="George" />
 	</langue>
+	<langue code="en">
+		<traducteur nom="sQuonk" />
+		<traducteur nom="kent1" />
+	</langue>
 	<langue code="fr" />
 	<langue code="sk">
 		<traducteur nom="jaro" />
