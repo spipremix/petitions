@@ -8,12 +8,12 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette pétition. Êtes-vous sur de vouloir continuer ?', # NEW
+	'alerte_confirmer_suppression_signatures' => 'You will remove all signatures of this petition. Are you sure you want to continue?',
 	'aucune_signature' => 'No signature',
 
 	// B
-	'bouton_checkbox_envoi_message' => 'possibilité d\'envoyer un message', # NEW
-	'bouton_checkbox_indiquer_site' => 'indiquer obligatoirement un site web', # NEW
+	'bouton_checkbox_envoi_message' => 'possibility to send a message',
+	'bouton_checkbox_indiquer_site' => 'must enter the name of a Web site',
 	'bouton_checkbox_signature_unique_email' => 'only one signature per email',
 	'bouton_checkbox_signature_unique_site' => 'only one signature per website',
 
@@ -42,7 +42,7 @@ will be rejected):
 
 Thank you for participating!
 ',
-	'form_pet_message_commentaire' => 'Un message, un commentaire ?', # NEW
+	'form_pet_message_commentaire' => 'A message, a comment?',
 	'form_pet_nom_site2' => 'Name of your website',
 	'form_pet_probleme_liens' => 'Please edit your message, removing all hyperlinks.',
 	'form_pet_probleme_technique' => 'Technical problem: signatures are interrupted momentarily.',
@@ -54,15 +54,15 @@ Thank you for participating!
 	'form_pet_votre_site' => 'If you have a website, you can enter the URL below',
 
 	// I
-	'icone_relancer_signataire' => 'Relancer le signataire', # NEW
-	'icone_relancer_signataires' => 'Relancer les signataires', # NEW
+	'icone_relancer_signataire' => 'Contact the signatory again',
+	'icone_relancer_signataires' => 'Contact the signatories again',
 	'icone_suivi_petitions' => 'Follow/manage the petitions',
 	'icone_supprimer_signature' => 'Delete this signature',
 	'icone_supprimer_signatures' => 'Delete the signatures',
 	'icone_valider_signature' => 'Confirm this signature',
 	'icone_valider_signatures' => 'Confirm the signatures',
 	'info_adresse_email' => 'EMAIL:',
-	'info_fonctionnement_petition' => 'Fonctionnement de la pétition :', # NEW
+	'info_fonctionnement_petition' => 'How tje petition is working:',
 	'info_signature_supprimee' => 'Signature deleted',
 	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signatures',
 	'info_site_web' => 'WEBSITE:',
@@ -76,28 +76,28 @@ Thank you for participating!
 
 	// S
 	'sans_nom' => 'Anonymous',
-	'signatures_article' => 'Signatures de l\'article :', # NEW
+	'signatures_article' => 'Signatures of the article:',
 	'signatures_aucune' => 'None',
-	'signatures_meme_auteur' => 'Les signatures du m', # NEW
-	'signatures_meme_site' => 'Les signatures avec le m', # NEW
+	'signatures_meme_auteur' => 'Signatures of the same author',
+	'signatures_meme_site' => 'Signatures with the same website',
 	'signatures_poubelle' => 'Deleted',
 	'signatures_prop' => 'Waiting',
 	'signatures_publie' => 'Confirmed',
-	'signatures_recherche_label' => 'Rechercher des signatures :', # NEW
+	'signatures_recherche_label' => 'Search for signatures:',
 	'signatures_toutes' => 'All',
 	'statut_poubelle' => 'Deleted',
-	'statut_prop' => 'En attente de validation', # NEW
+	'statut_prop' => 'Awaiting validation',
 	'statut_publie' => 'Confirmed',
 
 	// T
-	'texte_descriptif_petition' => 'Descriptif de la pétition', # NEW
-	'titre_page_controle_petition' => 'Suivi des pétitions', # NEW
+	'texte_descriptif_petition' => 'Description of the petition',
+	'titre_page_controle_petition' => 'Tracking of the petitions',
 	'titre_petition' => 'Petition',
 	'titre_petitions' => 'Petitions',
 	'titre_selection_action' => 'Selection',
-	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
-	'titre_signatures_publie' => 'Signatures confirmées', # NEW
-	'titre_suivi_petition' => 'Suivi des pétitions', # NEW
+	'titre_signatures_attente' => 'Signatures awaiting validation',
+	'titre_signatures_publie' => 'Confirmed signatures',
+	'titre_suivi_petition' => 'Tracking of petitions',
 	'tout_voir' => 'Show all signatures',
 
 	// U
