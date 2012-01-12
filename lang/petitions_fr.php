@@ -6,7 +6,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette pétition. Êtes-vous sur de vouloir continuer ?',
+	'alerte_confirmer_suppression_signatures' => 'Vous allez supprimer toutes les signatures de cette pétition. Êtes-vous sûr de vouloir continuer ?',
 	'aucune_signature' => 'Aucune signature',
 
 	// B
@@ -18,7 +18,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// F
 	'filtre' => 'Filtre :',
 	'form_pet_adresse_site' => 'Adresse URL de votre site',
-	'form_pet_aucune_signature' => 'Aucune signature ne correspond à ce code...',
+	'form_pet_aucune_signature' => 'Aucune signature ne correspond à ce code…',
 	'form_pet_confirmation' => 'Veuillez confirmer votre signature :',
 	'form_pet_deja_signe' => 'Vous avez déjà signé ce texte.',
 	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient d\'être envoyé à @email@. Vous devrez visiter l\'adresse web mentionnée dans ce courrier pour valider votre signature.',
@@ -64,7 +64,7 @@ Merci de votre participation
 	'info_adresse_email' => 'ADRESSE EMAIL :',
 	'info_fonctionnement_petition' => 'Fonctionnement de la pétition :',
 	'info_signature_supprimee' => 'Signature supprimée',
-	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature',
+	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond à aucune signature',
 	'info_site_web' => 'SITE WEB :',
 	'info_texte_message' => 'Texte de votre message :',
 
@@ -78,8 +78,8 @@ Merci de votre participation
 	'sans_nom' => 'Anonyme',
 	'signatures_article' => 'Signatures de l\'article :',
 	'signatures_aucune' => 'Aucune',
-	'signatures_meme_auteur' => 'Les signatures du m',
-	'signatures_meme_site' => 'Les signatures avec le m',
+	'signatures_meme_auteur' => 'Les signatures du même auteur',
+	'signatures_meme_site' => 'Les signatures avec le même site',
 	'signatures_poubelle' => 'Supprimées',
 	'signatures_prop' => 'En attente',
 	'signatures_publie' => 'Confirmées',
