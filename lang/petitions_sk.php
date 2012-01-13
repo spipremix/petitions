@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'Odstránite všetky podpisy pod touto petíciou. Určite chcete pokračovať?',
+	'alerte_confirmer_suppression_signatures' => 'Odstránite všetky podpisy pod touto petíciou. Určite chcete pokračovať?', # MODIF
 	'aucune_signature' => 'Žiadny podpis',
 
 	// B
@@ -20,7 +20,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// F
 	'filtre' => 'Filter:',
 	'form_pet_adresse_site' => 'Internetová adresa vašej stránky',
-	'form_pet_aucune_signature' => 'No signature matches this code...',
+	'form_pet_aucune_signature' => 'No signature matches this code...', # MODIF
 	'form_pet_confirmation' => 'Prosím, potvrďte svoj podpis:',
 	'form_pet_deja_signe' => 'Pod tento text ste sa už podpísali.',
 	'form_pet_envoi_mail_confirmation' => 'Na adresu @email@ vám bol poslaný e-mail. Na potvrdenie podpisu treba navštíviť stránku uvedenú v e-maile.',
@@ -64,7 +64,7 @@ uvedenú nižšie (v opačnom prípade bude vaša
 	'info_adresse_email' => 'E-MAILOVÁ ADRESA:',
 	'info_fonctionnement_petition' => 'Fungovanie petície:',
 	'info_signature_supprimee' => 'Podpis odstránený',
-	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signature',
+	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signature', # MODIF
 	'info_site_web' => 'INTERNETOVÁ STRÁNKA:',
 	'info_texte_message' => 'Text vašej správy:',
 
@@ -78,8 +78,8 @@ uvedenú nižšie (v opačnom prípade bude vaša
 	'sans_nom' => 'Anonym',
 	'signatures_article' => 'Podpisy pod článok:',
 	'signatures_aucune' => 'Žiadne',
-	'signatures_meme_auteur' => 'Podpisy m',
-	'signatures_meme_site' => 'Podpisy s m',
+	'signatures_meme_auteur' => 'Podpisy m', # MODIF
+	'signatures_meme_site' => 'Podpisy s m', # MODIF
 	'signatures_poubelle' => 'Vymazané',
 	'signatures_prop' => 'Čakajúce',
 	'signatures_publie' => 'Potvrdené',
