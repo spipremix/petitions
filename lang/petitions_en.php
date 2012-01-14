@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'You will remove all signatures of this petition. Are you sure you want to continue?', # MODIF
+	'alerte_confirmer_suppression_signatures' => 'You will remove all signatures of this petition. Are you sure you want to continue?',
 	'aucune_signature' => 'No signature',
 
 	// B
@@ -20,7 +20,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// F
 	'filtre' => 'Filter :',
 	'form_pet_adresse_site' => 'URL of your site',
-	'form_pet_aucune_signature' => 'No signature matching this code...', # MODIF
+	'form_pet_aucune_signature' => 'No signature matching this code...',
 	'form_pet_confirmation' => 'Please confirm your signature:',
 	'form_pet_deja_signe' => 'You have already signed this text.',
 	'form_pet_envoi_mail_confirmation' => 'A confirmation email has just been sent to  @email@. You should visit the URL given in this email to validate your signature.',
@@ -62,9 +62,9 @@ Thank you for participating!
 	'icone_valider_signature' => 'Confirm this signature',
 	'icone_valider_signatures' => 'Confirm the signatures',
 	'info_adresse_email' => 'EMAIL:',
-	'info_fonctionnement_petition' => 'How tje petition is working:',
+	'info_fonctionnement_petition' => 'How works the petition:',
 	'info_signature_supprimee' => 'Signature deleted',
-	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signatures', # MODIF
+	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signatures',
 	'info_site_web' => 'WEBSITE:',
 	'info_texte_message' => 'Text of your message:',
 
@@ -78,8 +78,8 @@ Thank you for participating!
 	'sans_nom' => 'Anonymous',
 	'signatures_article' => 'Signatures of the article:',
 	'signatures_aucune' => 'None',
-	'signatures_meme_auteur' => 'Signatures of the same author', # MODIF
-	'signatures_meme_site' => 'Signatures with the same website', # MODIF
+	'signatures_meme_auteur' => 'Signatures of the same author',
+	'signatures_meme_site' => 'Signatures with the same website',
 	'signatures_poubelle' => 'Deleted',
 	'signatures_prop' => 'Waiting',
 	'signatures_publie' => 'Confirmed',
