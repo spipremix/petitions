@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'سوف تحذف كل تواقيع هذه العريضة. هل انت متأكد من ذلك؟', # MODIF
+	'alerte_confirmer_suppression_signatures' => 'سوف تحذف كل تواقيع هذه العريضة. هل انت متأكد من ذلك؟',
 	'aucune_signature' => 'لا توجد تواقيع',
 
 	// B
@@ -20,7 +20,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// F
 	'filtre' => 'مرشح:',
 	'form_pet_adresse_site' => 'عنوان موقعك',
-	'form_pet_aucune_signature' => 'لا يوجد أي توقيع يناسب هذه القيمة...', # MODIF
+	'form_pet_aucune_signature' => 'لا يوجد أي توقيع يناسب هذا المعرف...',
 	'form_pet_confirmation' => 'الرجاء تأكيد توقيعك:',
 	'form_pet_deja_signe' => 'سبق ووقعت هذا النص.',
 	'form_pet_envoi_mail_confirmation' => 'لقد تم إرسال بريد إلكتروني للتأكيد إلى @email@. يجب عليك أن تزور العنوان المذكور في الرسالة للتصديق على توقيعك.',
@@ -66,7 +66,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_adresse_email' => 'عنوان البريد الالكتروني :',
 	'info_fonctionnement_petition' => 'كيفية عمل العريضة:',
 	'info_signature_supprimee' => 'توقيع محذوف',
-	'info_signature_supprimee_erreur' => 'خطأ: معلومات الحذف هذه لا تناسب اي توقيع', # MODIF
+	'info_signature_supprimee_erreur' => 'خطأ: معلومات الحذف هذه لا تناسب اي توقيع',
 	'info_site_web' => 'الموقع:',
 	'info_texte_message' => 'نص مشاركتك:',
 
@@ -80,8 +80,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'sans_nom' => 'مجهول',
 	'signatures_article' => 'تواقيع المقال:',
 	'signatures_aucune' => 'لا يوجد',
-	'signatures_meme_auteur' => 'تواقيع عائدة للمؤلف نفسه', # MODIF
-	'signatures_meme_site' => 'تواقيع عائدة للوقع نفسه', # MODIF
+	'signatures_meme_auteur' => 'تواقيع عائدة للمؤلف نفسه',
+	'signatures_meme_site' => 'تواقيع عائدة للموقع نفسه',
 	'signatures_poubelle' => 'محذوفة',
 	'signatures_prop' => 'قيد الانتظار',
 	'signatures_publie' => 'مصدقة',
