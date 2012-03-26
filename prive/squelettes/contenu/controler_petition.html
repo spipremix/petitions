@@ -50,7 +50,8 @@
 	{url_site?}
 	{recherche?}>
 
-<li class="item signature statut_[(#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop})][ (#COMPTEUR_BOUCLE|alterner{'','odd'})]" id='signature#ID_SIGNATURE' data-id="#ID_SIGNATURE">
+<li class="item signature statut_[(#STATUT|match{^(publie|poubelle)$}|?{#STATUT,prop})][ (#COMPTEUR_BOUCLE|alterner{'','odd'})]" id='signature#ID_SIGNATURE' data-id="#ID_SIGNATURE"
+		onclick="jQuery(this).toggleClass('hover');">
 [(#INCLURE{fond=prive/modeles/signature,id_signature,self})]
 </li>
 </BOUCLE_signatures>
