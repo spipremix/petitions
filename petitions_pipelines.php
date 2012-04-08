@@ -19,11 +19,13 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * @return array
  */
 function petitions_afficher_config_objet($flux){
-	if (($type = $flux['args']['type'])=='article'){
-		$id = $flux['args']['id'];
-		$table = table_objet($type);
-		$id_table_objet = id_table_objet($type);
-		$flux['data'] .= recuperer_fond("prive/configurer/petitionner",array($id_table_objet=>$id));
+	if ((($type = $flux['args']['type'])=='article')
+	AND ($id = $flux['args']['id'])){
+		if (autoriser('modererpetition', $type, $id)){
+			$table = table_objet($type);
+			$id_table_objet = id_table_objet($type);
+			$flux['data'] .= recuperer_fond("prive/configurer/petitionner",array($id_table_objet=>$id));
+		}
 	}
 	return $flux;
 }
