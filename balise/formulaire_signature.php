@@ -26,7 +26,7 @@ include_spip('base/abstract_sql');
 
 // http://doc.spip.org/@balise_FORMULAIRE_SIGNATURE
 function balise_FORMULAIRE_SIGNATURE ($p) {
-	return calculer_balise_dynamique($p,'FORMULAIRE_SIGNATURE', array('id_article'));
+	return calculer_balise_dynamique($p,'FORMULAIRE_SIGNATURE', array('id_article','petition'));
 }
 
 // Verification des arguments (contexte + filtres)
@@ -41,6 +41,12 @@ function balise_FORMULAIRE_SIGNATURE_stat($args, $context_compil) {
 		erreur_squelette($msg, $context_compil);
 		return '';
 	}
+	// article sans petition => pas de balise
+	else if (!$args[1])
+		return '';
+
+	// on envoie pas cet argument dans le CVT
+	unset($args[1]);
 	return $args;
 }
 ?>
