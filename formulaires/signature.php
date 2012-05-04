@@ -17,8 +17,8 @@ function formulaires_signature_charger_dist($id_article) {
 	// pas de petition, pas de signature
 	if (!$r = sql_fetsel('*','spip_petitions','id_article='.intval($id_article)))
 		return false;
-	// pas de signature sur une petition fermee (TODO)
-	if (isset($r['statut']) AND $r['statut']=='off')
+	// pas de signature sur une petition fermee (TODO) ou poubelle
+	if (isset($r['statut']) AND in_array($r['statut'],array('off','poubelle')))
 		return false;
 	$id_petition = $r['id_petition'];
 
