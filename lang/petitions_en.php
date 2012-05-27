@@ -62,7 +62,7 @@ Thank you for participating!
 	'icone_valider_signature' => 'Confirm this signature',
 	'icone_valider_signatures' => 'Confirm the signatures',
 	'info_adresse_email' => 'EMAIL:',
-	'info_fonctionnement_petition' => 'How works the petition:',
+	'info_fonctionnement_petition' => 'Petition configuration:',
 	'info_signature_supprimee' => 'Signature deleted',
 	'info_signature_supprimee_erreur' => 'Error: this deletion code does not correspond to any signatures',
 	'info_site_web' => 'WEBSITE:',
