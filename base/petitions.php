@@ -10,13 +10,22 @@
  *  Pour plus de details voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
+/**
+ * Déclarations relatives à la base de données
+ * 
+ * @package SPIP\Petitions\Pipelines
+**/
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 /**
  * Interfaces des tables petitions et signatures pour le compilateur
  *
+ * @pipeline declarer_tables_interfaces
  * @param array $interfaces
+ *     Déclarations d'interface pour le compilateur
  * @return array
+ *     Déclarations d'interface pour le compilateur
  */
 function petitions_declarer_tables_interfaces($interfaces){
 
@@ -47,6 +56,15 @@ function petitions_declarer_tables_interfaces($interfaces){
 	return $interfaces;
 }
 
+/**
+ * Déclarer les objets éditoriaux des pétitions et signatures
+ *
+ * @pipeline declarer_tables_objets_sql
+ * @param array $tables
+ *     Description des tables
+ * @return array
+ *     Description complétée des tables
+ */
 function petitions_declarer_tables_objets_sql($tables){
 	$tables['spip_petitions'] = array(
 	  'url_voir'=>'controler_petition',
