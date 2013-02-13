@@ -134,7 +134,7 @@ function petition_instituer($id_petition, $c) {
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
 
-	$row = sql_fetsel("id_article", "spip_petitions", "id_petition=".intval($id_petition));
+	$row = sql_fetsel("id_article,statut", "spip_petitions", "id_petition=".intval($id_petition));
 	$statut_ancien = $statut = $row['statut'];
 	#$date_ancienne = $date = $row['date_time'];
 	$champs = array();
