@@ -10,6 +10,12 @@
  *  Pour plus de details voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
+/**
+ * Gestion de l'action editer_petition 
+ *
+ * @package SPIP\Petitions\Actions
+**/
+
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
 function action_editer_petition_dist($arg=null) {
@@ -38,7 +44,7 @@ function action_editer_petition_dist($arg=null) {
 }
 
 /**
- * Mettre a jour une petition existante
+ * Mettre à jour une petition existante
  * 
  * @param int $id_petition
  * @param array $set
@@ -71,9 +77,12 @@ function petition_modifier($id_petition, $set=null) {
 }
 
 /**
- * Inserer une petition en base
- * @param <type> $id_article
- * @return <type> 
+ * Insérer une petition en base
+ * 
+ * @param int $id_article
+ *     Identifiant de l'article recevant la pétition
+ * @return int
+ *     Identifiant de la pétition 
  */
 function petition_inserer($id_article) {
 
@@ -112,13 +121,13 @@ function petition_inserer($id_article) {
 
 
 /**
- * $c est un array ('id_article' = changement d'article)
- * il n'est pas autoriser de deplacer une petition
- *
- * @param  $id_petition
- * @param  $c
- * @param bool $calcul_rub
- * @return string
+ * Institution d'une pétition
+ * 
+ * @param int $id_petition
+ *     Identifiant de la pétition
+ * @param array $c
+ *     Liste des champs à modifier
+ * @return string|null
  */
 function petition_instituer($id_petition, $c) {
 

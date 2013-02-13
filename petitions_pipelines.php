@@ -10,6 +10,12 @@
  *  Pour plus de details voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
+/**
+ * Utilisations de pipelines
+ *
+ * @package SPIP\Petitions\Pipelines
+**/
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 /**
@@ -32,10 +38,10 @@ function petitions_afficher_config_objet($flux){
 
 
 /**
- * Optimiser la base de donnee en supprimant les forums orphelins
+ * Optimiser la base de données en supprimant les pétitions orphelines
  *
- * @param int $n
- * @return int
+ * @param array $flux
+ * @return array
  */
 function petitions_optimiser_base_disparus($flux){
 	$n = &$flux['data'];
