@@ -84,7 +84,7 @@ Thank you for participating!
 	'signatures_prop' => 'Waiting',
 	'signatures_publie' => 'Confirmed',
 	'signatures_recherche_label' => 'Search for signatures:',
-	'signatures_selection' => 'Sélectionner les signatures :', # NEW
+	'signatures_selection' => 'Select the signatures :',
 	'signatures_toutes' => 'All',
 	'statut_poubelle' => 'Deleted',
 	'statut_prop' => 'Awaiting validation',
