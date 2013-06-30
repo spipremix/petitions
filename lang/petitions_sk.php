@@ -91,7 +91,7 @@ uvedenú nižšie (v opačnom prípade bude vaša
 	'statut_publie' => 'Potvrdený',
 
 	// T
-	'texte_descriptif_petition' => 'Popis petície',
+	'texte_descriptif_petition' => 'Opis petície',
 	'titre_page_controle_petition' => 'Sledovanie petícií',
 	'titre_petition' => 'Petícia',
 	'titre_petitions' => 'Petície',
