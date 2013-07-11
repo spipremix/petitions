@@ -65,9 +65,9 @@ Obrigado pela sua participação
 	'info_adresse_email' => 'ENDEREÇO E-MAIL :',
 	'info_fonctionnement_petition' => 'Configuração da petição:',
 	'info_signature_supprimee' => 'Assinatura eliminada',
-	'info_signature_supprimee_erreur' => 'Erreur : ce code de suppression ne correspond a aucune signature', # NEW
+	'info_signature_supprimee_erreur' => 'Erro : este código de eliminação não corresponde a nenhuma assinatura',
 	'info_site_web' => 'SÍTIO WEB :',
-	'info_texte_message' => 'Texte de votre message :', # NEW
+	'info_texte_message' => 'Texto da sua mensagem :',
 
 	// L
 	'lien_reponse_article' => 'Comentário ao artigo',
@@ -80,26 +80,26 @@ Obrigado pela sua participação
 	'signatures_article' => 'Assinaturas do artigo:',
 	'signatures_aucune' => 'Nenhum',
 	'signatures_meme_auteur' => 'Assinaturas do mesmo autor',
-	'signatures_meme_site' => 'Les signatures avec le m', # NEW
+	'signatures_meme_site' => 'Assinaturas com o mesmo sítio web',
 	'signatures_poubelle' => 'Eliminadas',
 	'signatures_prop' => 'Em espera',
 	'signatures_publie' => 'Confirmadas',
 	'signatures_recherche_label' => 'Procurar assinaturas:',
-	'signatures_selection' => 'Sélectionner les signatures :', # NEW
+	'signatures_selection' => 'Seleccionar as assinaturas :',
 	'signatures_toutes' => 'Todas',
 	'statut_poubelle' => 'Eliminada',
 	'statut_prop' => 'Aguardando validação',
 	'statut_publie' => 'Confirmado',
 
 	// T
-	'texte_descriptif_petition' => 'Descriptif de la pétition', # NEW
-	'titre_page_controle_petition' => 'Suivi des pétitions', # NEW
+	'texte_descriptif_petition' => 'Descrição da petição',
+	'titre_page_controle_petition' => 'Acompanhamento das petições',
 	'titre_petition' => 'Petição',
-	'titre_petitions' => 'Pétitions', # NEW
-	'titre_selection_action' => 'Sélection', # NEW
-	'titre_signatures_attente' => 'Signatures en attente de validation', # NEW
-	'titre_signatures_publie' => 'Signatures confirmées', # NEW
-	'titre_suivi_petition' => 'Suivi des pétitions', # NEW
+	'titre_petitions' => 'Petições',
+	'titre_selection_action' => 'Selecção',
+	'titre_signatures_attente' => 'Assianturas aguardando validação',
+	'titre_signatures_publie' => 'Assinaturas confirmadas',
+	'titre_suivi_petition' => 'Acompanhamento das petições',
 	'tout_voir' => 'Visualizar todas as assinaturas',
 
 	// U
