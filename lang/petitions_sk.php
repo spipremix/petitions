@@ -62,7 +62,7 @@ uvedenú nižšie (v opačnom prípade bude vaša
 	'icone_valider_signature' => 'Potvrdiť tento podpis',
 	'icone_valider_signatures' => 'Potvrdiť podpisy',
 	'info_adresse_email' => 'E-MAILOVÁ ADRESA:',
-	'info_fonctionnement_petition' => 'Fungovanie petície:',
+	'info_fonctionnement_petition' => 'Nastavenie petície:',
 	'info_signature_supprimee' => 'Podpis odstránený',
 	'info_signature_supprimee_erreur' => 'Chyba: kód na odstránenie sa nezhoduje so žiadnym podpisom',
 	'info_site_web' => 'INTERNETOVÁ STRÁNKA:',
