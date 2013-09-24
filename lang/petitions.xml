@@ -20,6 +20,9 @@
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=fr" total="63" traduits="63" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
+	<langue code="fr_fem" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=fr_fem" total="63" traduits="63" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="denisb" lien="http://trad.spip.net/auteur/denisb" />
+	</langue>
 	<langue code="it" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=it" total="63" traduits="63" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="phante" lien="http://trad.spip.net/auteur/phante" />
 	</langue>
