@@ -12,7 +12,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_aucune_signature' => 'Ingen signatur finnes for denne koden...', # MODIF
 	'form_pet_confirmation' => 'Bekreft signaturen:',
 	'form_pet_deja_signe' => 'Du har allerede signert teksten.',
-	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient de vous être envoyé. Vous devrez visiter l’adresse Web mentionnée dans ce courrier pour valider votre signature.', # MODIF
 	'form_pet_mail_confirmation' => 'Hallo,
 
 Du ønsket å skrive under på:

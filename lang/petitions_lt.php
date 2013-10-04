@@ -10,7 +10,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// F
 	'form_pet_adresse_site' => 'Jūsų interneto svetainės adresas', # MODIF
 	'form_pet_deja_signe' => 'Jūs jau pasirašėte šį tekstą',
-	'form_pet_envoi_mail_confirmation' => 'Un courrier électronique de confirmation vient de vous être envoyé. Vous devrez visiter l’adresse Web mentionnée dans ce courrier pour valider votre signature.', # MODIF
 	'form_pet_nom_site2' => 'Jūsų interneto svetainės vardas', # MODIF
 	'form_pet_site_deja_enregistre' => 'Ši interneto svetainė jau yra užregistruota',
 	'form_pet_url_invalide' => 'Jūsų nurodytas URL adresas negaliojantis',

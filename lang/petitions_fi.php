@@ -12,7 +12,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_aucune_signature' => 'Mikään allekirjoitus ei sovi tähän koodiin...', # MODIF
 	'form_pet_confirmation' => 'Vahvista allekirjoituksesi:',
 	'form_pet_deja_signe' => 'Olet jo allekirjoittanut tämän tekstin.',
-	'form_pet_envoi_mail_confirmation' => 'A confirmation e-mail has just been sent to you. You should visit the URL mentioned in this mail to validate your signature.', # MODIF
 	'form_pet_nom_site2' => 'Nettisivustosi nimi', # MODIF
 	'form_pet_site_deja_enregistre' => 'Tämä sivusto on jo rekisteröity',
 	'form_pet_url_invalide' => 'Antamasi URL-osoite ei ole kelvollinen',

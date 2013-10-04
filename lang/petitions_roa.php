@@ -8,7 +8,6 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// F
-	'form_pet_adresse_site' => 'Adresse de votre site', # MODIF
 	'form_pet_aucune_signature' => 'Aucune signature ne correspond à ce code...', # MODIF
 	'form_pet_confirmation' => 'Veuillez confirmer votre signature :',
 	'form_pet_deja_signe' => 'Vous avez déjà signé ce texte.',

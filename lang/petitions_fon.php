@@ -13,7 +13,6 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_confirmation' => 'mī tɛ ɖɛ àlɔɖówěmámɛ mī tɔn jí :',
 	'form_pet_deja_signe' => 'mī kó ɖálɔ wěmá é lɔ mɛ',
 	'form_pet_envoi_mail_confirmation' => 'mī kó sɛ e-mailù ɖó mí. mī kpɔn gèsí wɛbù ɔ tɔn é lò e-mailù ɔ mɛ ɔ bó sɔ hɛn nú àlɔɖówěmámɛ mī tɔn', # MODIF
-	'form_pet_mail_confirmation' => 'mī fɔn á', # MODIF
 	'form_pet_nom_site2' => 'nyìkɔ gblogblojí ɔ tɔn ', # MODIF
 	'form_pet_probleme_technique' => 'mī ɖó àlɔɖówěmámɛ tè hwɛ',
 	'form_pet_signature_validee' => 'mī sɔ kɛn nú àlɔɖówěmámɛ mī tɔn, mī kú ɖé wu ',

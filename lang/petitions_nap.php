@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// F
-	'form_pet_adresse_site' => '\\’O nnerizzo d\\’\\’o sito d\\’\\’o vuosto', # MODIF
+	'form_pet_adresse_site' => '’O nnerizzo d’’o sito d’’o vuosto', # MODIF
 	'form_pet_aucune_signature' => 'Chistu codice nun currispunne a nisciun suggetto...', # MODIF
 	'form_pet_confirmation' => 'Abbalurate \\’a dumanna \\’e participazzione:',
 	'form_pet_deja_signe' => 'Già avite firmato chistu scritto.',
