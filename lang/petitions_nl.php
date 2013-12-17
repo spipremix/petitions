@@ -16,6 +16,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_checkbox_indiquer_site' => 'verplicht een website aan te geven',
 	'bouton_checkbox_signature_unique_email' => 'slechts één handtekening per email adres',
 	'bouton_checkbox_signature_unique_site' => 'één enkele handtekening per website',
+	'bouton_radio_activer_petition' => 'Petitie activeren',
+	'bouton_radio_pas_petition' => 'Geen petitie',
+	'bouton_radio_petition_activee' => 'Petitie geactiveerd',
+	'bouton_radio_supprimer_petition' => 'De petitie verwijderen',
 
 	// F
 	'filtre' => 'Filter :',
