@@ -13,15 +13,21 @@
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 /**
- * #PETITION
- * retourne '' si l'article courant n'a pas de petition
- * le texte de celle-ci sinon (et ' ' si il est vide)
- * cf FORMULAIRE_PETITION
+ * Compile la balise `#PETITION` permettant d'afficher, s'il existe,
+ * le texte de pétition associé à l'article.
  *
- * http://doc.spip.org/@balise_PETITION_dist
+ * Retourne :
  *
- * @param $p
- * @return
+ * - `''` si l'article courant n'a pas de pétition
+ * - le texte de celle-ci sinon (et `' '` si il est vide)
+ *
+ * @see balise_FORMULAIRE_SIGNATURE()
+ * @link http://www.spip.net/3967
+ *
+ * @param Champ $p
+ *    Pile au niveau de la balise
+ * @return Champ
+ *    Pile complétée du code à générer
  */
 function balise_PETITION_dist ($p) {
 	$nom = $p->id_boucle;
