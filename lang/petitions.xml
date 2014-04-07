@@ -8,7 +8,8 @@
 	</langue>
 	<langue code="bg" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=bg" total="67" traduits="16" relire="0" modifs="5" nouveaux="46" pourcent="23.88">
 	</langue>
-	<langue code="br" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=br" total="67" traduits="18" relire="0" modifs="6" nouveaux="43" pourcent="26.87">
+	<langue code="br" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=br" total="67" traduits="59" relire="0" modifs="6" nouveaux="2" pourcent="88.06">
+		<traducteur nom="kerivo" lien="http://trad.spip.net/auteur/kerivo" />
 	</langue>
 	<langue code="bs" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=bs" total="67" traduits="16" relire="0" modifs="6" nouveaux="45" pourcent="23.88">
 	</langue>
