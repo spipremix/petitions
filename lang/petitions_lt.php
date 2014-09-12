@@ -21,7 +21,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_votre_nom' => 'Jūsų vardas arba pseudonimas', # MODIF
 
 	// I
-	'info_adresse_email' => 'el. paštas:'
+	'info_adresse_email' => 'el. paštas:',
+	'info_texte_message' => 'Jūsų žinutės tekstas:'
 );
 
 ?>

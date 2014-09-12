@@ -90,7 +90,8 @@
 	</langue>
 	<langue code="lb" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=lb" total="67" traduits="18" relire="0" modifs="6" nouveaux="43" pourcent="26.87">
 	</langue>
-	<langue code="lt" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=lt" total="67" traduits="7" relire="0" modifs="3" nouveaux="57" pourcent="10.45">
+	<langue code="lt" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=lt" total="67" traduits="8" relire="0" modifs="3" nouveaux="56" pourcent="11.94">
+		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
 	<langue code="my" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=my" total="67" traduits="16" relire="0" modifs="6" nouveaux="45" pourcent="23.88">
 	</langue>
