@@ -68,20 +68,50 @@ Obrigado por participar
 	'icone_valider_signature' => 'Validar esta assinatura',
 	'icone_valider_signatures' => 'Validar assinaturas',
 	'info_adresse_email' => 'ENDEREÇO DE E-MAIL:',
+	'info_fonctionnement_petition' => 'Funcionamento da petição:',
 	'info_signature_supprimee' => 'Assinatura excluída',
 	'info_signature_supprimee_erreur' => 'Erro: este código de exclusão não corresponde a nenhuma assinatura',
 	'info_site_web' => 'WEBSITE:',
+	'info_texte_message' => 'Texto de sua mensagem:',
 
 	// L
 	'lien_reponse_article' => 'Resposta à matéria',
 
+	// N
+	'nombre_signatures' => '@nb@ assinaturas',
+
 	// S
 	'sans_nom' => 'Anônimo',
+	'signatures_article' => 'Assinaturas da matéria:',
+	'signatures_aucune' => 'Nenhuma',
+	'signatures_meme_auteur' => 'Assinaturas do mesmo autor',
+	'signatures_meme_site' => 'Assinaturas com o mesmo site',
+	'signatures_poubelle' => 'Removidas',
 	'signatures_prop' => 'Na fila',
+	'signatures_publie' => 'Confirmadas',
+	'signatures_recherche_label' => 'Buscar assinaturas:',
 	'signatures_selection' => 'Selecionar assinaturas:',
+	'signatures_toutes' => 'Todas',
+	'statut_poubelle' => 'Na lixeira',
+	'statut_prop' => 'Aguardando validação',
+	'statut_publie' => 'Confirmada',
 
 	// T
-	'titre_suivi_petition' => 'Monitoramento de petições'
+	'texte_descriptif_petition' => 'Descrição da petição',
+	'titre_page_controle_petition' => 'Monitoramento das petições',
+	'titre_petition' => 'Petição',
+	'titre_petitions' => 'Petições',
+	'titre_selection_action' => 'Seleção',
+	'titre_signatures_attente' => 'Assinaturas aguardando validação',
+	'titre_signatures_publie' => 'Assinaturas confirmadas',
+	'titre_suivi_petition' => 'Monitoramento de petições',
+	'tout_voir' => 'Ver tudo',
+
+	// U
+	'une_signature' => '1 assinatura',
+
+	// V
+	'voir_signatures_objet' => 'Ver assinaturas'
 );
 
 ?>
