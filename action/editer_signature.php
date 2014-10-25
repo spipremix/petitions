@@ -76,9 +76,10 @@ function signature_modifier($id_signature, $set=null) {
 /**
  * Inserer une signature en base
  * @param int $id_petition
+ * @param array|null $set
  * @return int
  */
-function signature_inserer($id_petition) {
+function signature_inserer($id_petition, $set=null) {
 
 	// Si $id_petition vaut 0 ou n'est pas definie, echouer
 	if (!$id_petition = intval($id_petition))
@@ -88,6 +89,9 @@ function signature_inserer($id_petition) {
 		'id_petition' => $id_petition,
 		'statut' =>  'prepa',
 		'date_time' => date('Y-m-d H:i:s'));
+
+	if ($set)
+		$champs = array_merge($champs, $set);
 
 	// Envoyer aux plugins
 	$champs = pipeline('pre_insertion',

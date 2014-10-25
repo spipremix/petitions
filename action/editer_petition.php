@@ -81,10 +81,11 @@ function petition_modifier($id_petition, $set=null) {
  * 
  * @param int $id_article
  *     Identifiant de l'article recevant la pétition
+ * @param array|null $set
  * @return int
  *     Identifiant de la pétition 
  */
-function petition_inserer($id_article) {
+function petition_inserer($id_article, $set=null) {
 
 	// Si id_article vaut 0 ou n'est pas definie, echouer
 	if (!$id_article = intval($id_article))
@@ -93,6 +94,9 @@ function petition_inserer($id_article) {
 	$champs = array(
 		'id_article' => $id_article,
 	);
+
+	if ($set)
+		$champs = array_merge($champs, $set);
 
 	// Envoyer aux plugins
 	$champs = pipeline('pre_insertion',
