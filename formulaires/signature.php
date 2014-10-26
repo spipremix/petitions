@@ -147,7 +147,7 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 		return _T('petitions:form_pet_probleme_technique');
 
 	$statut = "";
-	if (!$ret = signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url_site, $message, $lang, $statut))
+	if (!$ret = signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url_site, $message, 'fr'/*inutilise*/, $statut))
 		return _T('petitions:form_pet_probleme_technique');
 
 	include_spip('action/editer_signature');
