@@ -51,7 +51,7 @@ function petitions_optimiser_base_disparus($flux){
 	// Signatures poubelles
 	//
 
-	sql_delete("spip_petitions", "statut='poubelle' AND maj < $mydate");
+	sql_delete("spip_petitions", "statut=".sql_quote('poubelle')." AND maj < ".sql_quote($mydate));
 
 	// rejeter les signatures non confirmees trop vieilles (20jours)
 	if (!defined('_PETITIONS_DELAI_SIGNATURES_REJETEES'))
