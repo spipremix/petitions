@@ -88,6 +88,7 @@ Vielen Dank für Ihre Teilnahme
 	'signatures_prop' => 'In der Warteschlange',
 	'signatures_publie' => 'Bestätigt',
 	'signatures_recherche_label' => 'Unterzeichner suchen:',
+	'signatures_selection' => 'Unterschriften auswählen:',
 	'signatures_toutes' => 'Alle',
 	'statut_poubelle' => 'Gelöscht',
 	'statut_prop' => 'Warten auf Freischaltung',

@@ -26,8 +26,9 @@
 	</langue>
 	<langue code="da" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=da" total="67" traduits="15" relire="0" modifs="6" nouveaux="46" pourcent="22.39">
 	</langue>
-	<langue code="de" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=de" total="67" traduits="66" relire="0" modifs="0" nouveaux="1" pourcent="98.51">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=de" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="klaus++" lien="http://trad.spip.net/auteur/klaus" />
+		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
 	<langue code="el" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=el" total="67" traduits="16" relire="0" modifs="5" nouveaux="46" pourcent="23.88">
 	</langue>
