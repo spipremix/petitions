@@ -8,6 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
+	'alerte_confirmer_suppression_signatures' => 'Anàs suprimà touti li firma d’aquela peticioun. Sias segur de voulé countinuà ?',
 	'aucune_signature' => 'Mìnga firma',
 
 	// B
@@ -21,6 +22,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'bouton_radio_supprimer_petition' => 'Suprimà la peticioun',
 
 	// F
+	'filtre' => 'Filtre :',
 	'form_pet_adresse_site' => 'Adressa URL dóu vouòstre sit',
 	'form_pet_aucune_signature' => 'Mìnga firma courrespouònde en aqueu code…',
 	'form_pet_confirmation' => 'Vourguès counfirmà la vouòstra firma :',
@@ -65,6 +67,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'signatures_poubelle' => 'Suprimadi',
 	'signatures_prop' => 'En aspèra',
 	'signatures_publie' => 'Counfirmadi',
+	'signatures_recherche_label' => 'Recercà dei firma :',
 	'signatures_selection' => 'Seleciounà li firma :',
 	'signatures_toutes' => 'Touti',
 	'statut_poubelle' => 'Suprimada',
