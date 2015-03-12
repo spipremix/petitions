@@ -27,9 +27,29 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'form_pet_aucune_signature' => 'Mìnga firma courrespouònde en aqueu code…',
 	'form_pet_confirmation' => 'Vourguès counfirmà la vouòstra firma :',
 	'form_pet_deja_signe' => 'Avès jà firmat aqueu tèstou.',
+	'form_pet_envoi_mail_confirmation' => 'Un courrié eletrònicou de counfirmacioun ven d’estre mandat a @email@. Vi deurès visità l’adressa web menciounada en aqueu courrié da validà la vouòstra firma.',
+	'form_pet_mail_confirmation' => 'Bouònjou,
+
+Avès demandat da firmà la peticioun :
+@titre@.
+
+Avès fournit li infourmacioun seguenti :
+    Noum : @nom_email@
+    Sit : @nom_site@ - @url_site@
+    @message@
+
+IMPOURTANT...
+Da validà la vouòstra firma, basta vi counetà a l’adressa aquì souta (en lou cas countrari, la vouòstra demanda serà refudada) :
+
+    @url@
+
+
+Mercì de la vouòstra participacioun
+',
 	'form_pet_message_commentaire' => 'Un message, un coumentari ?',
 	'form_pet_nom_site2' => 'Noum dóu vouòstre  sit web', # enlever le gras
 	'form_pet_probleme_liens' => 'Vourguès revirà lou vouòstre message en suprimant lu estac ipertèst.',
+	'form_pet_probleme_technique' => 'Proublèma tècnicou, li firma seràn tempourariamen souspendut.',
 	'form_pet_signature_validee' => 'La vouòstra firma es validada. Mercì !',
 	'form_pet_site_deja_enregistre' => 'Aqueu sit es jà registrat',
 	'form_pet_url_invalide' => 'L’URL qu’avès endicat noun es vàlidou.',
