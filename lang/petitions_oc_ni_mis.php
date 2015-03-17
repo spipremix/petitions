@@ -103,13 +103,13 @@ Mercì de la vouòstra participacioun
 	'titre_signatures_attente' => 'Firma en aspera de validacioun',
 	'titre_signatures_publie' => 'Firma counfirmadi',
 	'titre_suivi_petition' => 'Seguit dei peticioun',
-	'tout_voir' => 'Vèire touti li firma',
+	'tout_voir' => 'Veire touti li firma',
 
 	// U
 	'une_signature' => '1 firma',
 
 	// V
-	'voir_signatures_objet' => 'Vèire li firma'
+	'voir_signatures_objet' => 'Veire li firma'
 );
 
 ?>
