@@ -138,6 +138,7 @@
 	<langue code="roa" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=roa" total="67" traduits="9" relire="0" modifs="5" nouveaux="53" pourcent="13.43">
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=ru" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="olly" lien="http://trad.spip.net/auteur/olly" />
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=sk" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
@@ -149,7 +150,8 @@
 	</langue>
 	<langue code="tr" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=tr" total="67" traduits="18" relire="0" modifs="7" nouveaux="42" pourcent="26.87">
 	</langue>
-	<langue code="uk" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=uk" total="67" traduits="15" relire="0" modifs="6" nouveaux="46" pourcent="22.39">
+	<langue code="uk" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=uk" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="olly" lien="http://trad.spip.net/auteur/olly" />
 		<traducteur nom="Retenodus" lien="http://trad.spip.net/auteur/retenodus" />
 	</langue>
 	<langue code="vi" url="http://trad.spip.net/tradlang_module/petitions?lang_cible=vi" total="67" traduits="17" relire="0" modifs="7" nouveaux="43" pourcent="25.37">
