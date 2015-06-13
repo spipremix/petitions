@@ -13,7 +13,7 @@
 	</fieldset>]
 	<fieldset>
 		<legend><:form_forum_identifiants:></legend>
-		<ul>
+		<ul class="editer-groupe">
 			<li class='editer saisie_nom_email[ (#ENV*{erreurs}|table_valeur{session_nom}|oui)erreur] obligatoire'>
 				<label for="session_nom"><:petitions:form_pet_votre_nom:> <:info_obligatoire_02:></label>
 				[<span class="erreur_message">(#ENV*{erreurs}|table_valeur{session_nom})</span>]
@@ -28,7 +28,7 @@
 	</fieldset>
 	<fieldset>
 		<legend><:info_lien_hypertexte:></legend>
-		<ul>
+		<ul class="editer-groupe">
 			<li class='editer saisie_signature_nom_site[ (#ENV*{erreurs}|table_valeur{signature_nom_site}|oui)erreur][(#ENV{site_obli})obligatoire]'>
 				<label for="signature_nom_site"><:petitions:form_pet_nom_site2:>[(#ENV{site_obli}) <:info_obligatoire_02:>]</label>
 				[<span class="erreur_message">(#ENV*{erreurs}|table_valeur{signature_nom_site})</span>]
@@ -51,7 +51,7 @@
 	[(#ENV{_message})
 	<fieldset>
 		<legend><:petitions:form_pet_message_commentaire:></legend>
-		<ul>
+		<ul class="editer-groupe">
 			<li class='editer saisie_message'>
 				<label for="message"><:petitions:info_texte_message:></label>
 				<textarea name="message" id="message" rows="6" cols="60">#ENV{message}</textarea>

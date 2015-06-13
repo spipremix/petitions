@@ -8,7 +8,7 @@
 [(#ENV{editable})
 	<form action="#ENV{action}#formulaire_configurer_forums_article_moderation" method="post"><div>
 		[(#ACTION_FORMULAIRE{#ENV{action}})]
-		<ul>
+		<ul class="editer-groupe">
 			<li class='editer configurer_change_petition[ (#ENV**{erreurs}|table_valeur{change_petition}|oui)erreur]'>
 				<label for='change_petition'><:petitions:info_fonctionnement_petition:></label>[
 				<span class='erreur_message'>(#ENV**{erreurs}|table_valeur{change_petition})</span>
