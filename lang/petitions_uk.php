@@ -43,7 +43,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 Дякуємо за вашу участь!',
 	'form_pet_message_commentaire' => 'Повідомлення, коментар?',
 	'form_pet_nom_site2' => 'Назва вашого сайту',
-	'form_pet_probleme_liens' => 'Будь ласка, відредагуйте ваше повідомлення видаливши гіперпосилання.',
+	'form_pet_probleme_liens' => 'Будь ласка, відредагуйте ваше повідомлення, видаливши гіперпосилання.',
 	'form_pet_probleme_technique' => 'Технічна проблема, підписи тимчасово призупинено.',
 	'form_pet_signature_validee' => 'Ваш підпис підтверджено. Дякуємо!',
 	'form_pet_site_deja_enregistre' => 'Цей сайт вже зареєстровано.',
