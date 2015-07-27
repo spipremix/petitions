@@ -92,7 +92,7 @@ function petitions_declarer_tables_objets_sql($tables){
 		),
 		'key' => array(
 			"PRIMARY KEY"	=> "id_petition",
-			"UNIQUE id_article"	=> "id_article"
+			"UNIQUE KEY id_article"	=> "id_article"
 		),
 		'statut' => array(
 			array('champ'=>'statut','publie'=>'publie,off','previsu'=>'publie,off','exception'=>array('statut')),
