@@ -83,7 +83,7 @@ Mercì de la vouòstra participacioun
 	'signatures_article' => 'Firma de l’article :',
 	'signatures_aucune' => 'Mìnga',
 	'signatures_meme_auteur' => 'Li firma dau meme autour',
-	'signatures_meme_site' => 'Li firma embé lou meme sit',
+	'signatures_meme_site' => 'Li firma emb’au meme sit',
 	'signatures_poubelle' => 'Suprimadi',
 	'signatures_prop' => 'En aspèra',
 	'signatures_publie' => 'Counfirmadi',
