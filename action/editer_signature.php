@@ -13,7 +13,7 @@
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
 // http://code.spip.net/@action_editer_signature_dist
-function action_editer_signature_dist($arg=null) {
+function action_editer_signature_dist($arg = null) {
 
 	if (is_null($arg)){
 		$securiser_action = charger_fonction('securiser_action', 'inc');
@@ -43,7 +43,7 @@ function action_editer_signature_dist($arg=null) {
  * @param array $set
  * @return string
  */
-function signature_modifier($id_signature, $set=null) {
+function signature_modifier($id_signature, $set = null) {
 	$err = '';
 
 	include_spip('inc/modifier');
@@ -79,7 +79,7 @@ function signature_modifier($id_signature, $set=null) {
  * @param array|null $set
  * @return int
  */
-function signature_inserer($id_petition, $set=null) {
+function signature_inserer($id_petition, $set = null) {
 
 	// Si $id_petition vaut 0 ou n'est pas definie, echouer
 	if (!$id_petition = intval($id_petition))
@@ -122,7 +122,7 @@ function signature_inserer($id_petition, $set=null) {
 // $c est un array ('statut', 'id_petition' = changement de petition)
 // il n'est pas autoriser de deplacer une signature
 // http://code.spip.net/@signature_instituer
-function signature_instituer($id_signature, $c, $calcul_rub=true) {
+function signature_instituer($id_signature, $c, $calcul_rub = true) {
 
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
@@ -236,7 +236,7 @@ function signature_entrop($where)
 }
 
 // obsolete
-function revision_signature($id_signature, $c=false) {
+function revision_signature($id_signature, $c = false) {
 	return signature_modifier($id_signature,$c);
 }
 

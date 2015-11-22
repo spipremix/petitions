@@ -18,7 +18,7 @@
 
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
-function action_editer_petition_dist($arg=null) {
+function action_editer_petition_dist($arg = null) {
 
 	if (is_null($arg)){
 		$securiser_action = charger_fonction('securiser_action', 'inc');
@@ -50,7 +50,7 @@ function action_editer_petition_dist($arg=null) {
  * @param array $set
  * @return string
  */
-function petition_modifier($id_petition, $set=null) {
+function petition_modifier($id_petition, $set = null) {
 	$err = '';
 
 	include_spip('inc/modifier');
@@ -85,7 +85,7 @@ function petition_modifier($id_petition, $set=null) {
  * @return int
  *     Identifiant de la pétition 
  */
-function petition_inserer($id_article, $set=null) {
+function petition_inserer($id_article, $set = null) {
 
 	// Si id_article vaut 0 ou n'est pas definie, echouer
 	if (!$id_article = intval($id_article))
@@ -209,7 +209,7 @@ function petition_instituer($id_petition, $c) {
 }
 
 // http://code.spip.net/@revision_petition
-function revision_petition($id_petition, $c=null) {
+function revision_petition($id_petition, $c = null) {
 	return petition_modifier($id_petition,$c);
 }
 

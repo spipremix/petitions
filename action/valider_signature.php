@@ -12,7 +12,7 @@
 
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
-function action_valider_signature_dist($id_signature=null){
+function action_valider_signature_dist($id_signature = null){
 	if (!$id_signature){
 		$securiser_action = charger_fonction('securiser_action','inc');
 		$id_signature = $securiser_action();

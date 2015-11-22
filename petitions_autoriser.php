@@ -123,7 +123,7 @@ function autoriser_signature_modifier_dist($faire, $type, $id, $qui, $opt) {
  * @param  array  $opt   Options de cette autorisation
  * @return bool          true s'il a le droit, false sinon
  */
-function autoriser_controlerpetition_menu_dist($faire, $type='', $id=0, $qui = NULL, $opt = NULL){
+function autoriser_controlerpetition_menu_dist($faire, $type = '', $id = 0, $qui = NULL, $opt = NULL){
 	return sql_countsel('spip_signatures')>0;
 }
 

@@ -25,7 +25,7 @@ if (!defined("_ECRIRE_INC_VERSION")) return;
  * @param <type> $var_confirm
  * @return string 
  */
-function action_confirmer_signature_dist($var_confirm=null) {
+function action_confirmer_signature_dist($var_confirm = null) {
 	static $confirm = null;
 
 	// reponse mise en cache dans la session ?
