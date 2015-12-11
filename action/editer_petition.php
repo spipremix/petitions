@@ -66,7 +66,11 @@ function petition_modifier($id_petition, $set = null) {
 		$set
 	);
 
-	if ($err = objet_modifier_champs('petition', $id_petition,array(),$c))
+	if ($err = objet_modifier_champs('petition', $id_petition,
+		array(
+			'data' => $set,
+		),
+		$c))
 		return $err;
 
 	// changement d'article ou de statut ?

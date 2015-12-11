@@ -61,6 +61,7 @@ function signature_modifier($id_signature, $set = null) {
 
 	if ($err = objet_modifier_champs('signature', $id_signature,
 		array(
+			'data' => $set,
 			'nonvide' => array('nom_email' => _T('info_sans_titre'))
 		),
 		$c))
