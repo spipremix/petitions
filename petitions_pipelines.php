@@ -14,9 +14,11 @@
  * Utilisations de pipelines
  *
  * @package SPIP\Petitions\Pipelines
-**/
+ **/
 
-if (!defined('_ECRIRE_INC_VERSION')) return;
+if (!defined('_ECRIRE_INC_VERSION')) {
+	return;
+}
 
 /**
  * Boite de configuration des objets articles
@@ -24,15 +26,17 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * @param array $flux
  * @return array
  */
-function petitions_afficher_config_objet($flux){
-	if ((($type = $flux['args']['type'])=='article')
-	AND ($id = $flux['args']['id'])){
-		if (autoriser('modererpetition', $type, $id)){
+function petitions_afficher_config_objet($flux) {
+	if ((($type = $flux['args']['type']) == 'article')
+		AND ($id = $flux['args']['id'])
+	) {
+		if (autoriser('modererpetition', $type, $id)) {
 			$table = table_objet($type);
 			$id_table_objet = id_table_objet($type);
-			$flux['data'] .= recuperer_fond("prive/configurer/petitionner",array($id_table_objet=>$id));
+			$flux['data'] .= recuperer_fond("prive/configurer/petitionner", array($id_table_objet => $id));
 		}
 	}
+
 	return $flux;
 }
 
@@ -43,7 +47,7 @@ function petitions_afficher_config_objet($flux){
  * @param array $flux
  * @return array
  */
-function petitions_optimiser_base_disparus($flux){
+function petitions_optimiser_base_disparus($flux) {
 	$n = &$flux['data'];
 	$mydate = $flux['args']['date'];
 
@@ -51,12 +55,14 @@ function petitions_optimiser_base_disparus($flux){
 	// Signatures poubelles
 	//
 
-	sql_delete("spip_petitions", "statut=".sql_quote('poubelle')." AND maj < ".sql_quote($mydate));
+	sql_delete("spip_petitions", "statut=" . sql_quote('poubelle') . " AND maj < " . sql_quote($mydate));
 
 	// rejeter les signatures non confirmees trop vieilles (20jours)
-	if (!defined('_PETITIONS_DELAI_SIGNATURES_REJETEES'))
-		define('_PETITIONS_DELAI_SIGNATURES_REJETEES',20);
-	sql_delete("spip_signatures", "NOT (statut='publie' OR statut='poubelle') AND NOT(" . sql_date_proche('date_time', -_PETITIONS_DELAI_SIGNATURES_REJETEES, ' DAY') . ')');
+	if (!defined('_PETITIONS_DELAI_SIGNATURES_REJETEES')) {
+		define('_PETITIONS_DELAI_SIGNATURES_REJETEES', 20);
+	}
+	sql_delete("spip_signatures", "NOT (statut='publie' OR statut='poubelle') AND NOT(" . sql_date_proche('date_time',
+			-_PETITIONS_DELAI_SIGNATURES_REJETEES, ' DAY') . ')');
 
 
 	return $flux;

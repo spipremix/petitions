@@ -10,7 +10,9 @@
  *  Pour plus de details voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
-if (!defined('_ECRIRE_INC_VERSION')) return;
+if (!defined('_ECRIRE_INC_VERSION')) {
+	return;
+}
 
 /**
  * Compile la balise `#PETITION` permettant d'afficher, s'il existe,
@@ -29,41 +31,46 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  * @return Champ
  *    Pile complétée du code à générer
  */
-function balise_PETITION_dist ($p) {
+function balise_PETITION_dist($p) {
 	$nom = $p->id_boucle;
 	$p->code = "quete_petitions(" .
-			champ_sql('id_article', $p) .
-			",'" .
-			$p->boucles[$nom]->type_requete .
-			"','" .
-			$nom .
-			"','" .
-			$p->boucles[$nom]->sql_serveur .
-			"', \$Cache)";
+		champ_sql('id_article', $p) .
+		",'" .
+		$p->boucles[$nom]->type_requete .
+		"','" .
+		$nom .
+		"','" .
+		$p->boucles[$nom]->sql_serveur .
+		"', \$Cache)";
 	$p->interdire_scripts = false;
+
 	return $p;
 }
 
-if(!function_exists('quete_petitions')) {
-/**
- * retourne le champ 'texte' d'une petition
- *
- * @param int $id_article
- * @param string $table
- * @param string $id_boucle
- * @param string $serveur
- * @param array $cache
- * @return array|bool|null|string
- */
-function quete_petitions($id_article, $table, $id_boucle, $serveur, &$cache) {
-	$retour = sql_getfetsel('texte', 'spip_petitions',("id_article=".intval($id_article)),'',array(),'','', $serveur);
+if (!function_exists('quete_petitions')) {
+	/**
+	 * retourne le champ 'texte' d'une petition
+	 *
+	 * @param int $id_article
+	 * @param string $table
+	 * @param string $id_boucle
+	 * @param string $serveur
+	 * @param array $cache
+	 * @return array|bool|null|string
+	 */
+	function quete_petitions($id_article, $table, $id_boucle, $serveur, &$cache) {
+		$retour = sql_getfetsel('texte', 'spip_petitions', ("id_article=" . intval($id_article)), '', array(), '', '',
+			$serveur);
 
-	if ($retour === NULL) return '';
-	# cette page est invalidee par toute petition
-	$cache['varia']['pet'.$id_article] = 1;
-	# ne pas retourner '' car le texte sert aussi de presence
-	return $retour ? $retour : ' ';
-}
+		if ($retour === null) {
+			return '';
+		}
+		# cette page est invalidee par toute petition
+		$cache['varia']['pet' . $id_article] = 1;
+
+		# ne pas retourner '' car le texte sert aussi de presence
+		return $retour ? $retour : ' ';
+	}
 }
 
 ?>

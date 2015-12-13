@@ -11,16 +11,18 @@
 \***************************************************************************/
 
 /**
- * Gestion de l'action editer_petition 
+ * Gestion de l'action editer_petition
  *
  * @package SPIP\Petitions\Actions
-**/
+ **/
 
-if (!defined("_ECRIRE_INC_VERSION")) return;
+if (!defined("_ECRIRE_INC_VERSION")) {
+	return;
+}
 
 function action_editer_petition_dist($arg = null) {
 
-	if (is_null($arg)){
+	if (is_null($arg)) {
 		$securiser_action = charger_fonction('securiser_action', 'inc');
 		$arg = $securiser_action();
 	}
@@ -37,15 +39,16 @@ function action_editer_petition_dist($arg = null) {
 	}
 
 	// Enregistre l'envoi dans la BD
-	if ($id_petition > 0)
+	if ($id_petition > 0) {
 		$err = petition_modifier($id_petition);
+	}
 
-	return array($id_petition,$err);
+	return array($id_petition, $err);
 }
 
 /**
  * Mettre à jour une petition existante
- * 
+ *
  * @param int $id_petition
  * @param array $set
  * @return string
@@ -55,13 +58,16 @@ function petition_modifier($id_petition, $set = null) {
 
 	include_spip('inc/modifier');
 	$c = collecter_requests(
-		// white list
+	// white list
 		array(
-		  "email_unique","site_obli",
-		  "site_unique","message","texte"
+			"email_unique",
+			"site_obli",
+			"site_unique",
+			"message",
+			"texte"
 		),
 		// black list
-		array('statut','id_article'),
+		array('statut', 'id_article'),
 		// donnees eventuellement fournies
 		$set
 	);
@@ -70,11 +76,13 @@ function petition_modifier($id_petition, $set = null) {
 		array(
 			'data' => $set,
 		),
-		$c))
+		$c)
+	) {
 		return $err;
+	}
 
 	// changement d'article ou de statut ?
-	$c = collecter_requests(array('statut','id_article'),array(),$set);
+	$c = collecter_requests(array('statut', 'id_article'), array(), $set);
 	$err .= petition_instituer($id_petition, $c);
 
 	return $err;
@@ -82,25 +90,27 @@ function petition_modifier($id_petition, $set = null) {
 
 /**
  * Insérer une petition en base
- * 
+ *
  * @param int $id_article
  *     Identifiant de l'article recevant la pétition
  * @param array|null $set
  * @return int
- *     Identifiant de la pétition 
+ *     Identifiant de la pétition
  */
 function petition_inserer($id_article, $set = null) {
 
 	// Si id_article vaut 0 ou n'est pas definie, echouer
-	if (!$id_article = intval($id_article))
+	if (!$id_article = intval($id_article)) {
 		return 0;
+	}
 
 	$champs = array(
 		'id_article' => $id_article,
 	);
 
-	if ($set)
+	if ($set) {
 		$champs = array_merge($champs, $set);
+	}
 
 	// Envoyer aux plugins
 	$champs = pipeline('pre_insertion',
@@ -130,7 +140,7 @@ function petition_inserer($id_article, $set = null) {
 
 /**
  * Institution d'une pétition
- * 
+ *
  * @param int $id_petition
  *     Identifiant de la pétition
  * @param array $c
@@ -142,12 +152,12 @@ function petition_instituer($id_petition, $c) {
 	include_spip('inc/autoriser');
 	include_spip('inc/modifier');
 
-	$row = sql_fetsel("id_article,statut", "spip_petitions", "id_petition=".intval($id_petition));
+	$row = sql_fetsel("id_article,statut", "spip_petitions", "id_petition=" . intval($id_petition));
 	$statut_ancien = $statut = $row['statut'];
 	#$date_ancienne = $date = $row['date_time'];
 	$champs = array();
 
-	$s = isset($c['statut'])?$c['statut']:$statut;
+	$s = isset($c['statut']) ? $c['statut'] : $statut;
 
 	// cf autorisations dans inc/petition_instituer
 	if ($s != $statut /*OR ($d AND $d != $date)*/) {
@@ -172,22 +182,24 @@ function petition_instituer($id_petition, $c) {
 			'args' => array(
 				'table' => 'spip_petitions',
 				'id_objet' => $id_petition,
-				'action'=>'instituer',
+				'action' => 'instituer',
 				'statut_ancien' => $statut_ancien,
 			),
 			'data' => $champs
 		)
 	);
 
-	if (!count($champs)) return;
+	if (!count($champs)) {
+		return;
+	}
 
 	// Envoyer les modifs.
-	sql_updateq('spip_petitions',$champs,'id_petition='.intval($id_petition));
+	sql_updateq('spip_petitions', $champs, 'id_petition=' . intval($id_petition));
 
 	// Invalider les caches
 	include_spip('inc/invalideur');
 	suivre_invalideur("id='petition/$id_petition'");
-	suivre_invalideur("id='article/".$row['id_article']."'");
+	suivre_invalideur("id='article/" . $row['id_article'] . "'");
 
 	// Pipeline
 	pipeline('post_edition',
@@ -195,7 +207,7 @@ function petition_instituer($id_petition, $c) {
 			'args' => array(
 				'table' => 'spip_petitions',
 				'id_objet' => $id_petition,
-				'action'=>'instituer',
+				'action' => 'instituer',
 				'statut_ancien' => $statut_ancien,
 			),
 			'data' => $champs
@@ -214,7 +226,7 @@ function petition_instituer($id_petition, $c) {
 
 // http://code.spip.net/@revision_petition
 function revision_petition($id_petition, $c = null) {
-	return petition_modifier($id_petition,$c);
+	return petition_modifier($id_petition, $c);
 }
 
 

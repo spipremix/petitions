@@ -10,12 +10,14 @@
  *  Pour plus de details voir le fichier COPYING.txt ou l'aide en ligne.   *
 \***************************************************************************/
 
-if (!defined("_ECRIRE_INC_VERSION")) return;
+if (!defined("_ECRIRE_INC_VERSION")) {
+	return;
+}
 
 // si signature de petition, l'enregistrer avant d'afficher la page
 // afin que celle-ci contienne la signature
 if (isset($_GET['var_confirm'])) {
-	$confirmer_signature = charger_fonction('confirmer_signature','action');
+	$confirmer_signature = charger_fonction('confirmer_signature', 'action');
 	$confirmer_signature($_GET['var_confirm']);
 }
 
