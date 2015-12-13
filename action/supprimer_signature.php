@@ -24,11 +24,9 @@ function action_supprimer_signature_dist($id_signature = null) {
 		$id_article = sql_getfetsel('P.id_article',
 			'spip_signatures AS S JOIN spip_petitions AS P ON S.id_petition=P.id_petition',
 			'S.id_signature=' . intval($id_signature));
-		if ($id_article AND autoriser('modererpetition', 'article', $id_article)) {
+		if ($id_article and autoriser('modererpetition', 'article', $id_article)) {
 			include_spip('action/editer_signature');
 			signature_modifier($id_signature, array('statut' => 'poubelle'));
 		}
 	}
 }
-
-?>

@@ -20,6 +20,3 @@ if (isset($_GET['var_confirm'])) {
 	$confirmer_signature = charger_fonction('confirmer_signature', 'action');
 	$confirmer_signature($_GET['var_confirm']);
 }
-
-
-?>

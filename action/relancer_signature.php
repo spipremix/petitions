@@ -24,7 +24,7 @@ function action_relancer_signature_dist($id_signature = null) {
 		$row = sql_fetsel('*', 'spip_signatures', 'id_signature=' . intval($id_signature));
 		$id_article = sql_getfetsel('id_article', 'spip_petitions', 'id_petition=' . intval($row['id_petition']));
 		if ($id_article = intval($id_article)
-			AND autoriser('mordererpetition', 'article', $id_article)
+			and autoriser('mordererpetition', 'article', $id_article)
 		) {
 			include_spip('action/editer_signature');
 			include_spip('formulaires/signature');
@@ -36,5 +36,3 @@ function action_relancer_signature_dist($id_signature = null) {
 		}
 	}
 }
-
-?>

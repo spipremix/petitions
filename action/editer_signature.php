@@ -153,7 +153,7 @@ function signature_instituer($id_signature, $c, $calcul_rub = true) {
 	$s = isset($c['statut']) ? $c['statut'] : $statut;
 
 	// cf autorisations dans inc/signature_instituer
-	if ($s != $statut OR ($d AND $d != $date)) {
+	if ($s != $statut or ($d and $d != $date)) {
 		$statut = $champs['statut'] = $s;
 
 		// En cas de publication, fixer la date a "maintenant"
@@ -259,5 +259,3 @@ function signature_entrop($where) {
 function revision_signature($id_signature, $c = false) {
 	return signature_modifier($id_signature, $c);
 }
-
-?>

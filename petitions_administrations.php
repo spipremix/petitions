@@ -28,7 +28,7 @@ function petitions_upgrade($nom_meta_base_version, $version_cible) {
 	if (!isset($GLOBALS['meta'][$nom_meta_base_version])) {
 		$trouver_table = charger_fonction('trouver_table', 'base');
 		if ($desc = $trouver_table('spip_signatures')
-			AND isset($desc['field']['id_article'])
+			and isset($desc['field']['id_article'])
 		) {
 			ecrire_meta($nom_meta_base_version, '1.0.0');
 		}
@@ -96,5 +96,3 @@ function petitions_vider_tables($nom_meta_base_version) {
 
 	effacer_meta($nom_meta_base_version);
 }
-
-?>

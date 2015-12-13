@@ -21,7 +21,7 @@ function formulaires_signature_charger_dist($id_article) {
 		return false;
 	}
 	// pas de signature sur une petition fermee (TODO) ou poubelle
-	if (isset($r['statut']) AND in_array($r['statut'], array('off', 'poubelle'))) {
+	if (isset($r['statut']) and in_array($r['statut'], array('off', 'poubelle'))) {
 		return false;
 	}
 	$id_petition = $r['id_petition'];
@@ -78,17 +78,17 @@ function formulaires_signature_verifier_dist($id_article) {
 		}
 	}
 
-	if ($nom = _request('session_nom') AND strlen($nom) < 2) {
+	if ($nom = _request('session_nom') and strlen($nom) < 2) {
 		$erreurs['session_nom'] = _T('form_indiquer_nom');
 	}
 
 	include_spip('inc/filtres');
 	if (($mail = _request('session_email')) == _T('info_mail_fournisseur')) {
 		$erreurs['session_email'] = _T('form_indiquer_email');
-	} elseif ($mail AND !email_valide($mail)) {
+	} elseif ($mail and !email_valide($mail)) {
 		$erreurs['session_email'] = _T('form_email_non_valide');
 	} elseif (strlen(_request('nobot'))
-		OR (@preg_match_all(',\bhref=[\'"]?http,i', // bug PHP
+		or (@preg_match_all(',\bhref=[\'"]?http,i', // bug PHP
 				_request('message')
 			# ,  PREG_PATTERN_ORDER
 			)
@@ -207,15 +207,15 @@ function signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url,
 		// Cas 1: on est loge et on signe avec son vrai email
 		(
 			isset($GLOBALS['visiteur_session']['statut'])
-			AND $GLOBALS['visiteur_session']['session_email'] == $GLOBALS['visiteur_session']['email']
-			AND strlen($GLOBALS['visiteur_session']['email'])
+			and $GLOBALS['visiteur_session']['session_email'] == $GLOBALS['visiteur_session']['email']
+			and strlen($GLOBALS['visiteur_session']['email'])
 		)
 
 		// Cas 2: on a deja signe une petition, et on conserve le meme email
-		OR (
+		or (
 			isset($GLOBALS['visiteur_session']['email_confirme'])
-			AND $GLOBALS['visiteur_session']['session_email'] == $GLOBALS['visiteur_session']['email_confirme']
-			AND strlen($GLOBALS['visiteur_session']['session_email'])
+			and $GLOBALS['visiteur_session']['session_email'] == $GLOBALS['visiteur_session']['email_confirme']
+			and strlen($GLOBALS['visiteur_session']['session_email'])
 		)
 	) {
 		// Si on est en ajax on demande a reposter sans ajax, car il faut
@@ -284,5 +284,3 @@ function signature_test_pass() {
 
 	return $passw;
 }
-
-?>

@@ -72,5 +72,3 @@ if (!function_exists('quete_petitions')) {
 		return $retour ? $retour : ' ';
 	}
 }
-
-?>

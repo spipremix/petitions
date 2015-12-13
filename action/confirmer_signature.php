@@ -45,7 +45,7 @@ function action_confirmer_signature_dist($var_confirm = null) {
 		$var_confirm = $securiser_action();
 	}
 
-	if (!$var_confirm OR $var_confirm == 'publie' OR $var_confirm == 'poubelle') {
+	if (!$var_confirm or $var_confirm == 'publie' or $var_confirm == 'poubelle') {
 		return '';
 	}
 
@@ -64,9 +64,9 @@ function action_confirmer_signature_dist($var_confirm = null) {
 		// l'id_signature est dans var_confirm
 		include_spip('inc/securiser_action');
 		if ($id_signature = intval($var_confirm)
-			AND (
+			and (
 				$_GET['refus'] == _action_auteur("supprimer signature $id_signature", '', '', 'alea_ephemere')
-				OR
+				or
 				$_GET['refus'] == _action_auteur("supprimer signature $id_signature", '', '', 'alea_ephemere_ancien')
 			)
 		) {
@@ -137,5 +137,3 @@ function action_confirmer_signature_dist($var_confirm = null) {
 		session_set($code_message, $confirm);
 	}
 }
-
-?>

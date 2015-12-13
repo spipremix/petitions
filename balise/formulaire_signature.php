@@ -59,5 +59,3 @@ function balise_FORMULAIRE_SIGNATURE_stat($args, $context_compil) {
 
 	return $args;
 }
-
-?>

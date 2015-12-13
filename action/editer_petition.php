@@ -228,6 +228,3 @@ function petition_instituer($id_petition, $c) {
 function revision_petition($id_petition, $c = null) {
 	return petition_modifier($id_petition, $c);
 }
-
-
-?>

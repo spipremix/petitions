@@ -150,5 +150,3 @@ function autoriser_controlerpetition_menu_dist($faire, $type = '', $id = 0, $qui
 function autoriser_signature_autoassocierdocument_dist($faire, $type, $id, $qui, $opt) {
 	return false;
 }
-
-?>

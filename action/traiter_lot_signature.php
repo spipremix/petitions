@@ -26,8 +26,8 @@ function action_traiter_lot_signature_dist($arg = null) {
 	 * les id sont dans un tableau non signe ids[]
 	 */
 	if (preg_match(",^(\w+)$,", $arg, $match)
-		AND in_array($statut = $match[1], array('relancer', 'supprimer', 'valider'))
-		AND autoriser('modererlot', 'petition')
+		and in_array($statut = $match[1], array('relancer', 'supprimer', 'valider'))
+		and autoriser('modererlot', 'petition')
 	) {
 		$where = '';
 		if (intval($id_petition = _request('id_petition'))) {
@@ -58,5 +58,3 @@ function action_traiter_lot_signature_dist($arg = null) {
 		}
 	}
 }
-
-?>

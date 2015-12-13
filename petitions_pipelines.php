@@ -28,7 +28,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
  */
 function petitions_afficher_config_objet($flux) {
 	if ((($type = $flux['args']['type']) == 'article')
-		AND ($id = $flux['args']['id'])
+		and ($id = $flux['args']['id'])
 	) {
 		if (autoriser('modererpetition', $type, $id)) {
 			$table = table_objet($type);
@@ -68,5 +68,3 @@ function petitions_optimiser_base_disparus($flux) {
 	return $flux;
 
 }
-
-?>

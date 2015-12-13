@@ -25,5 +25,3 @@ function action_valider_signature_dist($id_signature = null) {
 		signature_modifier($id_signature, array('statut' => 'publie'));
 	}
 }
-
-?>
