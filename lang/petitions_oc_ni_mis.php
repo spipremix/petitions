@@ -10,7 +10,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
-	'alerte_confirmer_suppression_signatures' => 'Anàs suprimà touti li firma d’aquela peticioun. Sias segur de voulé countinuà ?',
+	'alerte_confirmer_suppression_signatures' => 'Anas suprimà touti li firma d’aquela peticioun. Sias segur de voulé countinuà ?',
 	'aucune_signature' => 'Mìnga firma',
 
 	// B
