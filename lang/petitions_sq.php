@@ -42,4 +42,3 @@ Faleminderit për pjesëmarrjen
 	'form_pet_votre_nom' => 'Emri apo pseudonimi', # MODIF
 	'form_pet_votre_site' => 'Nëse ju keni një faqe, mund ta shkruani këtu poshtë'
 );
-

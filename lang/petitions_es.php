@@ -116,4 +116,3 @@ Gracias por tu participación
 	// V
 	'voir_signatures_objet' => 'Ver las firmas'
 );
-

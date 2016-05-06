@@ -114,4 +114,3 @@ Bedankt voor je deelname
 	// V
 	'voir_signatures_objet' => 'De ondertekeningen bekijken'
 );
-

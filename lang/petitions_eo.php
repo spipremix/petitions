@@ -60,4 +60,3 @@ Dankon pro via partopreno
 	// L
 	'lien_reponse_article' => 'Respondo al la artikolo'
 );
-

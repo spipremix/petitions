@@ -40,4 +40,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// L
 	'lien_reponse_article' => 'ဆောင်းပါးသို့ ပြန်တုန့်ပြန်ပါ'
 );
-

@@ -59,4 +59,3 @@ Grazie per la partecipazione',
 	// L
 	'lien_reponse_article' => 'Risposta all’articolo'
 );
-

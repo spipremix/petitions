@@ -56,4 +56,3 @@ Grandmercé per vòstra participacion
 	// L
 	'lien_reponse_article' => 'Respònsa a l’article'
 );
-

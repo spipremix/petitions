@@ -59,4 +59,3 @@ Mulţumim pentru participarea dumneavoastră
 	// L
 	'lien_reponse_article' => 'Răspuns la articol'
 );
-

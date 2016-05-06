@@ -48,4 +48,3 @@ will be rejected):
 	'info_signature_supprimee' => 'दरखस्त मेटियो',
 	'info_signature_supprimee_erreur' => 'त्रुटि: कुनै पनि दरखस्तसँग मेटाउन खोज्नुभएको कोड मेल खाएन' # MODIF
 );
-

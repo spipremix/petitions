@@ -60,4 +60,3 @@ Mercé de la voastra participacion
 	// L
 	'lien_reponse_article' => 'Respoasta à l’article'
 );
-

@@ -39,4 +39,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// L
 	'lien_reponse_article' => 'Odgovori na clanak'
 );
-

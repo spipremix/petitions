@@ -55,4 +55,3 @@ Terima kasih atas partisipasi anda!
 	// L
 	'lien_reponse_article' => 'Balasan pada artikel'
 );
-

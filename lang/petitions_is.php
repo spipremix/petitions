@@ -12,4 +12,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// F
 	'form_pet_confirmation' => 'Staðfestu undirskriftina:'
 );
-

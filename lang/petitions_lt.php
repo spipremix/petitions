@@ -26,4 +26,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_adresse_email' => 'el. paštas:',
 	'info_texte_message' => 'Jūsų žinutės tekstas:'
 );
-

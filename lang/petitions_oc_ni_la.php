@@ -57,4 +57,3 @@ Mercé per la vòstra participacion
 	// L
 	'lien_reponse_article' => 'Respòsta a l’article'
 );
-

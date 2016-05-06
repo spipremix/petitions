@@ -44,4 +44,3 @@ Gracias por su participación
 	'form_pet_votre_nom' => 'Su nombre o seudónimo', # MODIF
 	'form_pet_votre_site' => 'Si tiene un sitio web, puede indicarlo a continuación'
 );
-

@@ -46,4 +46,3 @@ Grazzje assaje pe pparticipà',
 	'info_signature_supprimee' => 'Firma scartata',
 	'info_signature_supprimee_erreur' => 'Arrore: chistu codice ’e eliminazzione nun currisponne a nisciuna firma' # MODIF
 );
-

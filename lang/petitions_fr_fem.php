@@ -115,4 +115,3 @@ Merci de votre participation
 	// V
 	'voir_signatures_objet' => 'Voir les signatures'
 );
-

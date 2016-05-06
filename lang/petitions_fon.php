@@ -37,4 +37,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// L
 	'lien_reponse_article' => 'yígbjè nú wékpá é lɔ'
 );
-

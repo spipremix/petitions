@@ -28,4 +28,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_adresse_email' => 'SÄHKÖPOSTI-OSOITE:',
 	'info_site_web' => 'NETTISIVU:'
 );
-

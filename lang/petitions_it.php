@@ -113,4 +113,3 @@ Grazie per la partecipazione',
 	// V
 	'voir_signatures_objet' => 'Mostra le adesioni'
 );
-

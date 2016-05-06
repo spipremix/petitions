@@ -57,4 +57,3 @@ Děkujeme vám za účast
 	// L
 	'lien_reponse_article' => 'Odpověď na článek'
 );
-

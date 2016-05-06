@@ -53,4 +53,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// L
 	'lien_reponse_article' => '記事へ返信'
 );
-

@@ -60,4 +60,3 @@ Gràcies per la participació
 	// L
 	'lien_reponse_article' => 'Resposta a l’article'
 );
-

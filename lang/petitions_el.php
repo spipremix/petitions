@@ -55,4 +55,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_adresse_email' => 'ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΟΥ ΤΑΧΥΔΡΟΜΕΊΟΥ:',
 	'info_signature_supprimee' => 'Η υπογραφή διεγράφη'
 );
-

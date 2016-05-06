@@ -60,4 +60,3 @@ Dziękujemy za wzięcie udziału.
 	// L
 	'lien_reponse_article' => 'Odpowiedz na ten artykuł'
 );
-

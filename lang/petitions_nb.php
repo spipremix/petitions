@@ -56,4 +56,3 @@ Tusen takk!
 	// L
 	'lien_reponse_article' => 'Svar på artikkelen'
 );
-

@@ -113,4 +113,3 @@ Mercì de la vouòstra participacioun
 	// V
 	'voir_signatures_objet' => 'Veire li firma'
 );
-

@@ -55,4 +55,3 @@ Arsusiwitamatxa yuspagara
 	// I
 	'info_adresse_email' => 'Aka aruskipayirit utjawi:'
 );
-

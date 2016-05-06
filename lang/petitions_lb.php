@@ -59,4 +59,3 @@ Merci fir är Participatioun
 	// L
 	'lien_reponse_article' => 'Äntwert op den Artikel'
 );
-

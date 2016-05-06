@@ -61,4 +61,3 @@ l’indirizzu quì sottu (o sinnò, serà rifiutata a vostra dumanda) :
 	// L
 	'lien_reponse_article' => 'Risposta à l’artìculu'
 );
-
