@@ -13,4 +13,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'petitions_description' => 'Petitionen mit SPIP',
 	'petitions_slogan' => 'Verwaltung von Petitionen mit SPIP'
 );
-
