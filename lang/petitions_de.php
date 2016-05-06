@@ -114,4 +114,3 @@ Vielen Dank für Ihre Teilnahme
 	'voir_signatures_objet' => 'Unterzeichner Anzeigen '
 );
 
-?>

@@ -60,4 +60,3 @@ Köszönjük részvételét!
 	'lien_reponse_article' => 'Hozzászólás a cikkről'
 );
 
-?>

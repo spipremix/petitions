@@ -55,4 +55,3 @@ Mersi aou mèt ansanm isi
 	'lien_reponse_article' => 'Réponn lartik-la'
 );
 
-?>

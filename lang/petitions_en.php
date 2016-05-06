@@ -114,4 +114,3 @@ Thank you for participating!
 	'voir_signatures_objet' => 'Show signatures'
 );
 
-?>

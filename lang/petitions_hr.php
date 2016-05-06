@@ -47,4 +47,3 @@ Hvala na suradnji
 	'info_signature_supprimee_erreur' => 'Greška: Ovaj kod za brisanje ne odgovara nijednom potpisu' # MODIF
 );
 
-?>

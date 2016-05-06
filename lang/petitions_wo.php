@@ -37,4 +37,3 @@ Jaajëf ci seen wallusi', # MODIF
 	'form_pet_votre_site' => 'Su fekkee am nga dalub web mën nga ko joxoñ fii ci suuf.'
 );
 
-?>

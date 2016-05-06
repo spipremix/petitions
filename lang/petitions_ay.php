@@ -56,4 +56,3 @@ Arsusiwitamatxa yuspagara
 	'info_adresse_email' => 'Aka aruskipayirit utjawi:'
 );
 
-?>

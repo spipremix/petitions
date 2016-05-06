@@ -59,4 +59,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_reponse_article' => 'ចំលើយ ទៅ​អត្ថបទ'
 );
 
-?>

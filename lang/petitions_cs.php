@@ -58,4 +58,3 @@ Děkujeme vám za účast
 	'lien_reponse_article' => 'Odpověď na článek'
 );
 
-?>

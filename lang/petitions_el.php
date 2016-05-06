@@ -56,4 +56,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee' => 'Η υπογραφή διεγράφη'
 );
 
-?>

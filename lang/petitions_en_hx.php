@@ -55,4 +55,3 @@ w111 b3 r3j3c73d):
 	'lien_reponse_article' => 'R3p1y 70 7h3 4r71c13'
 );
 
-?>

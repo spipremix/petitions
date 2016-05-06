@@ -27,4 +27,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_texte_message' => 'Jūsų žinutės tekstas:'
 );
 
-?>

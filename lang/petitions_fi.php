@@ -29,4 +29,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_site_web' => 'NETTISIVU:'
 );
 
-?>

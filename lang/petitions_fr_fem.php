@@ -116,4 +116,3 @@ Merci de votre participation
 	'voir_signatures_objet' => 'Voir les signatures'
 );
 
-?>

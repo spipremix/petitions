@@ -57,4 +57,3 @@ Mercés entà la vòsta participacion
 	'lien_reponse_article' => 'Responsa a l’article'
 );
 
-?>

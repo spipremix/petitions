@@ -60,4 +60,3 @@ Merci fir är Participatioun
 	'lien_reponse_article' => 'Äntwert op den Artikel'
 );
 
-?>

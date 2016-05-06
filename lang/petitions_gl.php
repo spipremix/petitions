@@ -61,4 +61,3 @@ Grazas pola súa participación
 	'lien_reponse_article' => 'Responder ao artigo'
 );
 
-?>

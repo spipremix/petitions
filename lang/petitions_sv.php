@@ -57,4 +57,3 @@ Tack för ditt deltagande
 	'lien_reponse_article' => 'Svara på artikeln'
 );
 
-?>

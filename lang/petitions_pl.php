@@ -61,4 +61,3 @@ Dziękujemy za wzięcie udziału.
 	'lien_reponse_article' => 'Odpowiedz na ten artykuł'
 );
 
-?>

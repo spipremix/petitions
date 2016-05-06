@@ -55,4 +55,3 @@ Milesker parte hartzeagatik ',
 	'lien_reponse_article' => 'Artikuluari erantzuna'
 );
 
-?>

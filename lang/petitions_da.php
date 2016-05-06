@@ -54,4 +54,3 @@ Tak for din deltagelse
 	'lien_reponse_article' => 'Kommenter denne artikel'
 );
 
-?>

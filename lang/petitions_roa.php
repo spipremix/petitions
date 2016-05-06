@@ -45,4 +45,3 @@ Merci de votre participation
 	'form_pet_votre_site' => 'Si vous avez un site Web, vous pouvez l’indiquer ci-dessous'
 );
 
-?>

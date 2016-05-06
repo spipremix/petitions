@@ -54,4 +54,3 @@ Cám ơn sự tham gia của bạn.', # MODIF
 	'lien_reponse_article' => 'Hồi âm bài này'
 );
 
-?>

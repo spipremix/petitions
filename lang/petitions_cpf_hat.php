@@ -54,4 +54,3 @@ Mèsi  w soutni petisyon-nan
 	'lien_reponse_article' => 'Réponn atik-la'
 );
 
-?>

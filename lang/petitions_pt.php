@@ -115,4 +115,3 @@ Obrigado pela sua participação
 	'voir_signatures_objet' => 'Visualizar as assinaturas'
 );
 
-?>

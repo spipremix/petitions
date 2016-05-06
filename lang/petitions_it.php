@@ -114,4 +114,3 @@ Grazie per la partecipazione',
 	'voir_signatures_objet' => 'Mostra le adesioni'
 );
 
-?>

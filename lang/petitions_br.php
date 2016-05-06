@@ -111,4 +111,3 @@ Trugarez da gemer perzh
 	'voir_signatures_objet' => 'Gwelet ar sinadurioù'
 );
 
-?>

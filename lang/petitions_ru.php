@@ -113,4 +113,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'voir_signatures_objet' => 'Показать подписи'
 );
 
-?>

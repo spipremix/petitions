@@ -63,4 +63,3 @@ Katılımınız için teşekkürler
 	'lien_reponse_article' => 'Bu makaleye yanıt '
 );
 
-?>

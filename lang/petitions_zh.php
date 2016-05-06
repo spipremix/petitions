@@ -52,4 +52,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'lien_reponse_article' => '回应文章'
 );
 
-?>

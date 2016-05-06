@@ -51,4 +51,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'info_signature_supprimee_erreur' => 'اشتباه: این کد حذفی به هیچ امضائی مربوط نیست' # MODIF
 );
 
-?>

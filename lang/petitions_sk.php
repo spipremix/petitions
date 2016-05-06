@@ -114,4 +114,3 @@ uvedenú nižšie (v opačnom prípade bude vaša
 	'voir_signatures_objet' => 'Zobraziť podpisy'
 );
 
-?>
