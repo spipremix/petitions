@@ -158,7 +158,7 @@ function formulaires_signature_traiter_dist($id_article) {
 // les controles devraient mantenant etre faits dans formulaires_signature_verifier()
 // 
 
-// http://code.spip.net/@inc_controler_signature_dist
+// https://code.spip.net/@inc_controler_signature_dist
 function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site, $url_site, $url_page) {
 
 	// tout le monde est la.
@@ -195,7 +195,7 @@ function inc_controler_signature_dist($id_article, $nom, $mail, $message, $site,
 	return $ret;
 }
 
-// http://code.spip.net/@signature_a_confirmer
+// https://code.spip.net/@signature_a_confirmer
 function signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url, $msg, $lang, &$statut) {
 	include_spip('inc/texte');
 	include_spip('inc/filtres');
@@ -275,7 +275,7 @@ function signature_a_confirmer($id_article, $url_page, $nom, $mail, $site, $url,
 
 // Creer un mot de passe aleatoire et verifier qu'il est unique
 // dans la table des signatures
-// http://code.spip.net/@signature_test_pass
+// https://code.spip.net/@signature_test_pass
 function signature_test_pass() {
 	include_spip('inc/acces');
 	do {
