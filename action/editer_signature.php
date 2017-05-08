@@ -14,7 +14,7 @@ if (!defined("_ECRIRE_INC_VERSION")) {
 	return;
 }
 
-// http://code.spip.net/@action_editer_signature_dist
+// https://code.spip.net/@action_editer_signature_dist
 function action_editer_signature_dist($arg = null) {
 
 	if (is_null($arg)) {
@@ -136,7 +136,7 @@ function signature_inserer($id_petition, $set = null) {
 
 // $c est un array ('statut', 'id_petition' = changement de petition)
 // il n'est pas autoriser de deplacer une signature
-// http://code.spip.net/@signature_instituer
+// https://code.spip.net/@signature_instituer
 function signature_instituer($id_signature, $c, $calcul_rub = true) {
 
 	include_spip('inc/autoriser');
@@ -229,7 +229,7 @@ function signature_instituer($id_signature, $c, $calcul_rub = true) {
  * En cas d'acces concurrents il y aura des requetes de retraits d'elements
  * deja detruits. Bizarre ?  C'est mieux que de bloquer!
  *
- * http://code.spip.net/@signature_entrop
+ * https://code.spip.net/@signature_entrop
  *
  * @param string $where
  * @return array
