@@ -24,7 +24,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
  * - le texte de celle-ci sinon (et `' '` si il est vide)
  *
  * @see balise_FORMULAIRE_SIGNATURE()
- * @link http://www.spip.net/3967
+ * @link https://www.spip.net/3967
  *
  * @param Champ $p
  *    Pile au niveau de la balise
