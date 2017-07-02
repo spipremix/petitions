@@ -4,7 +4,7 @@
 [<p class="reponse_formulaire reponse_formulaire_erreur error">(#ENV*{message_erreur})</p>]
 [(#ENV{editable})
 <form method="post" action="#ENV{action}#sp#ENV{id_petition}">
-	#ACTION_FORMULAIRE{#ENV{action}}
+	#ACTION_FORMULAIRE
 	
 	<input type="hidden" name="url_page" value="[(#SELF|url_absolue)]" />
 	[<fieldset class="info">
