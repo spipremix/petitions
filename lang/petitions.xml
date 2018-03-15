@@ -40,7 +40,8 @@
 	</langue>
 	<langue code="en_hx" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=en_hx" total="67" traduits="14" relire="0" modifs="7" nouveaux="46" pourcent="20.90">
 	</langue>
-	<langue code="eo" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=eo" total="67" traduits="18" relire="0" modifs="6" nouveaux="43" pourcent="26.87">
+	<langue code="eo" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=eo" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="gpl" lien="https://trad.spip.net/auteur/gpl" />
 	</langue>
 	<langue code="es" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=es" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="dani" lien="https://trad.spip.net/auteur/dani" />
