@@ -120,6 +120,20 @@ function autoriser_signature_modifier_dist($faire, $type, $id, $qui, $opt) {
 }
 
 /**
+ * Autorisation de voir la page controler_petition
+ *
+ * @param  string $faire Action demandée
+ * @param  string $type Type d'objet sur lequel appliquer l'action
+ * @param  int $id Identifiant de l'objet
+ * @param  array $qui Description de l'auteur demandant l'autorisation
+ * @param  array $opt Options de cette autorisation
+ * @return bool          true s'il a le droit, false sinon
+ **/
+function autoriser_controlerpetition_voir_dist($faire, $type, $id, $qui, $opt) {
+	return sql_countsel('spip_signatures') > 0;
+}
+
+/**
  * Autorisation de voir le menu de gestion des signatures
  *
  * S'il y a au moins une signature
@@ -132,7 +146,7 @@ function autoriser_signature_modifier_dist($faire, $type, $id, $qui, $opt) {
  * @return bool          true s'il a le droit, false sinon
  */
 function autoriser_controlerpetition_menu_dist($faire, $type = '', $id = 0, $qui = null, $opt = null) {
-	return sql_countsel('spip_signatures') > 0;
+	return autoriser('voir', '_controlerpetition', $id, $qui, $opt);
 }
 
 /**
