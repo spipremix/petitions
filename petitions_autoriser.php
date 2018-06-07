@@ -122,6 +122,8 @@ function autoriser_signature_modifier_dist($faire, $type, $id, $qui, $opt) {
 /**
  * Autorisation de voir la page controler_petition
  *
+ * S'il y a au moins une signature
+ *
  * @param  string $faire Action demandée
  * @param  string $type Type d'objet sur lequel appliquer l'action
  * @param  int $id Identifiant de l'objet
@@ -136,8 +138,7 @@ function autoriser_controlerpetition_voir_dist($faire, $type, $id, $qui, $opt) {
 /**
  * Autorisation de voir le menu de gestion des signatures
  *
- * S'il y a au moins une signature
- *
+ * @uses autoriser_controlerpetition_voir_dist()
  * @param  string $faire Action demandée
  * @param  string $type Type d'objet sur lequel appliquer l'action
  * @param  int $id Identifiant de l'objet
