@@ -86,7 +86,8 @@
 	</langue>
 	<langue code="it_fem" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=it_fem" total="67" traduits="18" relire="0" modifs="7" nouveaux="42" pourcent="26.87">
 	</langue>
-	<langue code="ja" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=ja" total="67" traduits="15" relire="0" modifs="6" nouveaux="46" pourcent="22.39">
+	<langue code="ja" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=ja" total="67" traduits="67" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="origenius" lien="https://trad.spip.net/auteur/origenius" />
 	</langue>
 	<langue code="km" url="https://trad.spip.net/tradlang_module/petitions?lang_cible=km" total="67" traduits="18" relire="0" modifs="7" nouveaux="42" pourcent="26.87">
 	</langue>
