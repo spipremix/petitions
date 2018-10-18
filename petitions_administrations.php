@@ -72,7 +72,7 @@ function petitions_upgrade($nom_meta_base_version, $version_cible) {
 
 function upgrade_index_signatures() {
 	while ($rows = sql_allfetsel('DISTINCT id_article', 'spip_signatures', 'id_petition=-1', '', '', '0,100')) {
-		$rows = array_map('reset', $rows);
+		$rows = array_column($rows, 'id_article');
 		foreach ($rows as $id_article) {
 			$id_petition = sql_getfetsel('id_petition', 'spip_petitions', 'id_article=' . intval($id_article));
 			if (!$id_petition) {

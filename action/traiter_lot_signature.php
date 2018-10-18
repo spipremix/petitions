@@ -49,7 +49,7 @@ function action_traiter_lot_signature_dist($arg = null) {
 			if (!count($rows)) {
 				return;
 			}
-			$rows = array_map('reset', $rows);
+			$rows = array_column($rows, 'id_signature');
 			if ($action = charger_fonction($statut . "_signature", 'action', true)) {
 				foreach ($rows as $id_signature) {
 					$action($id_signature);
