@@ -1,0 +1,11 @@
+{
+    "name": "spip/petitions",
+    "type": "spip-plugin",
+    "description": "Gestion des pétitions dans SPIP",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Collectif SPIP",
+        "email": "spip-dev@rezo.net"
+    }],
+    "require": {}
+}
